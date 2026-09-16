@@ -1,0 +1,2012 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <title>HighFy TV - Live Sports & TV Channels</title>
+  <meta name="description" content="HighFy TV - Live sports streaming, cricket and football scoreboards, live match events, TV channels, categories, and M3U8 network stream player." />
+  <meta name="theme-color" content="#090d16" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="HighFy TV" />
+  <meta name="format-detection" content="telephone=no" />
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="/manifest.json" />
+
+  <!-- Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/src/assets/images/highfy_clean_badge.png" />
+  <link rel="apple-touch-icon" href="/src/assets/images/highfy_clean_badge.png" />
+
+  <!-- FontAwesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- HLS.js for M3U8 Streaming & mpegts.js for TS Streams -->
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.8/dist/hls.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mpegts.js@1.7.3/dist/mpegts.js"></script>
+
+  <!-- Telegram WebApp SDK -->
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+  <!-- Tailwind CSS CDN for utility support -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- HighFy TV Anti-Sniff & Reqable Security Guard -->
+  <script src="./security.js"></script>
+
+  <!-- HIGHFY TV Custom Android TV Stylesheet -->
+  <link rel="stylesheet" href="./style.css?v=20260915_0201" />
+</head>
+<body>
+
+  <!-- ======================================================================
+       0. HighFy TV Standard & Clean Loading / Splash Screen
+       ====================================================================== -->
+  <div id="app-preloader" class="app-preloader">
+    <div class="cricfy-splash-container">
+      
+      <!-- Central Branding -->
+      <div class="cricfy-splash-hero">
+        <div class="cricfy-emblem-wrap">
+          <img 
+            id="cricfy-splash-logo-img"
+            src="/highfy_logo_official.svg" 
+            alt="HighFy TV" 
+            class="cricfy-emblem-img"
+            referrerpolicy="no-referrer"
+            onerror="if(this.src.indexOf('/highfy_logo.png') === -1) this.src='/highfy_logo.png';"
+          />
+        </div>
+        <h1 class="cricfy-splash-title">HighFy <span class="splash-badge-blue">TV</span></h1>
+      </div>
+
+      <!-- Text-Only Animated Loading (Letter by Letter Animation, No Extra Models) -->
+      <div class="cricfy-splash-loader">
+        <div class="splash-loading-text" aria-label="Loading...">
+          <span class="loading-char" style="--i: 0;">L</span>
+          <span class="loading-char" style="--i: 1;">o</span>
+          <span class="loading-char" style="--i: 2;">a</span>
+          <span class="loading-char" style="--i: 3;">d</span>
+          <span class="loading-char" style="--i: 4;">i</span>
+          <span class="loading-char" style="--i: 5;">n</span>
+          <span class="loading-char" style="--i: 6;">g</span>
+          <span class="loading-char dot" style="--i: 7;">.</span>
+          <span class="loading-char dot" style="--i: 8;">.</span>
+          <span class="loading-char dot" style="--i: 9;">.</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Version Label Fixed at the Absolute Bottom -->
+    <div class="cricfy-version-bottom" id="preloader-version">
+      v1.0
+    </div>
+  </div>
+
+  <!-- Mobile-first App Wrapper -->
+  <div id="app">
+
+    <!-- 1. Top Header -->
+    <header id="main-header">
+      <div class="header-left">
+        <button id="btn-open-drawer" class="btn-header-icon" aria-label="Open menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div id="header-brand" class="brand-wrapper cursor-pointer">
+          <span class="brand-text">HighFy<span class="brand-badge-cyan">TV</span></span>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <button id="btn-theme-toggle" class="btn-header-icon" title="Toggle Dark/Light Mode" aria-label="Toggle theme">
+          <i class="fa-solid fa-moon" id="theme-toggle-icon"></i>
+        </button>
+        <button id="btn-header-favs" class="btn-header-icon" title="Favorites">
+          <i class="fa-solid fa-star"></i>
+        </button>
+        <button id="btn-header-refresh" class="btn-header-icon" title="Refresh">
+          <i class="fa-solid fa-arrows-rotate" id="refresh-icon"></i>
+        </button>
+        <button id="btn-header-search" class="btn-header-icon" title="Search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- 2. Expandable Search Bar & Instant Search Dropdown -->
+    <div id="search-container">
+      <div class="search-input-box">
+        <i class="fa-solid fa-magnifying-glass search-icon-left"></i>
+        <input 
+          type="text" 
+          id="global-search-input" 
+          class="search-input-field" 
+          placeholder="Search channels, teams, tournaments, categories..." 
+          autocomplete="off"
+        />
+        <button type="button" id="btn-clear-search" class="search-clear-btn" title="Clear / Close Search" aria-label="Clear or Close Search">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div id="search-results-dropdown" class="search-results-list" style="display: none;"></div>
+    </div>
+
+    <!-- ======================================================================
+         VIEW 1: EVENTS (Default Home: Live & Scheduled Matches ONLY)
+         ====================================================================== -->
+    <main id="view-events" class="app-view active">
+      
+      <!-- Sticky Controls Wrapper (Sports Shortcuts & Status Filter Pills) -->
+      <div class="events-sticky-header-wrapper">
+        <!-- Sports Shortcut Row (Scrollable Circular Badges with Count Pills) -->
+        <div class="sports-shortcuts-container no-scrollbar" id="sports-shortcuts-row">
+          <div class="sport-shortcut-item active" data-sport="All">
+            <div class="sport-shortcut-circle">
+              <i class="fa-solid fa-border-all"></i>
+              <span class="sport-count-badge" id="scBadgeAll">0</span>
+            </div>
+            <span class="sport-shortcut-label">All</span>
+          </div>
+          <div class="sport-shortcut-item" data-sport="Football">
+            <div class="sport-shortcut-circle">
+              <i class="fa-solid fa-futbol"></i>
+              <span class="sport-count-badge" id="scBadgeFootball">0</span>
+            </div>
+            <span class="sport-shortcut-label">Football</span>
+          </div>
+          <div class="sport-shortcut-item" data-sport="Cricket">
+            <div class="sport-shortcut-circle">
+              <i class="fa-solid fa-baseball-bat-ball"></i>
+              <span class="sport-count-badge" id="scBadgeCricket">0</span>
+            </div>
+            <span class="sport-shortcut-label">Cricket</span>
+          </div>
+          <div class="sport-shortcut-item" data-sport="Baseball">
+            <div class="sport-shortcut-circle">
+              <i class="fa-solid fa-baseball"></i>
+              <span class="sport-count-badge" id="scBadgeBaseball">0</span>
+            </div>
+            <span class="sport-shortcut-label">Baseball</span>
+          </div>
+          <div class="sport-shortcut-item" data-sport="Basketball">
+            <div class="sport-shortcut-circle">
+              <i class="fa-solid fa-basketball"></i>
+              <span class="sport-count-badge" id="scBadgeBasketball">0</span>
+            </div>
+            <span class="sport-shortcut-label">Basketball</span>
+          </div>
+          <div class="sport-shortcut-item" data-sport="Tennis">
+            <div class="sport-shortcut-circle">
+              <i class="fa-solid fa-table-tennis-paddle-ball"></i>
+              <span class="sport-count-badge" id="scBadgeTennis">0</span>
+            </div>
+            <span class="sport-shortcut-label">Tennis</span>
+          </div>
+          <div class="sport-shortcut-item" data-sport="Motorsport">
+            <div class="sport-shortcut-circle">
+              <i class="fa-solid fa-car-side"></i>
+              <span class="sport-count-badge" id="scBadgeMotorsport">0</span>
+            </div>
+            <span class="sport-shortcut-label">Motorsports</span>
+          </div>
+          <div class="sport-shortcut-item" data-sport="WWE">
+            <div class="sport-shortcut-circle">
+              <i class="fa-solid fa-hand-fist"></i>
+              <span class="sport-count-badge" id="scBadgeWWE">0</span>
+            </div>
+            <span class="sport-shortcut-label">WWE</span>
+          </div>
+          <div class="sport-shortcut-item" data-sport="Hockey">
+            <div class="sport-shortcut-circle">
+              <i class="fa-solid fa-hockey-puck"></i>
+              <span class="sport-count-badge" id="scBadgeHockey">0</span>
+            </div>
+            <span class="sport-shortcut-label">Hockey</span>
+          </div>
+          <div class="sport-shortcut-item" data-sport="Kabaddi">
+            <div class="sport-shortcut-circle">
+              <i class="fa-solid fa-people-robbery"></i>
+              <span class="sport-count-badge" id="scBadgeKabaddi">0</span>
+            </div>
+            <span class="sport-shortcut-label">Kabaddi</span>
+          </div>
+          <div class="sport-shortcut-item" data-sport="Rugby">
+            <div class="sport-shortcut-circle">
+              <i class="fa-solid fa-football"></i>
+              <span class="sport-count-badge" id="scBadgeRugby">0</span>
+            </div>
+            <span class="sport-shortcut-label">Rugby</span>
+          </div>
+        </div>
+
+        <!-- Event Status Filter Pills (Dynamic Real-Time Counts) -->
+        <div class="event-filters-row no-scrollbar" id="event-filters-row">
+          <button class="event-filter-pill active" data-filter="ALL">
+            All <span class="filter-count-badge" id="cntAll">(0)</span>
+          </button>
+          <button class="event-filter-pill" data-filter="LIVE">
+            Live <span class="filter-count-badge" id="cntLive">(0)</span>
+          </button>
+          <button class="event-filter-pill" data-filter="TODAY">
+            Today <span class="filter-count-badge" id="cntToday">(0)</span>
+          </button>
+          <button class="event-filter-pill" data-filter="UPCOMING">
+            Upcoming <span class="filter-count-badge" id="cntUpcoming">(0)</span>
+          </button>
+          <button class="event-filter-pill" data-filter="FINISHED">
+            Finished <span class="filter-count-badge" id="cntFinished">(0)</span>
+          </button>
+          <button class="event-filter-pill" data-filter="FAVORITES">
+            Favorites <span class="filter-count-badge" id="cntFavEvents">(0)</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Live & Scheduled Match Cards List ONLY -->
+      <div id="eventsFeed" class="events-section-container">
+        <!-- Live and Scheduled match cards rendered dynamically here -->
+      </div>
+    </main>
+
+    <!-- ======================================================================
+         VIEW 2: SPORTS (Dedicated Sports Categories & Broadcast Channels)
+         ====================================================================== -->
+    <main id="view-sports" class="app-view">
+      <div class="sports-view-sticky-header">
+        <div class="section-header-row" id="sports-view-header-row">
+          <div class="flex items-center gap-2">
+            <button id="sports-category-back-btn" class="cat-detail-back-btn" style="display: none;" title="Back to Sports Categories">
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <h2 class="section-title" id="channels-view-title">
+              <i class="fa-solid fa-shapes text-sky-400"></i> Sports Categories
+            </h2>
+          </div>
+          <span class="section-badge-count" id="channels-total-count">15 Categories</span>
+        </div>
+      </div>
+
+      <!-- Sports Grid (Categories at root, or Channels inside selected category) -->
+      <div id="sportsGrid" class="channels-grid-3col">
+        <!-- Sports categories or channels rendered here -->
+      </div>
+    </main>
+
+    <!-- ======================================================================
+         VIEW 3: CATEGORIES (Browse all categories)
+         ====================================================================== -->
+    <main id="view-categories" class="app-view">
+      <div class="section-header-row">
+        <h2 class="section-title">
+          <i class="fa-solid fa-layer-group text-sky-400"></i> Browse Categories
+        </h2>
+        <span class="section-badge-count" id="categories-total-count">0 Categories</span>
+      </div>
+
+      <div id="categoriesGrid" class="categories-grid">
+        <!-- Categories rendered here -->
+      </div>
+    </main>
+
+    <!-- ======================================================================
+         VIEW 4: CATEGORY DETAIL CHANNELS
+         ====================================================================== -->
+    <main id="view-category-detail" class="app-view">
+      <div class="category-detail-appbar">
+        <button id="btn-back-from-category" class="cat-detail-back-btn" title="Back">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+        <div class="cat-detail-title-wrapper">
+          <h2 class="cat-detail-title" id="cat-detail-title">News Channels</h2>
+        </div>
+      </div>
+
+      <!-- In-Category Instant Search Bar (Collapsible/Dynamic) -->
+      <div id="cat-detail-search-bar" class="cat-detail-search-container hidden">
+        <div class="cat-detail-search-input-box">
+          <i class="fa-solid fa-magnifying-glass text-slate-400 text-xs"></i>
+          <input type="text" id="cat-detail-search-input" placeholder="Search channels in this category..." autocomplete="off" />
+          <button id="btn-cat-search-clear" class="cat-detail-clear-btn hidden">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+
+      <div id="category-detail-channels-grid" class="channels-grid-4col">
+        <!-- Channels for selected category -->
+      </div>
+    </main>
+
+    <!-- ======================================================================
+         VIEW 5: FAVORITES VIEW
+         ====================================================================== -->
+    <main id="view-favorites" class="app-view">
+      <div class="section-header-row">
+        <button id="btn-back-from-favorites" class="btn-section-link text-sm font-bold">
+          <i class="fa-solid fa-arrow-left"></i> Back to Events
+        </button>
+      </div>
+      <div class="section-header-row">
+        <h2 class="section-title">
+          <i class="fa-solid fa-star text-amber-400"></i> My Favorite Channels
+        </h2>
+        <span class="section-badge-count" id="favorites-total-count">0 Channels</span>
+      </div>
+
+      <div id="favorites-list-grid" class="channels-grid-3col">
+        <!-- Favorite channels rendered here -->
+      </div>
+    </main>
+
+    <!-- ======================================================================
+         VIEW 6: MATCH DETAILS & LIVE SCORE CENTER
+         ====================================================================== -->
+    <main id="view-match-details" class="app-view">
+      <div id="match-details-container">
+        <!-- Dynamically rendered match details -->
+      </div>
+    </main>
+
+    <!-- ======================================================================
+         13. Fixed Bottom Navigation Bar (Clean 3-Tab Layout)
+         ====================================================================== -->
+    <nav id="bottom-navigation">
+      <button class="nav-tab-btn bottom-nav-item active" data-view="view-events" data-target="view-events">
+        <i class="fa-solid fa-tower-broadcast"></i>
+        <span class="nav-tab-label">Live Event</span>
+      </button>
+      <button class="nav-tab-btn bottom-nav-item" data-view="view-categories" data-target="view-categories">
+        <i class="fa-solid fa-layer-group"></i>
+        <span class="nav-tab-label">Category</span>
+      </button>
+      <button class="nav-tab-btn bottom-nav-item" data-view="view-sports" data-target="view-sports">
+        <i class="fa-solid fa-futbol"></i>
+        <span class="nav-tab-label">Sports</span>
+      </button>
+    </nav>
+
+  </div><!-- /#app -->
+
+  <!-- ======================================================================
+       14. StreamZX Fullscreen HLS Video Player Model (Exact Match to Screenshot)
+       ====================================================================== -->
+  <div id="player-modal">
+    <!-- Top Floating Status Bar (For standalone fallback) -->
+    <div class="player-top-bar" id="player-legacy-top-bar" style="display: none;">
+      <button id="btn-player-legacy-back" class="btn-header-icon" title="Close Player">
+        <i class="fa-solid fa-arrow-left"></i>
+      </button>
+      <div class="player-header-title" id="player-legacy-title">Playing Live Stream</div>
+    </div>
+
+    <!-- Video Element Wrapper with Custom StreamZX Controls Overlay -->
+    <div class="player-video-wrapper" id="player-video-box">
+      <video 
+        id="hls-video-element" 
+        class="player-video-element" 
+        preload="auto" 
+        playsinline 
+        webkit-playsinline 
+        x5-playsinline 
+        x-webkit-airplay="allow"
+      ></video>
+
+      <!-- Error Overlay with Close Cross & Exit Buttons -->
+      <div id="player-error" class="player-error-overlay">
+        <!-- Close Cross Icon top-right of error overlay -->
+        <button id="btn-player-error-close" class="player-error-close-cross" title="Close / বাহির হন">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <i class="fa-solid fa-triangle-exclamation text-amber-400 text-3xl"></i>
+        <p class="text-sm font-bold text-white">Stream Currently Unavailable</p>
+        <p class="text-xs text-slate-400" id="player-error-msg">Live stream is temporarily unavailable. Please select another server or tap Retry.</p>
+        <div class="flex items-center justify-center gap-2 mt-2">
+          <button id="btn-player-retry" class="btn-primary" style="padding: 8px 16px;">
+            <i class="fa-solid fa-arrows-rotate"></i> Retry Stream
+          </button>
+          <button id="btn-player-error-exit" class="btn-error-exit" title="Close Player">
+            <i class="fa-solid fa-xmark"></i> বাহির হন
+          </button>
+        </div>
+      </div>
+
+      <!-- StreamZX Custom Player Overlay UI (Matching Screenshot Model) -->
+      <div id="player-controls-overlay" class="player-controls-overlay active">
+        
+        <!-- 1. Top Bar Over Video: [←] [Title] [🔊] [🔒] -->
+        <div class="player-overlay-top">
+          <button id="btn-player-back" class="player-overlay-btn" title="Back">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+          <div class="player-overlay-title" id="player-media-title">Live Channel</div>
+          <div class="player-overlay-top-right">
+            <button id="btn-player-mute" class="player-overlay-btn" title="Mute / Sound">
+              <i class="fa-solid fa-volume-high" id="player-volume-icon"></i>
+            </button>
+            <button id="btn-player-fav" class="player-overlay-btn" title="Favorite">
+              <i class="fa-regular fa-star" id="player-fav-icon"></i>
+            </button>
+            <button id="btn-player-lock" class="player-overlay-btn" title="Lock Screen Controls">
+              <i class="fa-solid fa-lock-open" id="player-lock-icon"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- 2. Center Floating Controls: [ ↺ ] [  ⏸  ] [ ↻ ] -->
+        <div class="player-overlay-center">
+          <button id="btn-player-rewind" class="player-circle-btn-sub" title="Rewind 10s">
+            <i class="fa-solid fa-rotate-left"></i>
+          </button>
+          <button id="btn-player-playpause" class="player-circle-btn-main" title="Play / Pause">
+            <i class="fa-solid fa-pause" id="player-playpause-icon"></i>
+          </button>
+          <button id="btn-player-forward" class="player-circle-btn-sub" title="Forward 10s">
+            <i class="fa-solid fa-rotate-right"></i>
+          </button>
+        </div>
+
+        <!-- 3. Bottom Timeline Scrubber & Quick Actions -->
+        <div class="player-overlay-bottom">
+          <!-- Scrubber Row: 00:00 ───●────── 00:00 -->
+          <div class="player-scrubber-row">
+            <span id="player-time-current" class="player-time-text">00:00</span>
+            <div class="player-progress-container" id="player-progress-container">
+              <div class="player-progress-track">
+                <div class="player-progress-buffered" id="player-buffered-bar"></div>
+                <div class="player-progress-filled" id="player-filled-bar"></div>
+                <div class="player-progress-knob" id="player-scrub-knob"></div>
+              </div>
+              <input type="range" id="player-seek-slider" class="player-seek-slider" min="0" max="100" value="0" step="0.1" />
+            </div>
+            <span id="player-time-total" class="player-time-text">00:00</span>
+          </div>
+
+          <!-- Bottom Controls Row: [⤢] [🗗] ... [⚙️] [⛶] -->
+          <div class="player-bottom-icons-row">
+            <div class="player-bottom-left">
+              <button id="btn-player-aspect" class="player-overlay-btn" title="Aspect Ratio">
+                <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+              </button>
+              <button id="btn-player-pip" class="player-overlay-btn" title="Picture in Picture">
+                <i class="fa-solid fa-clone"></i>
+              </button>
+            </div>
+            <div class="player-bottom-right">
+              <button id="btn-player-settings" class="player-overlay-btn" title="Stream Settings &amp; Server">
+                <i class="fa-solid fa-gear"></i>
+              </button>
+              <button id="btn-player-fullscreen" class="player-overlay-btn" title="Fullscreen">
+                <i class="fa-solid fa-expand" id="player-fullscreen-icon"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /#player-controls-overlay -->
+
+      <!-- Locked Screen Floating Button (Shown when screen is locked) -->
+      <div id="player-locked-indicator" class="player-locked-indicator" style="display: none;">
+        <button id="btn-player-unlock" class="player-unlock-pill-btn" title="Tap to Unlock Screen">
+          <i class="fa-solid fa-lock"></i>
+          <span>Screen Locked • Tap to Unlock</span>
+        </button>
+      </div>
+
+      <!-- Quick Volume Toast -->
+      <div id="player-volume-toast" class="player-volume-toast" style="display: none;">
+        <i class="fa-solid fa-volume-high" id="player-volume-toast-icon"></i>
+        <div class="player-volume-toast-track">
+          <div class="player-volume-toast-fill" id="player-volume-toast-fill"></div>
+        </div>
+      </div>
+
+    </div><!-- /.player-video-wrapper -->
+
+    <!-- Video Controls & Server Selector & Channels Grid (Under Video) -->
+    <div class="player-controls-container">
+      
+      <!-- Sticky / Locked Top Bar: Server Selector + Switch Channels Heading (Won't scroll inside) -->
+      <div class="player-pinned-controls-bar" id="player-pinned-controls-bar">
+        <!-- 1. Horizontal Server Pills Row -->
+        <div class="player-server-pills-bar">
+          <div id="player-server-pills" class="player-server-pills-row">
+            <!-- Server pills e.g. [✓ Server 1 • FHD] [Server 2 • Proxy] -->
+          </div>
+        </div>
+
+        <!-- 2. Header Row: Switch Channel Category & Count -->
+        <div class="player-server-header-row">
+          <h3 class="text-sm font-extrabold text-white flex items-center gap-1.5" id="player-related-events-header">
+            <i class="fa-solid fa-trophy text-amber-400"></i> Sports Channels
+          </h3>
+          <span class="text-[11px] text-sky-400 font-bold flex items-center gap-1" id="player-related-events-count">
+            Tap to Watch
+          </span>
+        </div>
+      </div>
+
+      <!-- Under-Player Channels Section (Matching Screenshot "Sports Channels" Heading & Grid) -->
+      <div class="player-related-events-section" id="player-related-events-section">
+        <div id="player-related-events-list" class="player-related-events-list">
+          <!-- Dynamic Channel Cards matching 3-column screenshot model -->
+        </div>
+      </div>
+    </div>
+
+    <!-- 5. Settings Popup Bottom Sheet -->
+    <div id="player-settings-sheet" class="player-settings-sheet" style="display: none;">
+      <div class="player-settings-backdrop" id="player-settings-backdrop"></div>
+      <div class="player-settings-panel">
+        <div class="player-settings-header">
+          <div class="flex items-center gap-2">
+            <i class="fa-solid fa-gear text-sky-400"></i>
+            <h4 class="font-extrabold text-sm text-white">Stream Settings</h4>
+          </div>
+          <button id="btn-close-player-settings" class="btn-header-icon" style="width:28px;height:28px;">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+
+        <div class="player-settings-content">
+          <!-- Server Selector -->
+          <div class="player-settings-group">
+            <label class="player-settings-label"><i class="fa-solid fa-server text-sky-400"></i> Active Stream Server</label>
+            <div id="player-settings-servers-list" class="player-settings-options-list">
+              <!-- Server Options -->
+            </div>
+          </div>
+
+          <!-- Quality Selector -->
+          <div class="player-settings-group">
+            <label class="player-settings-label"><i class="fa-solid fa-sliders text-emerald-400"></i> Resolution &amp; Quality</label>
+            <div class="player-settings-pills">
+              <button class="settings-pill-btn active" data-quality="auto">Auto (Adaptive)</button>
+              <button class="settings-pill-btn" data-quality="1080">1080p FHD</button>
+              <button class="settings-pill-btn" data-quality="720">720p HD</button>
+              <button class="settings-pill-btn" data-quality="480">480p SD</button>
+            </div>
+          </div>
+
+          <!-- Aspect Ratio Selector -->
+          <div class="player-settings-group">
+            <label class="player-settings-label"><i class="fa-solid fa-expand text-indigo-400"></i> Screen Scaling</label>
+            <div class="player-settings-pills">
+              <button class="settings-pill-btn active" data-aspect="contain">16:9 Fit</button>
+              <button class="settings-pill-btn" data-aspect="cover">Full Zoom (Fill)</button>
+              <button class="settings-pill-btn" data-aspect="fill">Stretch</button>
+            </div>
+          </div>
+
+          <!-- Playback Speed -->
+          <div class="player-settings-group">
+            <label class="player-settings-label"><i class="fa-solid fa-gauge-high text-amber-400"></i> Playback Speed</label>
+            <div class="player-settings-pills">
+              <button class="settings-pill-btn" data-speed="0.75">0.75x</button>
+              <button class="settings-pill-btn active" data-speed="1.0">1.0x Normal</button>
+              <button class="settings-pill-btn" data-speed="1.25">1.25x</button>
+              <button class="settings-pill-btn" data-speed="1.5">1.5x</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ======================================================================
+       15. Side Drawer Overlay & Panel
+       ====================================================================== -->
+  <div id="drawer-overlay"></div>
+  <aside id="side-drawer">
+    <div class="drawer-header-brand">
+      <div class="drawer-big-logo-frame">
+        <img 
+          id="drawer-header-logo-img"
+          src="/highfy_logo_official.svg" 
+          alt="HighFy TV Logo" 
+          class="drawer-big-logo-img" 
+          referrerpolicy="no-referrer"
+          onerror="if(this.src.indexOf('/highfy_logo.png') === -1) this.src='/highfy_logo.png';"
+        />
+      </div>
+      <h3 class="drawer-app-title">HighFy TV</h3>
+      <span class="drawer-version-tag" id="drawer-version-tag" title="HighFy TV">Version: 1.0</span>
+      <button id="btn-close-drawer" class="btn-header-icon drawer-close-absolute" title="Close Menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <div class="drawer-menu-list">
+      <!-- Section 1: STREAMING & MEDIA -->
+      <div class="drawer-section-title">STREAMING &amp; MEDIA</div>
+      <div class="drawer-item" id="drawer-network-stream">
+        <div class="drawer-item-left">
+          <i class="fa-solid fa-link text-sky-400"></i>
+          <span>Network Stream</span>
+        </div>
+        <i class="fa-solid fa-chevron-right drawer-item-arrow"></i>
+      </div>
+
+      <div class="drawer-item" id="drawer-playlists">
+        <div class="drawer-item-left">
+          <i class="fa-solid fa-list-ul text-sky-400"></i>
+          <span>Playlists</span>
+        </div>
+        <i class="fa-solid fa-chevron-right drawer-item-arrow"></i>
+      </div>
+
+      <div class="drawer-item" style="cursor: default;">
+        <div class="drawer-item-left">
+          <i class="fa-solid fa-bug text-sky-400"></i>
+          <span>Crash Log Dialog</span>
+        </div>
+        <label class="switch-toggle" for="drawer-toggle-crash-log">
+          <input type="checkbox" id="drawer-toggle-crash-log" />
+          <span class="switch-slider"></span>
+        </label>
+      </div>
+
+      <!-- Section 2: COMMUNITY & ABOUT -->
+      <div class="drawer-section-title">COMMUNITY &amp; ABOUT</div>
+      <div class="drawer-item" id="drawer-notice">
+        <div class="drawer-item-left">
+          <i class="fa-solid fa-bell text-amber-400"></i>
+          <span>Notice &amp; Match Alerts</span>
+        </div>
+        <div class="flex items-center gap-1.5">
+          <span id="drawer-notif-badge" class="px-1.5 py-0.5 rounded-full bg-rose-600 text-[10px] font-bold text-white leading-none">3 New</span>
+          <i class="fa-solid fa-chevron-right drawer-item-arrow"></i>
+        </div>
+      </div>
+
+      <div class="drawer-item" id="drawer-telegram">
+        <div class="drawer-item-left">
+          <i class="fa-brands fa-telegram text-sky-400"></i>
+          <span>Join Us (Telegram)</span>
+        </div>
+        <i class="fa-solid fa-chevron-right drawer-item-arrow"></i>
+      </div>
+
+      <div class="drawer-item" id="drawer-copyright">
+        <div class="drawer-item-left">
+          <i class="fa-regular fa-copyright text-sky-400"></i>
+          <span>Copyright &amp; DMCA</span>
+        </div>
+        <i class="fa-solid fa-chevron-right drawer-item-arrow"></i>
+      </div>
+
+      <div class="drawer-item" id="drawer-share">
+        <div class="drawer-item-left">
+          <i class="fa-solid fa-share-nodes text-sky-400"></i>
+          <span>Share Our App</span>
+        </div>
+        <i class="fa-solid fa-chevron-right drawer-item-arrow"></i>
+      </div>
+
+      <div class="drawer-item" id="drawer-email">
+        <div class="drawer-item-left">
+          <i class="fa-solid fa-envelope text-sky-400"></i>
+          <span>Email Us</span>
+        </div>
+        <i class="fa-solid fa-chevron-right drawer-item-arrow"></i>
+      </div>
+
+      <div class="drawer-item" id="drawer-update">
+        <div class="drawer-item-left">
+          <i class="fa-solid fa-arrows-rotate text-sky-400"></i>
+          <span>Update App</span>
+        </div>
+        <i class="fa-solid fa-chevron-right drawer-item-arrow"></i>
+      </div>
+
+      <!-- Section 3: APP CONTROL -->
+      <div class="drawer-section-title">APP CONTROL</div>
+      <div class="drawer-item" id="drawer-clear-data">
+        <div class="drawer-item-left">
+          <i class="fa-solid fa-trash-can text-sky-400"></i>
+          <span>Clear App Data</span>
+        </div>
+        <i class="fa-solid fa-chevron-right drawer-item-arrow"></i>
+      </div>
+
+      <div class="drawer-item" id="drawer-exit">
+        <div class="drawer-item-left">
+          <i class="fa-solid fa-arrow-right-from-bracket text-red-500"></i>
+          <span class="text-red-500 font-bold">Exit</span>
+        </div>
+        <i class="fa-solid fa-chevron-right drawer-item-arrow"></i>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ======================================================================
+       16. Multiple Links Available Modal / Bottom Dialog (Matching PlayZ TV Video)
+       ====================================================================== -->
+  <div id="modal-select-server" class="custom-modal-backdrop">
+    <div class="custom-modal-card multiple-links-modal-card" style="max-width: 380px; max-height: 85vh; overflow-y: auto;">
+      <div class="modal-header-row mb-3 flex items-center justify-between">
+        <h3 class="modal-title font-extrabold text-base text-slate-900 dark:text-white flex items-center gap-2" id="server-modal-title">
+          Multiple links available
+        </h3>
+        <button class="modal-close-btn" data-close-modal="modal-select-server"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <!-- Server selection list items -->
+      <div id="server-selection-list" class="multiple-links-list space-y-2">
+        <!-- Rendered dynamically matching video -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       17. Network Stream Dialog Modal
+       ====================================================================== -->
+  <div id="modal-network-stream" class="custom-modal-backdrop">
+    <div class="custom-modal-card">
+      <div class="modal-header-row">
+        <h3 class="modal-title"><i class="fa-solid fa-tower-broadcast text-sky-400"></i> Network Stream</h3>
+        <button class="modal-close-btn" data-close-modal="modal-network-stream"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-input-group">
+        <label class="modal-label">Direct Stream URL (.m3u8, .mp4)</label>
+        <input type="url" id="input-network-url" class="modal-input" placeholder="https://domain.com/live.m3u8" />
+      </div>
+      <div class="modal-input-group">
+        <label class="modal-label">Channel Title (Optional)</label>
+        <input type="text" id="input-network-title" class="modal-input" placeholder="Custom Stream Name" />
+      </div>
+      <button id="btn-play-network-stream" class="btn-primary">
+        <i class="fa-solid fa-play"></i> Play Stream
+      </button>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       17.0 Admin PIN Verification Modal
+       ====================================================================== -->
+  <div id="modal-admin-pin" class="custom-modal-backdrop">
+    <div class="custom-modal-card" style="max-width: 360px;">
+      <div class="modal-header-row">
+        <h3 class="modal-title"><i class="fa-solid fa-shield-halved text-amber-400"></i> Admin Verification</h3>
+        <button class="modal-close-btn" data-close-modal="modal-admin-pin"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <div class="text-center py-2">
+        <div class="w-12 h-12 rounded-full bg-amber-500/10 border border-amber-500/30 flex items-center justify-center mx-auto mb-2 text-amber-400 text-xl">
+          <i class="fa-solid fa-key"></i>
+        </div>
+        <p class="text-xs text-slate-300 font-medium">Enter Admin PIN to manage dynamic stream URLs</p>
+        <p class="text-[11px] text-slate-400 mt-0.5">(Default PIN: <strong class="text-amber-300">1234</strong>)</p>
+      </div>
+
+      <div class="modal-input-group my-2">
+        <input type="password" id="input-admin-pin" class="modal-input text-center text-lg tracking-widest font-bold" placeholder="••••" maxlength="10" />
+        <p id="admin-pin-error" class="text-rose-400 text-[11px] text-center mt-1 hidden">Incorrect PIN. Please try again.</p>
+      </div>
+
+      <div class="flex items-center gap-2 pt-2">
+        <button class="flex-1 py-2 px-3 rounded-xl bg-slate-800 text-slate-300 text-xs font-bold" data-close-modal="modal-admin-pin">
+          Cancel
+        </button>
+        <button id="btn-submit-admin-pin" class="flex-1 py-2 px-3 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-bold flex items-center justify-center gap-1.5 transition">
+          <i class="fa-solid fa-unlock"></i> Unlock
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       17.1 HighFy TV Master Admin Panel Modal
+       ====================================================================== -->
+  <div id="modal-stream-source" class="custom-modal-backdrop">
+    <div class="custom-modal-card admin-dashboard-modal" style="max-height: 90vh; overflow-y: auto; max-width: 480px;">
+      <div class="modal-header-row pb-2 border-b border-slate-700/60">
+        <div class="flex items-center gap-2">
+          <div class="w-8 h-8 rounded-lg bg-amber-500/20 text-amber-400 border border-amber-500/30 flex items-center justify-center font-black text-sm">
+            <i class="fa-solid fa-sliders"></i>
+          </div>
+          <div>
+            <h3 class="modal-title text-base font-extrabold text-white">HighFy Admin Panel</h3>
+            <p class="text-[10px] text-amber-400 font-semibold tracking-wide uppercase">ম্যানেজমেন্ট ড্যাশবোর্ড</p>
+          </div>
+        </div>
+        <button class="modal-close-btn" data-close-modal="modal-stream-source"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <!-- Admin Navigation Tabs -->
+      <div class="grid grid-cols-5 gap-1 p-1 bg-slate-900/90 rounded-xl border border-slate-800 my-1 text-center">
+        <button type="button" class="admin-tab-btn active py-2 px-0.5 text-[10.5px] font-bold rounded-lg transition" data-admin-tab="tab-admin-channels">
+          <i class="fa-solid fa-tv block text-xs mb-0.5"></i>চ্যানেল
+        </button>
+        <button type="button" class="admin-tab-btn py-2 px-0.5 text-[10.5px] font-bold rounded-lg transition text-slate-400 hover:text-white" data-admin-tab="tab-admin-events">
+          <i class="fa-solid fa-trophy block text-xs mb-0.5"></i>ইভেন্ট
+        </button>
+        <button type="button" class="admin-tab-btn py-2 px-0.5 text-[10.5px] font-bold rounded-lg transition text-slate-400 hover:text-white" data-admin-tab="tab-admin-notifs">
+          <i class="fa-solid fa-bell block text-xs mb-0.5 text-amber-400"></i>নোটিশ/অ্যালার্ট
+        </button>
+        <button type="button" class="admin-tab-btn py-2 px-0.5 text-[10.5px] font-bold rounded-lg transition text-slate-400 hover:text-white" data-admin-tab="tab-admin-images">
+          <i class="fa-solid fa-image block text-xs mb-0.5"></i>লোগো
+        </button>
+        <button type="button" class="admin-tab-btn py-2 px-0.5 text-[10.5px] font-bold rounded-lg transition text-slate-400 hover:text-white" data-admin-tab="tab-admin-sources">
+          <i class="fa-solid fa-cloud-arrow-down block text-xs mb-0.5"></i>সোর্স
+        </button>
+      </div>
+
+      <!-- TAB 1: Channel Stream URL & Category Manager -->
+      <div id="tab-admin-channels" class="admin-tab-content flex flex-col gap-3">
+        <div class="p-2.5 rounded-xl bg-sky-500/10 border border-sky-500/20 text-xs text-sky-300">
+          <i class="fa-solid fa-info-circle mr-1"></i> ক্যাটাগরি ফিল্টার করে যেকোনো চ্যানেলের লাইভ স্ট্রিম URL পরিবর্তন করুন:
+        </div>
+
+        <!-- Category Filter for Channel Selection -->
+        <div class="modal-input-group">
+          <label class="modal-label">১. ক্যাটাগরি নির্বাচন করুন (Category Filter)</label>
+          <select id="admin-channel-category-filter" class="modal-input text-xs font-semibold">
+            <option value="ALL">All Categories (সব ক্যাটাগরি)</option>
+          </select>
+        </div>
+
+        <!-- Channel Select Box -->
+        <div class="modal-input-group">
+          <label class="modal-label flex items-center justify-between">
+            <span>২. চ্যানেল সিলেক্ট করুন (Target Channel)</span>
+            <span id="admin-channel-status-badge" class="text-[10px] text-emerald-400 font-bold px-1.5 py-0.5 bg-emerald-500/15 rounded">Active</span>
+          </label>
+          <select id="admin-channel-select" class="modal-input text-xs font-bold">
+            <option value="">-- চ্যানেল লোড হচ্ছে... --</option>
+          </select>
+        </div>
+
+        <!-- Stream URL Input -->
+        <div class="modal-input-group">
+          <label class="modal-label">৩. প্রাইমারি লাইভ স্ট্রিম URL (Primary Stream M3U8/MPD)</label>
+          <input type="url" id="admin-channel-stream-url" class="modal-input font-mono text-xs" placeholder="https://domain.com/live/stream.m3u8" />
+        </div>
+
+        <!-- Backup Stream URL Input -->
+        <div class="modal-input-group">
+          <label class="modal-label">৪. ব্যাকআপ স্ট্রিম URL (Backup Server 2)</label>
+          <input type="url" id="admin-channel-backup-url" class="modal-input font-mono text-xs" placeholder="https://domain.com/live/backup.m3u8 (ঐচ্ছিক)" />
+        </div>
+
+        <div class="flex items-center gap-1.5 pt-1">
+          <button type="button" id="btn-admin-channel-delete" class="py-2 px-2.5 rounded-xl bg-rose-950/50 hover:bg-rose-900/70 text-rose-400 border border-rose-800/40 text-xs font-bold transition flex items-center gap-1" title="কাস্টমাইজড স্ট্রিম মুছুন">
+            <i class="fa-solid fa-trash-can"></i> মুছুন
+          </button>
+          <button type="button" id="btn-admin-channel-reset" class="py-2 px-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-bold transition flex items-center gap-1">
+            <i class="fa-solid fa-rotate-left"></i> রিসেট
+          </button>
+          <button type="button" id="btn-admin-channel-test" class="py-2 px-2.5 rounded-xl bg-sky-600/80 hover:bg-sky-500 text-white text-xs font-bold transition flex items-center gap-1">
+            <i class="fa-solid fa-play"></i> প্লে
+          </button>
+          <button type="button" id="btn-admin-channel-save" class="flex-1 py-2 px-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition flex items-center justify-center gap-1 shadow-lg shadow-emerald-900/30">
+            <i class="fa-solid fa-check"></i> সেভ করুন
+          </button>
+        </div>
+
+        <!-- Customized Channels List with Direct Delete buttons -->
+        <div class="mt-2 pt-2 border-t border-slate-800 flex flex-col gap-1.5">
+          <div class="flex items-center justify-between">
+            <span class="text-[11px] font-bold text-slate-300 flex items-center gap-1.5">
+              <i class="fa-solid fa-list-check text-sky-400"></i> কাস্টমাইজড চ্যানেল তালিকা (<span id="admin-custom-channels-count">0</span>)
+            </span>
+            <button type="button" id="btn-admin-clear-all-custom-channels" class="text-[10px] text-rose-400 hover:text-rose-300 font-bold hidden">
+              <i class="fa-solid fa-trash-can mr-0.5"></i> সব মুছুন
+            </button>
+          </div>
+          <div id="admin-custom-channels-list" class="max-h-36 overflow-y-auto space-y-1.5 pr-1 text-xs">
+            <!-- Dynamic customized channel list items with delete buttons -->
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 2: Live Sports Match & Channel Assignment -->
+      <div id="tab-admin-events" class="admin-tab-content hidden flex flex-col gap-3">
+        <div class="p-2.5 rounded-xl bg-amber-500/10 border border-amber-500/20 text-xs text-amber-300">
+          <i class="fa-solid fa-trophy mr-1"></i> লাইভ খেলার সাথে সম্প্রচারকারী চ্যানেল ও সরাসরি স্ট্রিম URL সেট করুন:
+        </div>
+
+        <!-- Sport Filter (All, Football, Cricket, Baseball, etc.) -->
+        <div class="modal-input-group">
+          <label class="modal-label flex items-center justify-between">
+            <span>১. স্পোর্টস বা খেলা ফিল্টার করুন (Sport Filter)</span>
+            <span id="admin-event-count-badge" class="text-[10px] text-amber-400 font-bold px-1.5 py-0.5 bg-amber-500/15 rounded">All Sports</span>
+          </label>
+          <select id="admin-event-sport-filter" class="modal-input text-xs font-semibold">
+            <option value="ALL">All (সব খেলা)</option>
+            <option value="Football">Football</option>
+            <option value="Cricket">Cricket</option>
+            <option value="Baseball">Baseball</option>
+            <option value="Basketball">Basketball</option>
+            <option value="Tennis">Tennis</option>
+            <option value="Motorsport">Motorsport</option>
+            <option value="WWE">WWE</option>
+            <option value="Other">Other Sports</option>
+          </select>
+        </div>
+
+        <!-- Event Selection -->
+        <div class="modal-input-group">
+          <label class="modal-label flex items-center justify-between">
+            <span>২. লাইভ ম্যাচ বা ইভেন্ট সিলেক্ট করুন</span>
+            <span id="admin-event-status-badge" class="text-[10px] text-emerald-400 font-bold px-1.5 py-0.5 bg-emerald-500/15 rounded">Live Match</span>
+          </label>
+          <select id="admin-event-select" class="modal-input text-xs font-bold">
+            <option value="">-- ম্যাচ লোড হচ্ছে... --</option>
+          </select>
+        </div>
+
+        <!-- Channel Assignment for this event -->
+        <div class="modal-input-group">
+          <label class="modal-label">৩. ম্যাচ সম্প্রচারকারী চ্যানেল নির্বাচন (Broadcast Channel)</label>
+          <select id="admin-event-channel-select" class="modal-input text-xs font-semibold">
+            <option value="">-- চ্যানেল নির্বাচন করুন --</option>
+          </select>
+          <p class="text-[10.5px] text-slate-400 mt-1">চ্যানেল নির্বাচন করলে ওই চ্যানেলের লাইভ লিংক খেলায় কানেক্ট হবে।</p>
+        </div>
+
+        <!-- Custom Direct Stream Override for this match -->
+        <div class="modal-input-group">
+          <label class="modal-label flex items-center justify-between">
+            <span>৪. অথবা এই ম্যাচের জন্য সরাসরি কাস্টম স্ট্রিম লিংক দিন</span>
+            <span class="text-sky-400 text-[10px] font-semibold">Direct M3U8</span>
+          </label>
+          <input type="url" id="admin-event-direct-url" class="modal-input font-mono text-xs" placeholder="https://domain.com/match-live.m3u8" />
+          <p class="text-[10.5px] text-slate-400 mt-1">সরাসরি লিংক দিলে এই খেলার কার্ডে Watch Live চালু হয়ে যাবে।</p>
+        </div>
+
+        <div class="flex items-center gap-1.5 pt-1">
+          <button type="button" id="btn-admin-event-delete" class="py-2 px-2.5 rounded-xl bg-rose-950/50 hover:bg-rose-900/70 text-rose-400 border border-rose-800/40 text-xs font-bold transition flex items-center gap-1" title="কাস্টমাইজড ম্যাচ লিংক মুছুন">
+            <i class="fa-solid fa-trash-can"></i> মুছুন
+          </button>
+          <button type="button" id="btn-admin-event-reset" class="py-2 px-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-bold transition flex items-center gap-1">
+            <i class="fa-solid fa-rotate-left"></i> রিসেট
+          </button>
+          <button type="button" id="btn-admin-event-test" class="py-2 px-2.5 rounded-xl bg-sky-600/80 hover:bg-sky-500 text-white text-xs font-bold transition flex items-center gap-1">
+            <i class="fa-solid fa-play"></i> টেস্ট
+          </button>
+          <button type="button" id="btn-admin-event-save" class="flex-1 py-2 px-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition flex items-center justify-center gap-1 shadow-lg shadow-emerald-900/30">
+            <i class="fa-solid fa-check"></i> সেভ করুন
+          </button>
+        </div>
+
+        <!-- Customized Match Events List with Direct Delete buttons -->
+        <div class="mt-2 pt-2 border-t border-slate-800 flex flex-col gap-1.5">
+          <div class="flex items-center justify-between">
+            <span class="text-[11px] font-bold text-slate-300 flex items-center gap-1.5">
+              <i class="fa-solid fa-list-check text-amber-400"></i> কাস্টম লিংক দেওয়া ম্যাচ (<span id="admin-custom-events-count">0</span>)
+            </span>
+            <button type="button" id="btn-admin-clear-all-custom-events" class="text-[10px] text-rose-400 hover:text-rose-300 font-bold hidden">
+              <i class="fa-solid fa-trash-can mr-0.5"></i> সব মুছুন
+            </button>
+          </div>
+          <div id="admin-custom-events-list" class="max-h-36 overflow-y-auto space-y-1.5 pr-1 text-xs">
+            <!-- Dynamic customized event list items with delete buttons -->
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 3: Notifications & Announcements Manager -->
+      <div id="tab-admin-notifs" class="admin-tab-content hidden flex flex-col gap-3">
+        <div class="p-2.5 rounded-xl bg-amber-500/10 border border-amber-500/20 text-xs text-amber-300">
+          <i class="fa-solid fa-bell mr-1"></i> ব্যবহারকারীদের কাছে সরাসরি খেলাধুলার নোটিফিকেশন, ম্যাচ শুরু ও অ্যাপ আপডেট অ্যালার্ট পাঠান:
+        </div>
+
+        <div class="p-3 rounded-xl bg-slate-900/80 border border-slate-800 flex flex-col gap-2.5">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-slate-200 flex items-center gap-1.5">
+              <i class="fa-solid fa-plus-circle text-sky-400"></i> নতুন নোটিফিকেশন তৈরি করুন
+            </span>
+            <span class="text-[9.5px] text-amber-400 bg-amber-500/10 px-2 py-0.5 rounded border border-amber-500/20 font-bold">Push &amp; In-App</span>
+          </div>
+
+          <div class="grid grid-cols-2 gap-2">
+            <div>
+              <label class="text-[10px] text-slate-400 font-bold block mb-1">টাইপ (Type)</label>
+              <select id="admin-notif-type" class="modal-input text-xs">
+                <option value="match">⚽ Live Match (খেলার নোটিফিকেশন)</option>
+                <option value="update">🚀 App Update (অ্যাপ আপডেট)</option>
+                <option value="system">⚡ System Notice (জরুরি নোটিশ)</option>
+              </select>
+            </div>
+            <div>
+              <label class="text-[10px] text-slate-400 font-bold block mb-1">ব্যাজ লেবেল (Badge)</label>
+              <input type="text" id="admin-notif-badge" class="modal-input text-xs" placeholder="LIVE, UPDATE, NEW" value="LIVE MATCH" />
+            </div>
+          </div>
+
+          <div>
+            <label class="text-[10px] text-slate-400 font-bold block mb-1">শিরোনাম (Title)</label>
+            <input type="text" id="admin-notif-title" class="modal-input text-xs" placeholder="যেমন: ⚽ Real Madrid vs Barcelona (El Clasico)" />
+          </div>
+
+          <div>
+            <label class="text-[10px] text-slate-400 font-bold block mb-1">বার্তা / বিবরণ (Message Body)</label>
+            <textarea id="admin-notif-body" class="modal-input text-xs min-h-[55px] resize-none" placeholder="নোটিফিকেশনের বিস্তারিত বার্তা লিখুন..."></textarea>
+          </div>
+
+          <div class="grid grid-cols-2 gap-2">
+            <div>
+              <label class="text-[10px] text-slate-400 font-bold block mb-1">সময় / শিডিউল (Time / Time tag)</label>
+              <input type="text" id="admin-notif-time" class="modal-input text-xs" placeholder="যেমন: রাত ৮:০০ টা / Just Now" value="Just Now" />
+            </div>
+            <div>
+              <label class="text-[10px] text-slate-400 font-bold block mb-1">সরাসরি চ্যানেল (Optional Stream)</label>
+              <select id="admin-notif-channel" class="modal-input text-xs">
+                <option value="">কোনো চ্যানেল নয় (None)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-2 pt-1">
+            <button type="button" id="btn-admin-add-notif" class="w-full py-2.5 px-3 rounded-xl bg-gradient-to-r from-sky-600 to-blue-600 hover:from-sky-500 hover:to-blue-500 text-white text-xs font-bold transition flex items-center justify-center gap-1.5 shadow-lg shadow-sky-900/30">
+              <i class="fa-solid fa-paper-plane"></i> নোটিফিকেশন পাবলিশ করুন (Publish Alert)
+            </button>
+          </div>
+        </div>
+
+        <!-- Active Notifications List -->
+        <div class="mt-1 flex flex-col gap-2">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-slate-300 flex items-center gap-1.5">
+              <i class="fa-solid fa-list text-sky-400"></i> সক্রিয় নোটিফিকেশন তালিকা (<span id="admin-notif-count">0</span>)
+            </span>
+            <button type="button" id="btn-admin-clear-notifs" class="text-[10.5px] text-rose-400 hover:text-rose-300 font-bold">
+              <i class="fa-solid fa-trash-can mr-0.5"></i> সব মুছুন
+            </button>
+          </div>
+          <div id="admin-notifs-list-container" class="space-y-2 max-h-48 overflow-y-auto pr-1">
+            <!-- Dynamic Notifications in Admin Panel -->
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 4: Channel & Category Image Management -->
+      <div id="tab-admin-images" class="admin-tab-content hidden flex flex-col gap-3">
+        <div class="p-2.5 rounded-xl bg-purple-500/10 border border-purple-500/20 text-xs text-purple-300">
+          <i class="fa-solid fa-image mr-1"></i> চ্যানেল এবং ক্যাটাগরির ছবি ও লোগো পরিবর্তন বা মুছে ফেলুন:
+        </div>
+
+        <!-- Section A: Channel Logo & Image Controls -->
+        <div class="p-3 rounded-xl bg-slate-900/80 border border-slate-800 flex flex-col gap-2.5">
+          <div class="flex items-center justify-between gap-2">
+            <div class="flex items-center gap-2.5 min-w-0">
+              <div class="w-10 h-10 rounded-xl bg-sky-500/15 border border-sky-500/30 flex items-center justify-center text-sky-400 font-bold text-base flex-shrink-0">
+                <i class="fa-solid fa-tv"></i>
+              </div>
+              <div class="min-w-0">
+                <h4 class="text-xs font-bold text-white truncate">চ্যানেল ইমেজ ও লোগো ম্যানেজার</h4>
+                <p class="text-[10.5px] text-slate-400 mt-0.5">সব টিভি চ্যানেলের লোগো ও প্রিভিউ ছবি আপডেট করুন</p>
+              </div>
+            </div>
+            <button type="button" id="btn-admin-open-logo-manager-tab" class="px-2.5 py-1.5 rounded-xl bg-sky-500/20 hover:bg-sky-500/30 text-sky-400 border border-sky-500/30 font-extrabold text-[11px] flex items-center gap-1 transition flex-shrink-0" title="পপআপ এডিটর খুলুন">
+              <i class="fa-solid fa-up-right-from-square"></i> ফুল এডিটর
+            </button>
+          </div>
+
+          <!-- Quick Inline Channel Selector & Controls -->
+          <div class="bg-slate-950/60 p-2.5 rounded-xl border border-slate-800/80 flex flex-col gap-2">
+            <div>
+              <label class="text-[10.5px] font-bold text-slate-400 block mb-1">১. চ্যানেল নির্বাচন করুন:</label>
+              <select id="admin-inline-channel-select" class="modal-input text-xs font-bold cursor-pointer">
+                <!-- Populated dynamically -->
+              </select>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 rounded-xl bg-slate-900 border border-slate-700/80 flex items-center justify-center overflow-hidden flex-shrink-0 p-1">
+                <img id="admin-preview-channel-img" src="./assets/category-logos/sports-channels.svg" alt="Preview" class="w-full h-full object-contain" />
+              </div>
+              <div class="flex-1 min-w-0 flex flex-col gap-1.5">
+                <div class="flex items-center gap-1.5">
+                  <input type="url" id="admin-inline-channel-img-url" class="modal-input text-xs flex-1" placeholder="ইমেজ লিংক (URL) পেস্ট করুন" />
+                  <label for="admin-inline-channel-file-input" class="px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-sky-400 text-xs font-bold cursor-pointer transition border border-slate-700 flex items-center gap-1 flex-shrink-0" title="ডিভাইস থেকে ছবি আপলোড করুন">
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                    <span>আপলোড</span>
+                  </label>
+                  <input type="file" id="admin-inline-channel-file-input" accept="image/*" class="hidden" />
+                </div>
+                <div class="flex items-center gap-2">
+                  <button type="button" id="btn-admin-save-inline-channel-img" class="flex-1 py-1 px-2.5 rounded-lg bg-sky-500 hover:bg-sky-400 text-slate-950 font-extrabold text-[11px] flex items-center justify-center gap-1 transition">
+                    <i class="fa-solid fa-check"></i> সেভ করুন
+                  </button>
+                  <button type="button" id="btn-admin-reset-inline-channel-img" class="py-1 px-2.5 rounded-lg bg-slate-800 hover:bg-rose-500/20 text-slate-300 hover:text-rose-400 text-[11px] font-bold transition flex items-center justify-center gap-1 border border-slate-700">
+                    <i class="fa-solid fa-rotate-left"></i> রিসেট
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section B: Category Image & Logo Controls -->
+        <div class="p-3 rounded-xl bg-slate-900/80 border border-slate-800 flex flex-col gap-2.5">
+          <div class="flex items-center justify-between gap-2">
+            <div class="flex items-center gap-2.5 min-w-0">
+              <div class="w-10 h-10 rounded-xl bg-purple-500/15 border border-purple-500/30 flex items-center justify-center text-purple-400 font-bold text-base flex-shrink-0">
+                <i class="fa-solid fa-layer-group"></i>
+              </div>
+              <div class="min-w-0">
+                <h4 class="text-xs font-bold text-white truncate">ক্যাটাগরি ইমেজ ও লোগো</h4>
+                <p class="text-[10.5px] text-slate-400 mt-0.5">ক্যাটাগরি কার্ডের আইকন ও লোগো পরিবর্তন করুন</p>
+              </div>
+            </div>
+            <button type="button" id="btn-admin-open-category-logo-manager-tab" class="px-2.5 py-1.5 rounded-xl bg-purple-500/20 hover:bg-purple-500/30 text-purple-400 border border-purple-500/30 font-extrabold text-[11px] flex items-center gap-1 transition flex-shrink-0" title="পপআপ এডিটর খুলুন">
+              <i class="fa-solid fa-up-right-from-square"></i> ফুল এডিটর
+            </button>
+          </div>
+
+          <!-- Quick Inline Category Selector & Controls -->
+          <div class="bg-slate-950/60 p-2.5 rounded-xl border border-slate-800/80 flex flex-col gap-2">
+            <div>
+              <label class="text-[10.5px] font-bold text-slate-400 block mb-1">১. ক্যাটাগরি নির্বাচন করুন:</label>
+              <select id="admin-inline-category-select" class="modal-input text-xs font-bold cursor-pointer">
+                <!-- Populated dynamically -->
+              </select>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 rounded-xl bg-slate-900 border border-slate-700/80 flex items-center justify-center overflow-hidden flex-shrink-0 p-1">
+                <img id="admin-preview-category-img" src="./assets/category-logos/sports-channels.svg" alt="Preview" class="w-full h-full object-contain" />
+              </div>
+              <div class="flex-1 min-w-0 flex flex-col gap-1.5">
+                <div class="flex items-center gap-1.5">
+                  <input type="url" id="admin-inline-category-img-url" class="modal-input text-xs flex-1" placeholder="ইমেজ লিংক (URL) পেস্ট করুন" />
+                  <label for="admin-inline-category-file-input" class="px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-purple-400 text-xs font-bold cursor-pointer transition border border-slate-700 flex items-center gap-1 flex-shrink-0" title="ডিভাইস থেকে ছবি আপলোড করুন">
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                    <span>আপলোড</span>
+                  </label>
+                  <input type="file" id="admin-inline-category-file-input" accept="image/*" class="hidden" />
+                </div>
+                <div class="flex items-center gap-2">
+                  <button type="button" id="btn-admin-save-inline-category-img" class="flex-1 py-1 px-2.5 rounded-lg bg-gradient-to-r from-purple-500 to-indigo-600 hover:from-purple-400 hover:to-indigo-500 text-white font-extrabold text-[11px] flex items-center justify-center gap-1 transition">
+                    <i class="fa-solid fa-check"></i> সেভ করুন
+                  </button>
+                  <button type="button" id="btn-admin-reset-inline-category-img" class="py-1 px-2.5 rounded-lg bg-slate-800 hover:bg-rose-500/20 text-slate-300 hover:text-rose-400 text-[11px] font-bold transition flex items-center justify-center gap-1 border border-slate-700">
+                    <i class="fa-solid fa-rotate-left"></i> রিসেট
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section B.2: Sports Categories Logo Controls (Navigation Bar Sports) -->
+        <div class="p-3 rounded-xl bg-slate-900/80 border border-emerald-500/30 flex flex-col gap-2.5">
+          <div class="flex items-center justify-between gap-2">
+            <div class="flex items-center gap-2.5 min-w-0">
+              <div class="w-10 h-10 rounded-xl bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center text-emerald-400 font-bold text-base flex-shrink-0">
+                <i class="fa-solid fa-shapes"></i>
+              </div>
+              <div class="min-w-0">
+                <h4 class="text-xs font-bold text-white truncate">স্পোর্টস ক্যাটাগরি লোগো</h4>
+                <p class="text-[10.5px] text-slate-400 mt-0.5">নেভিগেশন বারের 'স্পোর্টস' পেজের ভেতরের সব ক্যাটাগরি লোগো এডিট করুন</p>
+              </div>
+            </div>
+            <span id="badge-sports-logo-count" class="text-[10px] px-2 py-0.5 rounded-full font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30">15 Sports</span>
+          </div>
+
+          <!-- Quick Inline Sports Category Selector & Controls -->
+          <div class="bg-slate-950/60 p-2.5 rounded-xl border border-slate-800/80 flex flex-col gap-2">
+            <div>
+              <label class="text-[10.5px] font-bold text-slate-400 block mb-1">১. স্পোর্টস ক্যাটাগরি নির্বাচন করুন:</label>
+              <select id="admin-inline-sports-category-select" class="modal-input text-xs font-bold cursor-pointer">
+                <!-- Populated dynamically with all Sports categories -->
+              </select>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 rounded-xl bg-slate-900 border border-emerald-500/40 flex items-center justify-center overflow-hidden flex-shrink-0 p-1">
+                <img id="admin-preview-sports-category-img" src="./assets/category-logos/sports-channels.svg" alt="Preview" class="w-full h-full object-contain" />
+              </div>
+              <div class="flex-1 min-w-0 flex flex-col gap-1.5">
+                <div class="flex items-center gap-1.5">
+                  <input type="url" id="admin-inline-sports-category-img-url" class="modal-input text-xs flex-1" placeholder="ইমেজ লিংক (URL) পেস্ট করুন" />
+                  <label for="admin-inline-sports-category-file-input" class="px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-emerald-400 text-xs font-bold cursor-pointer transition border border-slate-700 flex items-center gap-1 flex-shrink-0" title="ডিভাইস থেকে ছবি আপলোড করুন">
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                    <span>আপলোড</span>
+                  </label>
+                  <input type="file" id="admin-inline-sports-category-file-input" accept="image/*" class="hidden" />
+                </div>
+                <div class="flex items-center gap-2">
+                  <button type="button" id="btn-admin-save-inline-sports-category-img" class="flex-1 py-1 px-2.5 rounded-lg bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-400 hover:to-teal-500 text-slate-950 font-extrabold text-[11px] flex items-center justify-center gap-1 transition">
+                    <i class="fa-solid fa-check"></i> সেভ করুন
+                  </button>
+                  <button type="button" id="btn-admin-reset-inline-sports-category-img" class="py-1 px-2.5 rounded-lg bg-slate-800 hover:bg-rose-500/20 text-slate-300 hover:text-rose-400 text-[11px] font-bold transition flex items-center justify-center gap-1 border border-slate-700">
+                    <i class="fa-solid fa-rotate-left"></i> রিসেট
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-3 rounded-xl bg-slate-900/80 border border-slate-800 flex flex-col gap-2.5">
+          <div class="flex items-center justify-between gap-2">
+            <div class="flex items-center gap-2.5 min-w-0">
+              <div class="w-10 h-10 rounded-xl bg-amber-500/15 border border-amber-500/30 flex items-center justify-center text-amber-400 font-bold text-base flex-shrink-0">
+                <i class="fa-solid fa-spinner"></i>
+              </div>
+              <div class="min-w-0">
+                <h4 class="text-xs font-bold text-white truncate">লোডিং পেজ (Splash Page) ইমেজ</h4>
+                <p class="text-[10.5px] text-slate-400 mt-0.5">অ্যাপ খোলার সময় মাঝের লোগো বা ছবি পরিবর্তন করুন</p>
+              </div>
+            </div>
+            <span id="badge-loading-img-status" class="text-[10px] px-2 py-0.5 rounded-full font-bold bg-slate-800 text-slate-400">Default</span>
+          </div>
+
+          <div class="flex items-center gap-3 bg-slate-950/60 p-2 rounded-xl border border-slate-800/80">
+            <div class="w-12 h-12 rounded-xl bg-slate-900 border border-slate-700/80 flex items-center justify-center overflow-hidden flex-shrink-0 p-1">
+              <img id="admin-preview-splash-img" src="/highfy_logo_official.svg" alt="Splash Preview" class="w-full h-full object-contain" />
+            </div>
+            <div class="flex-1 min-w-0 flex flex-col gap-1.5">
+              <div class="flex items-center gap-1.5">
+                <input type="url" id="admin-splash-img-url" class="modal-input text-xs flex-1" placeholder="ইমেজ লিংক (URL) পেস্ট করুন" />
+                <label for="admin-splash-file-input" class="px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-sky-400 text-xs font-bold cursor-pointer transition border border-slate-700 flex items-center gap-1 flex-shrink-0" title="ডিভাইস থেকে ছবি আপলোড করুন">
+                  <i class="fa-solid fa-cloud-arrow-up"></i>
+                  <span>আপলোড</span>
+                </label>
+                <input type="file" id="admin-splash-file-input" accept="image/*" class="hidden" />
+              </div>
+              <div class="flex items-center gap-2">
+                <button type="button" id="btn-admin-save-splash-img" class="flex-1 py-1 px-2.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 font-extrabold text-[11px] flex items-center justify-center gap-1 transition">
+                  <i class="fa-solid fa-check"></i> সেভ করুন
+                </button>
+                <button type="button" id="btn-admin-reset-splash-img" class="py-1 px-2.5 rounded-lg bg-slate-800 hover:bg-rose-500/20 text-slate-300 hover:text-rose-400 text-[11px] font-bold transition flex items-center justify-center gap-1 border border-slate-700">
+                  <i class="fa-solid fa-rotate-left"></i> রিসেট
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section D: Slide Menu (Drawer) Logo & Image -->
+        <div class="p-3 rounded-xl bg-slate-900/80 border border-slate-800 flex flex-col gap-2.5">
+          <div class="flex items-center justify-between gap-2">
+            <div class="flex items-center gap-2.5 min-w-0">
+              <div class="w-10 h-10 rounded-xl bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center text-emerald-400 font-bold text-base flex-shrink-0">
+                <i class="fa-solid fa-bars-staggered"></i>
+              </div>
+              <div class="min-w-0">
+                <h4 class="text-xs font-bold text-white truncate">স্লাইড মেনু (Side Drawer) ইমেজ</h4>
+                <p class="text-[10.5px] text-slate-400 mt-0.5">বামপাশের স্লাইড মেনুর উপরের ব্র্যান্ড লোগো পরিবর্তন করুন</p>
+              </div>
+            </div>
+            <span id="badge-drawer-img-status" class="text-[10px] px-2 py-0.5 rounded-full font-bold bg-slate-800 text-slate-400">Default</span>
+          </div>
+
+          <div class="flex items-center gap-3 bg-slate-950/60 p-2 rounded-xl border border-slate-800/80">
+            <div class="w-12 h-12 rounded-xl bg-slate-900 border border-slate-700/80 flex items-center justify-center overflow-hidden flex-shrink-0 p-1">
+              <img id="admin-preview-drawer-img" src="/highfy_logo_official.svg" alt="Drawer Preview" class="w-full h-full object-contain" />
+            </div>
+            <div class="flex-1 min-w-0 flex flex-col gap-1.5">
+              <div class="flex items-center gap-1.5">
+                <input type="url" id="admin-drawer-img-url" class="modal-input text-xs flex-1" placeholder="ইমেজ লিংক (URL) পেস্ট করুন" />
+                <label for="admin-drawer-file-input" class="px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-emerald-400 text-xs font-bold cursor-pointer transition border border-slate-700 flex items-center gap-1 flex-shrink-0" title="ডিভাইস থেকে ছবি আপলোড করুন">
+                  <i class="fa-solid fa-cloud-arrow-up"></i>
+                  <span>আপলোড</span>
+                </label>
+                <input type="file" id="admin-drawer-file-input" accept="image/*" class="hidden" />
+              </div>
+              <div class="flex items-center gap-2">
+                <button type="button" id="btn-admin-save-drawer-img" class="flex-1 py-1 px-2.5 rounded-lg bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-extrabold text-[11px] flex items-center justify-center gap-1 transition">
+                  <i class="fa-solid fa-check"></i> সেভ করুন
+                </button>
+                <button type="button" id="btn-admin-reset-drawer-img" class="py-1 px-2.5 rounded-lg bg-slate-800 hover:bg-rose-500/20 text-slate-300 hover:text-rose-400 text-[11px] font-bold transition flex items-center justify-center gap-1 border border-slate-700">
+                  <i class="fa-solid fa-rotate-left"></i> রিসেট
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Customized Logos List with Individual Delete Buttons -->
+        <div class="mt-1 pt-2 border-t border-slate-800 flex flex-col gap-1.5">
+          <div class="flex items-center justify-between">
+            <span class="text-[11px] font-bold text-slate-300 flex items-center gap-1.5">
+              <i class="fa-solid fa-images text-purple-400"></i> কাস্টম ইমেজ তালিকা (<span id="admin-custom-logos-count">0</span>)
+            </span>
+          </div>
+          <div id="admin-custom-logos-list" class="max-h-32 overflow-y-auto space-y-1.5 pr-1 text-xs">
+            <!-- Dynamic list of customized logos with delete buttons -->
+          </div>
+        </div>
+
+        <!-- Fast Quick Reset All Custom Images -->
+        <div class="pt-1">
+          <button type="button" id="btn-admin-reset-all-images" class="w-full py-2.5 px-3 rounded-xl bg-rose-500/10 hover:bg-rose-500/20 text-rose-400 border border-rose-500/30 text-xs font-bold transition flex items-center justify-center gap-1.5">
+            <i class="fa-solid fa-trash-can"></i> সব কাস্টম ইমেজ রিসেট করুন (Restore Defaults)
+          </button>
+        </div>
+      </div>
+
+      <!-- TAB 4: JSON Sources & Master Reset -->
+      <div id="tab-admin-sources" class="admin-tab-content hidden flex flex-col gap-3">
+        <div class="p-2.5 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-xs text-emerald-300 leading-relaxed">
+          <i class="fa-solid fa-circle-check mr-1"></i> <strong>অনলাইন JSON সোর্স:</strong> রিমোট Raw JSON URL (GitHub Gist, Pastebin বা নিজস্ব সার্ভার) দিয়ে স্বয়ংক্রিয়ভাবে চ্যানেল ও খেলা লোড করুন:
+        </div>
+
+        <div class="modal-input-group">
+          <label class="modal-label flex items-center justify-between">
+            <span>📡 Live TV Channels JSON URL</span>
+            <span class="text-emerald-400 text-[10px] font-semibold">Auto-Sync</span>
+          </label>
+          <input type="url" id="source-channels-url" class="modal-input font-mono text-xs" placeholder="https://raw.githubusercontent.com/.../channels.json" />
+          <p class="text-[10px] text-slate-400 mt-1">সব চ্যানেলের অনলাইন লিংক (ফাঁকা রাখলে লোকাল channels.json লোড হবে)।</p>
+        </div>
+
+        <div class="modal-input-group">
+          <label class="modal-label flex items-center justify-between">
+            <span>🎯 Live Sports Matches JSON URL</span>
+            <span class="text-sky-400 text-[10px] font-semibold">Optional</span>
+          </label>
+          <input type="url" id="source-matches-url" class="modal-input font-mono text-xs" placeholder="https://raw.githubusercontent.com/.../matches.json" />
+          <p class="text-[10px] text-slate-400 mt-1">লাইভ খেলার অনলাইন স্ট্রিম লিংক।</p>
+        </div>
+
+        <!-- Admin PIN Change Option -->
+        <div class="p-2.5 rounded-xl bg-slate-900/60 border border-slate-800 my-0.5">
+          <label class="modal-label flex items-center justify-between mb-1">
+            <span>🔐 Admin PIN পরিবর্তন করুন</span>
+            <span class="text-slate-400 text-[10px]">Default: 1234</span>
+          </label>
+          <input type="password" id="source-new-admin-pin" class="modal-input text-xs" placeholder="নতুন ৪-সংখ্যার পিন দিন (রাখতে চাইলে ফাঁকা রাখুন)" />
+        </div>
+
+        <div class="flex items-center gap-2 pt-1">
+          <button type="button" id="btn-sync-now-stream-source" class="flex-1 py-2.5 px-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-sky-400 text-xs font-bold border border-slate-700 flex items-center justify-center gap-1.5 transition">
+            <i class="fa-solid fa-rotate"></i> Sync Now
+          </button>
+          <button type="button" id="btn-save-stream-source" class="flex-1 py-2.5 px-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold flex items-center justify-center gap-1.5 transition shadow-lg shadow-emerald-900/30">
+            <i class="fa-solid fa-check"></i> Save &amp; Apply
+          </button>
+        </div>
+
+        <!-- Master Delete / Clear All Custom Data -->
+        <div class="p-2.5 rounded-xl bg-rose-500/10 border border-rose-500/30 flex flex-col gap-2 mt-1">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-1.5 text-rose-400 font-bold text-xs">
+              <i class="fa-solid fa-triangle-exclamation"></i>
+              <span>মাস্টার ডিলিট ও অল ক্লিয়ার</span>
+            </div>
+            <span class="text-[9.5px] text-rose-300 bg-rose-500/20 px-1.5 py-0.5 rounded font-mono">Master Reset</span>
+          </div>
+          <p class="text-[10.5px] text-slate-400 leading-snug">সকল কাস্টমাইজ করা চ্যানেল স্ট্রিম, লাইভ ম্যাচ লিংক এবং কাস্টম লোগো একসাথে সম্পূর্ণ মুছে ডিফল্ট করতে নিচের বাটনে চাপ দিন:</p>
+          <button type="button" id="btn-admin-master-clear-all" class="w-full py-2 px-3 rounded-xl bg-rose-600 hover:bg-rose-500 text-white font-bold text-xs flex items-center justify-center gap-1.5 transition shadow-lg shadow-rose-900/30">
+            <i class="fa-solid fa-trash-can"></i> সব কাস্টম ডেটা ও স্ট্রিম একসাথে মুছুন
+          </button>
+        </div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       17.2 Channel Logo & Real Image Customizer Modal
+       ====================================================================== -->
+  <div id="modal-channel-logo-editor" class="custom-modal-backdrop">
+    <div class="custom-modal-card" style="max-height: 88vh; overflow-y: auto; max-width: 440px;">
+      <div class="modal-header-row">
+        <div class="flex items-center gap-2 min-w-0">
+          <button type="button" class="btn-return-admin-panel py-1.5 px-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-sky-400 text-xs font-bold transition flex items-center gap-1.5 flex-shrink-0" title="এডমিন প্যানেলে ফিরে যান">
+            <i class="fa-solid fa-arrow-left"></i> <span>এডমিন</span>
+          </button>
+          <h3 class="modal-title text-sm truncate"><i class="fa-solid fa-image text-sky-400"></i> চ্যানেল লোগো ও ইমেজ</h3>
+        </div>
+        <button class="modal-close-btn" data-close-modal="modal-channel-logo-editor"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <!-- Channel Selector Dropdown & Filter -->
+      <div class="modal-input-group mb-3">
+        <label class="modal-label flex items-center justify-between">
+          <span>📺 চ্যানেল নির্বাচন করুন:</span>
+          <span id="logo-editor-channel-category" class="text-sky-400 text-[10.5px] font-bold"></span>
+        </label>
+        <select id="logo-editor-channel-select" class="modal-input text-xs font-semibold cursor-pointer">
+          <!-- Dynamic Channel Options -->
+        </select>
+      </div>
+
+      <!-- Big Live Preview of Logo Box -->
+      <div class="p-3.5 rounded-2xl bg-slate-100 dark:bg-slate-900/90 border border-slate-200 dark:border-slate-800 flex flex-col items-center justify-center gap-2 mb-3">
+        <span class="text-[11px] font-bold text-slate-500 dark:text-slate-400">চ্যানেল লোগো প্রিভিউ (Large Logo Box Preview):</span>
+        <div class="channel-logo-wrapper" style="width: 88px; height: 88px; min-width: 88px; min-height: 88px; margin: 4px 0;">
+          <img id="logo-editor-preview-img" src="" alt="Preview" class="channel-logo-img" style="width: 100%; height: 100%; max-width: 100%; max-height: 100%;" />
+        </div>
+        <span id="logo-editor-preview-name" class="text-xs font-extrabold text-slate-800 dark:text-white text-center"></span>
+      </div>
+
+      <!-- Paste Direct Real Image URL -->
+      <div class="modal-input-group mb-3">
+        <label class="modal-label flex items-center justify-between">
+          <span>🔗 রিয়াল ইমেজ লিংক (Direct Image URL)</span>
+          <span class="text-[10px] text-emerald-400 font-semibold">PNG, JPG, SVG, WebP</span>
+        </label>
+        <input type="url" id="logo-editor-url-input" class="modal-input text-xs" placeholder="https://domain.com/channel-logo.png" />
+        <p class="text-[10px] text-slate-400 mt-1">উইকিমিডিয়া, ইমেজইউআর বা যেকোনো ওয়েব ইমেজ লিংক পেস্ট করলে স্বয়ংক্রিয়ভাবে সেট হয়ে যাবে।</p>
+      </div>
+
+      <!-- Or Upload Real Image from Device -->
+      <div class="modal-input-group mb-3">
+        <label class="modal-label flex items-center justify-between">
+          <span>📁 অথবা ডিভাইস থেকে ইমেজ ফাইল আপলোড করুন</span>
+          <span class="text-[10px] text-sky-400">Local Image</span>
+        </label>
+        <input type="file" id="logo-editor-file-input" accept="image/*" class="block w-full text-xs text-slate-400 file:mr-3 file:py-2 file:px-4 file:rounded-xl file:border-0 file:text-xs file:font-bold file:bg-sky-500/20 file:text-sky-300 hover:file:bg-sky-500/30 cursor-pointer bg-slate-900 border border-slate-700/60 rounded-xl p-1" />
+      </div>
+
+      <!-- Quick Preset High-Res Channels Logos -->
+      <div class="mb-3">
+        <label class="modal-label text-[11px] mb-1.5 block">⚡ জনপ্রিয় রিয়াল লোগো প্রিসেট (Quick Real Logos):</label>
+        <div class="flex flex-wrap gap-1.5" id="logo-editor-quick-presets">
+          <!-- Dynamic preset chips -->
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="flex items-center gap-2 pt-2 border-t border-slate-200 dark:border-slate-800">
+        <button id="btn-logo-editor-reset" class="py-2.5 px-3 rounded-xl bg-slate-200 dark:bg-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700 text-rose-500 dark:text-rose-400 text-xs font-bold transition flex items-center gap-1">
+          <i class="fa-solid fa-rotate-left"></i> রিসেট
+        </button>
+        <button id="btn-logo-editor-save" class="flex-1 py-2.5 px-3 rounded-xl bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-400 hover:to-blue-500 text-white text-xs font-extrabold flex items-center justify-center gap-1.5 transition shadow-lg shadow-sky-500/20">
+          <i class="fa-solid fa-floppy-disk"></i> সেভ করুন (Save Image)
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       17.3 Category Logo & Image Customizer Modal
+       ====================================================================== -->
+  <div id="modal-category-logo-editor" class="custom-modal-backdrop">
+    <div class="custom-modal-card" style="max-height: 88vh; overflow-y: auto; max-width: 440px;">
+      <div class="modal-header-row">
+        <div class="flex items-center gap-2 min-w-0">
+          <button type="button" class="btn-return-admin-panel py-1.5 px-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-purple-400 text-xs font-bold transition flex items-center gap-1.5 flex-shrink-0" title="এডমিন প্যানেলে ফিরে যান">
+            <i class="fa-solid fa-arrow-left"></i> <span>এডমিন</span>
+          </button>
+          <h3 class="modal-title text-sm truncate"><i class="fa-solid fa-layer-group text-purple-400"></i> ক্যাটাগরি ইমেজ ও লোগো</h3>
+        </div>
+        <button class="modal-close-btn" data-close-modal="modal-category-logo-editor"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <!-- Category Selector Dropdown -->
+      <div class="modal-input-group mb-3">
+        <label class="modal-label flex items-center justify-between">
+          <span>📁 ক্যাটাগরি নির্বাচন করুন:</span>
+          <span id="cat-logo-editor-channels-count" class="text-sky-400 text-[10.5px] font-bold"></span>
+        </label>
+        <select id="cat-logo-editor-select" class="modal-input text-xs font-semibold cursor-pointer">
+          <!-- Dynamic Category Options -->
+        </select>
+      </div>
+
+      <!-- Category Logo Live Preview -->
+      <div class="p-3.5 rounded-2xl bg-slate-100 dark:bg-slate-900/90 border border-slate-200 dark:border-slate-800 flex flex-col items-center justify-center gap-2 mb-3">
+        <span class="text-[11px] font-bold text-slate-500 dark:text-slate-400">ক্যাটাগরি লোগো প্রিভিউ (Live Preview):</span>
+        <div class="category-logo-raised" id="cat-logo-editor-preview-raised" style="width: 58px; height: 58px; min-width: 58px; min-height: 58px; margin: 4px 0;">
+          <img id="cat-logo-editor-preview-img" src="" alt="Preview" class="category-logo-img" style="width: 44px; height: 44px; max-width: 44px; max-height: 44px;" />
+          <i id="cat-logo-editor-preview-icon" class="fa-solid fa-tv category-logo-icon" style="display:none; font-size: 24px;"></i>
+        </div>
+        <span id="cat-logo-editor-preview-name" class="text-xs font-extrabold text-slate-800 dark:text-white text-center"></span>
+      </div>
+
+      <!-- Paste Direct Image URL -->
+      <div class="modal-input-group mb-3">
+        <label class="modal-label flex items-center justify-between">
+          <span>🔗 ইমেজ লিংক দিন (Direct Image URL)</span>
+          <span class="text-[10px] text-emerald-400 font-semibold">SVG, PNG, JPG, WebP</span>
+        </label>
+        <input type="url" id="cat-logo-editor-url-input" class="modal-input text-xs" placeholder="https://domain.com/category-logo.svg" />
+        <p class="text-[10px] text-slate-400 mt-1">যেকোনো ওয়েব ইমেজ বা উইকিমিডিয়া SVG/PNG লিংক পেস্ট করুন।</p>
+      </div>
+
+      <!-- Upload Local Image from Device -->
+      <div class="modal-input-group mb-3">
+        <label class="modal-label flex items-center justify-between">
+          <span>📁 অথবা ডিভাইস থেকে ইমেজ ফাইল আপলোড করুন</span>
+          <span class="text-[10px] text-sky-400">Device File</span>
+        </label>
+        <input type="file" id="cat-logo-editor-file-input" accept="image/*" class="block w-full text-xs text-slate-400 file:mr-3 file:py-2 file:px-4 file:rounded-xl file:border-0 file:text-xs file:font-bold file:bg-sky-500/20 file:text-sky-300 hover:file:bg-sky-500/30 cursor-pointer bg-slate-900 border border-slate-700/60 rounded-xl p-1" />
+      </div>
+
+      <!-- Quick Preset HD Icons & Logos -->
+      <div class="mb-3">
+        <label class="modal-label text-[11px] mb-1.5 block">⚡ জনপ্রিয় রিয়াল ক্যাটাগরি প্রিসেট (Quick Real Presets):</label>
+        <div class="flex flex-wrap gap-1.5" id="cat-logo-editor-quick-presets">
+          <!-- Dynamic preset chips -->
+        </div>
+      </div>
+
+      <!-- Ring Color Selector (Optional Styling) -->
+      <div class="modal-input-group mb-3">
+        <label class="modal-label flex items-center justify-between">
+          <span>🎨 রিং ও গ্লো কালার (Ring / Glow Color)</span>
+          <span class="text-[10px] text-slate-400">Optional 3D Ring</span>
+        </label>
+        <div class="flex items-center gap-2">
+          <input type="color" id="cat-logo-editor-ring-color" value="#0284c7" class="w-9 h-9 rounded-xl border border-slate-700 cursor-pointer bg-transparent p-0.5" />
+          <div class="flex flex-wrap gap-1.5 flex-1" id="cat-logo-editor-color-presets">
+            <button type="button" class="w-6 h-6 rounded-full border border-white/20 cursor-pointer" style="background:#0284c7;" data-color="#0284c7" title="Sky Blue"></button>
+            <button type="button" class="w-6 h-6 rounded-full border border-white/20 cursor-pointer" style="background:#059669;" data-color="#059669" title="Emerald Green"></button>
+            <button type="button" class="w-6 h-6 rounded-full border border-white/20 cursor-pointer" style="background:#eab308;" data-color="#eab308" title="Gold Yellow"></button>
+            <button type="button" class="w-6 h-6 rounded-full border border-white/20 cursor-pointer" style="background:#ef4444;" data-color="#ef4444" title="Crimson Red"></button>
+            <button type="button" class="w-6 h-6 rounded-full border border-white/20 cursor-pointer" style="background:#ec4899;" data-color="#ec4899" title="Pink"></button>
+            <button type="button" class="w-6 h-6 rounded-full border border-white/20 cursor-pointer" style="background:#8b5cf6;" data-color="#8b5cf6" title="Purple"></button>
+            <button type="button" class="w-6 h-6 rounded-full border border-white/20 cursor-pointer" style="background:#f97316;" data-color="#f97316" title="Orange"></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="flex items-center gap-2 pt-2 border-t border-slate-200 dark:border-slate-800">
+        <button id="btn-cat-logo-editor-reset" class="py-2.5 px-3 rounded-xl bg-slate-200 dark:bg-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700 text-rose-500 dark:text-rose-400 text-xs font-bold transition flex items-center gap-1">
+          <i class="fa-solid fa-rotate-left"></i> রিসেট (Reset)
+        </button>
+        <button id="btn-cat-logo-editor-save" class="flex-1 py-2.5 px-3 rounded-xl bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-400 hover:to-blue-500 text-white text-xs font-extrabold flex items-center justify-center gap-1.5 transition shadow-lg shadow-sky-500/20">
+          <i class="fa-solid fa-floppy-disk"></i> সেভ করুন (Save Category Image)
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       17. Settings Modal (API Keys & Preferences)
+       ====================================================================== -->
+  <div id="modal-settings" class="custom-modal-backdrop">
+    <div class="custom-modal-card" style="max-height: 85vh; overflow-y: auto;">
+      <div class="modal-header-row">
+        <h3 class="modal-title"><i class="fa-solid fa-gear text-sky-400"></i> App Settings</h3>
+        <button class="modal-close-btn" data-close-modal="modal-settings"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <div class="p-2.5 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs flex items-center justify-between mb-3">
+        <div class="flex items-center gap-2">
+          <i class="fa-solid fa-shield-halved text-sm"></i>
+          <span><strong>API Key Security:</strong> Server-Side Proxy Active</span>
+        </div>
+        <span class="text-[10px] px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 font-bold">SECURED</span>
+      </div>
+      
+      <div class="modal-input-group">
+        <label class="modal-label flex items-center justify-between">
+          <span>⚡ RapidAPI Key (SofaScore & Cricbuzz)</span>
+          <div class="flex items-center gap-2">
+            <button type="button" id="btn-clear-rapidapi" class="text-[11px] font-semibold text-rose-400 hover:text-rose-300 bg-rose-500/10 hover:bg-rose-500/20 px-2 py-0.5 rounded border border-rose-500/30 transition-colors">Clear</button>
+            <button type="button" id="btn-test-rapidapi" class="text-[11px] font-semibold text-emerald-400 hover:text-emerald-300 bg-emerald-500/10 hover:bg-emerald-500/20 px-2 py-0.5 rounded border border-emerald-500/30 transition-colors">Test Key</button>
+            <a href="https://rapidapi.com/" target="_blank" class="text-sky-400 text-[10px] underline">RapidAPI Hub</a>
+          </div>
+        </label>
+        <div class="relative flex items-center">
+          <input type="password" id="setting-rapidapi-key" class="modal-input pr-9" placeholder="Paste your RapidAPI key (x-rapidapi-key)" />
+          <button type="button" class="absolute right-2.5 text-slate-400 hover:text-slate-200 text-xs toggle-token-vis" data-target="setting-rapidapi-key">
+            <i class="fa-solid fa-eye"></i>
+          </button>
+        </div>
+        <div id="rapidapi-test-result" class="hidden text-[11px] mt-1.5 p-2 rounded-lg border font-medium"></div>
+        <p class="text-[10px] text-slate-400 mt-1">This single RapidAPI key powers SofaScore (live football, tennis, basketball scores & H2H) and Cricbuzz (ICC, IPL, BPL cricket).</p>
+      </div>
+
+      <div class="p-2.5 rounded-xl bg-slate-800/60 border border-slate-700/60 text-xs flex items-center justify-between mb-3">
+        <div class="flex items-center gap-2">
+          <i class="fa-solid fa-trophy text-amber-400 text-sm"></i>
+          <span class="text-slate-200"><strong>TheSportsDB:</strong> Free Multi-Sport Fixtures Active</span>
+        </div>
+        <span class="text-[10px] px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400 font-bold">READY</span>
+      </div>
+
+      <div class="modal-input-group">
+        <label class="modal-label">🤼 WWE Events Data Feed URL</label>
+        <input type="text" id="setting-wwe-url" class="modal-input" placeholder="https://example.com/wwe-events.json" />
+        <p class="text-[10px] text-slate-400 mt-1">Custom JSON feed URL for WWE schedules (Optional).</p>
+      </div>
+
+      <div class="p-2.5 rounded-xl bg-sky-500/10 border border-sky-500/20 text-sky-300 text-[11px] flex items-center gap-2 mb-2">
+        <i class="fa-brands fa-github text-base"></i>
+        <span><strong>GitHub Actions Auto-Sync:</strong> Your API keys can also be saved in GitHub Repository Secrets to keep them 100% private.</span>
+      </div>
+
+      <div class="flex items-center justify-between py-2 border-t border-slate-800">
+        <div>
+          <span class="text-xs font-semibold text-slate-300 flex items-center gap-1.5">
+            <i class="fa-solid fa-satellite-dish text-rose-400"></i> Automatic Match Notifications
+          </span>
+          <p class="text-[10px] text-slate-400">Alerts & sound when sports matches go LIVE.</p>
+        </div>
+        <input type="checkbox" id="setting-auto-match-notifications" class="w-4 h-4 accent-rose-500" checked />
+      </div>
+
+      <div class="flex items-center justify-between py-2 border-t border-slate-800">
+        <span class="text-xs font-semibold text-slate-300">Auto Refresh Live Scores (30s-60s)</span>
+        <input type="checkbox" id="setting-auto-refresh" class="w-4 h-4 accent-sky-500" checked />
+      </div>
+
+      <div class="flex items-center justify-between py-2 border-t border-slate-800">
+        <span class="text-xs font-semibold text-slate-300">Force Low Quality (Data Saver)</span>
+        <input type="checkbox" id="setting-low-quality" class="w-4 h-4 accent-sky-500" />
+      </div>
+
+      <div class="flex items-center justify-between py-2 border-t border-slate-800">
+        <div>
+          <span class="text-xs font-semibold text-slate-300 flex items-center gap-1.5">
+            <i class="fa-solid fa-tv text-emerald-400"></i> Android TV / Remote Control Mode
+          </span>
+          <p class="text-[10px] text-slate-400">Enables D-Pad spatial navigation, highlighted remote focus & TV layout.</p>
+        </div>
+        <input type="checkbox" id="setting-tv-mode" class="w-4 h-4 accent-emerald-500" />
+      </div>
+
+      <button id="btn-save-settings" class="btn-primary mt-2">
+        <i class="fa-solid fa-check"></i> Save Settings
+      </button>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       18. Scoreboard Modal (Cricket / Football)
+       ====================================================================== -->
+  <div id="modal-scoreboard" class="custom-modal-backdrop">
+    <div class="custom-modal-card" style="max-width: 400px;">
+      <div class="modal-header-row">
+        <h3 class="modal-title" id="scoreboard-modal-title"><i class="fa-solid fa-trophy text-amber-400"></i> Live Scoreboard</h3>
+        <button class="modal-close-btn" data-close-modal="modal-scoreboard"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div id="scoreboard-modal-content" class="flex flex-col gap-2 max-h-[60vh] overflow-y-auto">
+        <!-- Live score data -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       19. About App Modal
+       ====================================================================== -->
+  <div id="modal-about" class="custom-modal-backdrop">
+    <div class="custom-modal-card" style="max-width: 420px; max-height: 85vh; overflow-y: auto;">
+      <div class="modal-header-row">
+        <h3 class="modal-title"><i class="fa-solid fa-circle-info text-sky-400"></i> About HighFy TV</h3>
+        <button class="modal-close-btn" data-close-modal="modal-about"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="flex flex-col items-center text-center gap-2 py-3 border-b border-slate-200 dark:border-slate-800">
+        <div class="w-24 h-24 overflow-hidden flex items-center justify-center">
+          <img src="/src/assets/images/highfy_clean_badge.png" alt="HighFy TV Logo" class="w-full h-full object-contain" referrerpolicy="no-referrer" />
+        </div>
+        <h4 class="text-base font-extrabold text-slate-800 dark:text-white">HighFy TV</h4>
+        <span class="text-xs font-bold px-2.5 py-0.5 rounded-full bg-sky-500/15 text-sky-600 dark:text-sky-400 border border-sky-500/25">Version: 1.0</span>
+      </div>
+      <div class="text-xs text-slate-600 dark:text-slate-300 space-y-2.5 leading-relaxed pt-1">
+        <p><strong>HighFy TV</strong> is a next-generation live sports streaming and match center application built for fast, low-latency playback of live cricket, football, WWE, and television channels.</p>
+        <div class="p-2.5 rounded-xl bg-slate-100 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700/60 space-y-1.5">
+          <div class="flex items-center justify-between text-[11px]">
+            <span class="text-slate-500 dark:text-slate-400">Streaming Engine:</span>
+            <span class="font-bold text-sky-600 dark:text-sky-400">HLS.js Ultra Low-Latency</span>
+          </div>
+          <div class="flex items-center justify-between text-[11px]">
+            <span class="text-slate-500 dark:text-slate-400">Live Feeds:</span>
+            <span class="font-bold text-emerald-600 dark:text-emerald-400">Real-Time Match Scoreboard</span>
+          </div>
+          <div class="flex items-center justify-between text-[11px]">
+            <span class="text-slate-500 dark:text-slate-400">Multi-Sport:</span>
+            <span class="font-bold text-indigo-600 dark:text-indigo-400">Football, Cricket, WWE</span>
+          </div>
+        </div>
+      </div>
+      <button class="btn-primary mt-2" data-close-modal="modal-about">
+        <i class="fa-solid fa-check"></i> Close
+      </button>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       20. Copyright & DMCA Modal
+       ====================================================================== -->
+  <div id="modal-copyright" class="custom-modal-backdrop">
+    <div class="custom-modal-card" style="max-width: 420px; max-height: 85vh; overflow-y: auto;">
+      <div class="modal-header-row">
+        <h3 class="modal-title"><i class="fa-solid fa-shield-halved text-amber-500"></i> Copyright & DMCA</h3>
+        <button class="modal-close-btn" data-close-modal="modal-copyright"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="text-xs text-slate-600 dark:text-slate-300 space-y-3 leading-relaxed py-2">
+        <div class="p-3 rounded-xl bg-amber-500/10 border border-amber-500/25 text-amber-700 dark:text-amber-300 text-[11px] flex items-start gap-2.5">
+          <i class="fa-solid fa-triangle-exclamation text-base flex-shrink-0 mt-0.5"></i>
+          <span><strong>Disclaimer:</strong> HIGHFY TV does not host, store, or transmit any copyrighted video files or media on its own servers.</span>
+        </div>
+        <p>All video links, broadcast streams, and metadata displayed on this platform are indexed from freely available external sources on the internet.</p>
+        <p>If you are a copyright owner or representative and wish to request removal of an indexed stream link, please contact our support team with valid ownership proof.</p>
+      </div>
+      <button class="btn-primary mt-2" data-close-modal="modal-copyright">
+        <i class="fa-solid fa-check"></i> I Understand
+      </button>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       21. Share App Modal
+       ====================================================================== -->
+  <div id="modal-share" class="custom-modal-backdrop">
+    <div class="custom-modal-card" style="max-width: 400px;">
+      <div class="modal-header-row">
+        <h3 class="modal-title"><i class="fa-solid fa-share-nodes text-fuchsia-500"></i> Share HIGHFY TV</h3>
+        <button class="modal-close-btn" data-close-modal="modal-share"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <p class="text-xs text-slate-600 dark:text-slate-300">Share with friends to watch live sports and channels:</p>
+      <div class="modal-input-group">
+        <div class="relative flex items-center">
+          <input type="text" id="share-link-input" class="modal-input pr-20" readonly />
+          <button type="button" id="btn-copy-share-link" class="absolute right-1 px-3 py-1.5 rounded-lg bg-sky-500 text-white font-bold text-xs hover:bg-sky-600 transition">
+            Copy
+          </button>
+        </div>
+      </div>
+      <div class="grid grid-cols-2 gap-2 mt-1">
+        <button type="button" id="btn-share-telegram" class="p-2.5 rounded-xl bg-sky-500/10 hover:bg-sky-500/20 border border-sky-500/30 text-sky-600 dark:text-sky-400 font-bold text-xs flex items-center justify-center gap-2">
+          <i class="fa-brands fa-telegram text-base"></i> Telegram
+        </button>
+        <button type="button" id="btn-share-whatsapp" class="p-2.5 rounded-xl bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 text-emerald-600 dark:text-emerald-400 font-bold text-xs flex items-center justify-center gap-2">
+          <i class="fa-brands fa-whatsapp text-base"></i> WhatsApp
+        </button>
+      </div>
+      <button type="button" id="btn-share-native" class="w-full mt-2 py-2.5 rounded-xl bg-gradient-to-r from-sky-500 to-indigo-500 text-white font-bold text-xs flex items-center justify-center gap-2 hover:opacity-95 transition" style="display: none;">
+        <i class="fa-solid fa-share-nodes"></i> Share via Apps
+      </button>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       22. Notice & Notification Center Modal (Full Dynamic System)
+       ====================================================================== -->
+  <div id="modal-notice" class="custom-modal-backdrop">
+    <div class="custom-modal-card" style="max-width: 440px; max-height: 88vh; overflow-y: auto;">
+      <div class="modal-header-row">
+        <div class="flex items-center gap-2">
+          <div class="w-8 h-8 rounded-full bg-rose-500/15 border border-rose-500/30 flex items-center justify-center text-rose-400">
+            <i class="fa-solid fa-bell"></i>
+          </div>
+          <div>
+            <h3 class="modal-title text-sm">Notifications &amp; Alerts</h3>
+            <p class="text-[10px] text-slate-400">সব ধরনের খেলার নোটিফিকেশন ও অ্যাপ আপডেট</p>
+          </div>
+        </div>
+        <button class="modal-close-btn" data-close-modal="modal-notice"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <!-- Notification Filter Pills -->
+      <div class="flex items-center justify-between gap-1.5 py-1 px-0.5 mt-1 border-b border-slate-800">
+        <div class="flex items-center gap-1 overflow-x-auto no-scrollbar">
+          <button type="button" class="notif-filter-pill active px-2.5 py-1 rounded-lg text-[11px] font-bold bg-sky-500 text-white transition" data-notif-filter="ALL">সব (All)</button>
+          <button type="button" class="notif-filter-pill px-2.5 py-1 rounded-lg text-[11px] font-bold bg-slate-800 text-slate-400 hover:text-white transition" data-notif-filter="match">⚽ খেলা (Match)</button>
+          <button type="button" class="notif-filter-pill px-2.5 py-1 rounded-lg text-[11px] font-bold bg-slate-800 text-slate-400 hover:text-white transition" data-notif-filter="update">🚀 আপডেট (Update)</button>
+        </div>
+        <button type="button" id="btn-mark-all-notifs-read" class="text-[10.5px] text-sky-400 hover:text-sky-300 font-bold whitespace-nowrap pl-1">
+          <i class="fa-solid fa-check-double mr-0.5"></i> Mark Read
+        </button>
+      </div>
+
+      <!-- Notification Items Container -->
+      <div id="notification-list-container" class="space-y-2.5 py-2.5 text-xs">
+        <!-- Dynamic Notification Cards Rendered Here -->
+      </div>
+
+      <!-- Automatic Live Match Notifications Setting -->
+      <div class="p-2.5 rounded-xl bg-slate-900/90 border border-slate-800/80 flex items-center justify-between gap-2 mt-1">
+        <div class="flex items-center gap-2 text-[11px] text-slate-300">
+          <i class="fa-solid fa-satellite-dish text-rose-400"></i>
+          <div>
+            <div class="font-bold text-slate-200">অটোমেটিক ম্যাচ নোটিফিকেশন</div>
+            <div class="text-[9.5px] text-slate-400">ম্যাচ শুরু বা লাইভ হলে সরাসরি অ্যালার্ট ও সাউন্ড</div>
+          </div>
+        </div>
+        <label class="relative inline-flex items-center cursor-pointer">
+          <input type="checkbox" id="setting-match-notif-toggle" class="sr-only peer" checked>
+          <div class="w-9 h-5 bg-slate-700 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-rose-600"></div>
+        </label>
+      </div>
+
+      <!-- System Notification Sound / Web Push Opt-in -->
+      <div class="p-2.5 rounded-xl bg-slate-900/90 border border-slate-800/80 flex items-center justify-between gap-2 mt-1">
+        <div class="flex items-center gap-2 text-[11px] text-slate-300">
+          <i class="fa-solid fa-volume-high text-sky-400"></i>
+          <span>নোটিফিকেশন সাউন্ড ও পপআপ</span>
+        </div>
+        <button type="button" id="btn-toggle-browser-notifs" class="text-[10.5px] font-bold py-1 px-2.5 rounded-lg bg-sky-600/30 text-sky-300 border border-sky-500/40 hover:bg-sky-600/50 transition">
+          <i class="fa-solid fa-bell"></i> টেস্ট নোটিফিকেশন
+        </button>
+      </div>
+
+      <button class="btn-primary mt-2" data-close-modal="modal-notice">
+        <i class="fa-solid fa-check"></i> ঠিক আছে (Close)
+      </button>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       23. Join Us Modal
+       ====================================================================== -->
+  <div id="modal-join-us" class="custom-modal-backdrop">
+    <div class="custom-modal-card" style="max-width: 400px;">
+      <div class="modal-header-row">
+        <h3 class="modal-title"><i class="fa-brands fa-telegram text-sky-400"></i> Join Community</h3>
+        <button class="modal-close-btn" data-close-modal="modal-join-us"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="text-center py-3">
+        <div class="w-16 h-16 rounded-2xl bg-sky-500/10 text-sky-400 flex items-center justify-center text-3xl mx-auto mb-2">
+          <i class="fa-brands fa-telegram"></i>
+        </div>
+        <h4 class="font-extrabold text-slate-800 dark:text-white text-base">HIGHFY TV Official Telegram</h4>
+        <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Get instant match links, server updates, and schedule announcements.</p>
+      </div>
+      <a href="https://t.me/highfytv_official" target="_blank" rel="noopener" class="btn-primary flex items-center justify-center gap-2 mb-2" style="text-decoration: none;">
+        <i class="fa-brands fa-telegram text-lg"></i> Open Telegram Channel
+      </a>
+      <button type="button" id="btn-copy-telegram-link" class="w-full py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 font-bold text-xs text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition">
+        <i class="fa-solid fa-copy"></i> Copy Telegram Link
+      </button>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       24. Email Us Modal
+       ====================================================================== -->
+  <div id="modal-email-us" class="custom-modal-backdrop">
+    <div class="custom-modal-card" style="max-width: 400px;">
+      <div class="modal-header-row">
+        <h3 class="modal-title"><i class="fa-solid fa-envelope text-sky-400"></i> Contact &amp; Support</h3>
+        <button class="modal-close-btn" data-close-modal="modal-email-us"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <p class="text-xs text-slate-600 dark:text-slate-300 mb-3">For copyright inquiries, channel requests, or technical support, reach out to our team:</p>
+      <div class="p-3 rounded-xl bg-slate-100 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 flex items-center justify-between mb-3">
+        <span class="text-xs font-mono font-bold text-sky-500">contact@highfytv.live</span>
+        <button type="button" id="btn-copy-support-email" class="px-2.5 py-1 rounded-lg bg-sky-500 text-white font-bold text-[11px]">
+          Copy
+        </button>
+      </div>
+      <a href="mailto:contact@highfytv.live?subject=HighFy%20TV%20Inquiry" class="btn-primary flex items-center justify-center gap-2" style="text-decoration: none;">
+        <i class="fa-solid fa-paper-plane"></i> Send Email
+      </a>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       25. Clear Data Confirmation Modal
+       ====================================================================== -->
+  <div id="modal-clear-data" class="custom-modal-backdrop">
+    <div class="custom-modal-card" style="max-width: 380px;">
+      <div class="modal-header-row">
+        <h3 class="modal-title"><i class="fa-solid fa-trash-can text-red-500"></i> Clear App Data</h3>
+        <button class="modal-close-btn" data-close-modal="modal-clear-data"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <p class="text-xs text-slate-600 dark:text-slate-300 py-2 leading-relaxed">
+        This will clear your saved favorite channels, custom stream history, and reset app preferences to default settings. Are you sure?
+      </p>
+      <div class="grid grid-cols-2 gap-2 mt-2">
+        <button type="button" class="py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 font-bold text-xs text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition" data-close-modal="modal-clear-data">
+          Cancel
+        </button>
+        <button type="button" id="btn-confirm-clear-data" class="py-2.5 rounded-xl bg-red-600 hover:bg-red-700 text-white font-bold text-xs transition flex items-center justify-center gap-1.5">
+          <i class="fa-solid fa-trash-can"></i> Yes, Clear
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       26. Exit Modal
+       ====================================================================== -->
+  <div id="modal-exit" class="custom-modal-backdrop">
+    <div class="custom-modal-card" style="max-width: 380px;">
+      <div class="modal-header-row">
+        <h3 class="modal-title"><i class="fa-solid fa-arrow-right-from-bracket text-red-500"></i> Exit App</h3>
+        <button class="modal-close-btn" data-close-modal="modal-exit"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <p class="text-xs text-slate-600 dark:text-slate-300 py-2">
+        Do you want to close the player and return to the main Live Events screen?
+      </p>
+      <div class="grid grid-cols-2 gap-2 mt-2">
+        <button type="button" class="py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 font-bold text-xs text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition" data-close-modal="modal-exit">
+          Cancel
+        </button>
+        <button type="button" id="btn-confirm-exit" class="py-2.5 rounded-xl bg-red-600 hover:bg-red-700 text-white font-bold text-xs transition flex items-center justify-center gap-1.5">
+          <i class="fa-solid fa-check"></i> Exit
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       27. Playlists Modal
+       ====================================================================== -->
+  <div id="modal-playlists" class="custom-modal-backdrop">
+    <div class="custom-modal-card" style="max-width: 420px; max-height: 85vh; overflow-y: auto;">
+      <div class="modal-header-row">
+        <h3 class="modal-title"><i class="fa-solid fa-list-ul text-sky-400"></i> Channel Playlists</h3>
+        <button class="modal-close-btn" data-close-modal="modal-playlists"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <p class="text-xs text-slate-600 dark:text-slate-300 mb-3">Select a curated playlist or import a custom M3U playlist:</p>
+      <div class="space-y-2">
+        <div class="p-3 rounded-xl bg-slate-100 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 flex items-center justify-between cursor-pointer hover:border-sky-500 transition" id="playlist-quick-sports">
+          <div class="flex items-center gap-2.5">
+            <div class="w-8 h-8 rounded-lg bg-sky-500/20 text-sky-400 flex items-center justify-center text-sm">
+              <i class="fa-solid fa-trophy"></i>
+            </div>
+            <div>
+              <h5 class="text-xs font-bold text-slate-800 dark:text-white">Sports Ultra Playlist</h5>
+              <span class="text-[10px] text-slate-400">All International HD Sports Channels</span>
+            </div>
+          </div>
+          <span class="text-[11px] text-sky-400 font-bold">Open &rarr;</span>
+        </div>
+
+        <div class="p-3 rounded-xl bg-slate-100 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 flex items-center justify-between cursor-pointer hover:border-sky-500 transition" id="playlist-quick-all">
+          <div class="flex items-center gap-2.5">
+            <div class="w-8 h-8 rounded-lg bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-sm">
+              <i class="fa-solid fa-tv"></i>
+            </div>
+            <div>
+              <h5 class="text-xs font-bold text-slate-800 dark:text-white">Global TV Categories</h5>
+              <span class="text-[10px] text-slate-400">India, Bengali, Pakistan, News &amp; Movies</span>
+            </div>
+          </div>
+          <span class="text-[11px] text-emerald-400 font-bold">Open &rarr;</span>
+        </div>
+      </div>
+
+      <div class="mt-3 pt-3 border-t border-slate-200 dark:border-slate-800">
+        <label class="block text-[11px] font-bold text-slate-700 dark:text-slate-300 mb-1.5">
+          <i class="fa-solid fa-link text-sky-400 mr-1"></i> Custom M3U / Stream Link
+        </label>
+        <div class="flex gap-1.5">
+          <input type="url" id="input-custom-playlist-url" class="modal-input text-xs" placeholder="https://domain.com/playlist.m3u8" />
+          <button type="button" id="btn-load-custom-playlist" class="px-3 py-2 rounded-xl bg-sky-500 hover:bg-sky-600 text-white font-bold text-xs whitespace-nowrap transition">
+            Play
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating In-App Match Alert & Message Broadcast Popup -->
+  <div id="in-app-broadcast-banner" class="in-app-broadcast-banner hidden" role="alert" aria-live="assertive">
+    <div class="in-app-broadcast-card">
+      <div class="in-app-broadcast-icon-wrap" id="broadcast-icon-wrap">
+        <i class="fa-solid fa-futbol text-rose-400" id="broadcast-icon"></i>
+      </div>
+      <div class="in-app-broadcast-content">
+        <div class="in-app-broadcast-header">
+          <span class="in-app-broadcast-badge" id="broadcast-badge">LIVE MATCH</span>
+          <span class="in-app-broadcast-time" id="broadcast-time">Just now</span>
+        </div>
+        <h4 class="in-app-broadcast-title" id="broadcast-title">UEFA Champions League Live</h4>
+        <p class="in-app-broadcast-body" id="broadcast-body">ম্যাচ সরাসরি সম্প্রচার শুরু হয়েছে। এখনই খেলা দেখুন।</p>
+        <div class="in-app-broadcast-actions" id="broadcast-actions">
+          <button type="button" class="btn-broadcast-primary" id="btn-broadcast-action">
+            <i class="fa-solid fa-play"></i>
+            <span id="btn-broadcast-action-text">সরাসরি দেখুন (Watch Live)</span>
+          </button>
+          <button type="button" class="btn-broadcast-secondary" id="btn-broadcast-dismiss">
+            <span>পরবর্তীতে</span>
+          </button>
+        </div>
+      </div>
+      <button type="button" class="in-app-broadcast-close" id="btn-broadcast-close" title="Dismiss">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- ======================================================================
+       22. Script Loading (Strictly loaded in order)
+       ====================================================================== -->
+  <script src="./config.js"></script>
+  <script src="./thesportsdb.js"></script>
+  <script src="./cricket.js"></script>
+  <script src="./sofascore.js"></script>
+  <script src="./wwe.js"></script>
+  <script src="./sports.js"></script>
+  <script src="./tv-remote.js"></script>
+  <script src="./script.js?v=20260915_0201" defer></script>
+</body>
+</html>

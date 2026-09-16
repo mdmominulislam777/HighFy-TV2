@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="48" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="24" y="58" font-family="Arial Black, Impact, sans-serif" font-size="28" font-weight="900" fill="#0284c7">k</text>
+  <text x="40" y="58" font-family="Arial Black, Impact, sans-serif" font-size="28" font-weight="900" fill="#ea580c">i</text>
+  <text x="52" y="58" font-family="Arial Black, Impact, sans-serif" font-size="28" font-weight="900" fill="#ec4899">d</text>
+  <text x="70" y="58" font-family="Arial Black, Impact, sans-serif" font-size="28" font-weight="900" fill="#16a34a">s</text>
+  <path d="M30 68 C42 78 58 78 70 68" stroke="#ef4444" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>

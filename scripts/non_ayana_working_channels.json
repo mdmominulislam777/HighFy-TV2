@@ -1,0 +1,3391 @@
+[
+  {
+    "id": "ch-t-sports",
+    "name": "T Sports",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Cricket",
+      "Football"
+    ],
+    "priority": 1,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/ch-t-sports-bd.svg",
+    "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
+    "streamUrl": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
+    "stream_url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
+    "streams": [
+      {
+        "name": "T Sports (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "T Sports",
+        "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-t-sports-hd",
+    "name": "T Sports HD",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Cricket",
+      "Football"
+    ],
+    "priority": 1,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/ch-t-sports-bd.svg",
+    "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/tracks-v1a1/mono.ts.m3u8",
+    "streamUrl": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/tracks-v1a1/mono.ts.m3u8",
+    "stream_url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/tracks-v1a1/mono.ts.m3u8",
+    "streams": [
+      {
+        "name": "T Sports HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "T Sports HD",
+        "url": "https://live.tsports.com/mobile_hls/tsports_live_1/playlist.m3u8",
+        "quality": "1080p FHD"
+      },
+      {
+        "name": "T Sports HD (Server 2)",
+        "serverLabel": "Server 2",
+        "channelName": "T Sports HD",
+        "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/tracks-v1a1/mono.ts.m3u8",
+        "quality": "720p HD"
+      }
+    ],
+    "backupUrls": [
+      "https://tvsen5.aynaott.com/TnMn5kZz8aLm/tracks-v1a1/mono.ts.m3u8"
+    ],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-deepto-tv",
+    "name": "Deepto TV",
+    "category": "Bengali",
+    "categories": [
+      "LiveTV",
+      "Bengali",
+      "Bangla",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Deepto_TV_logo.svg/320px-Deepto_TV_logo.svg.png",
+    "url": "https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8",
+    "streamUrl": "https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8",
+    "stream_url": "https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8",
+    "streams": [
+      {
+        "name": "Deepto TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Deepto TV",
+        "url": "https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-maasranga-tv-hd",
+    "name": "Maasranga TV HD",
+    "category": "Bengali",
+    "categories": [
+      "LiveTV",
+      "Bengali",
+      "Bangla",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/a/a3/Maasranga_TV_HD_logo.png",
+    "url": "http://tvsen5.aynascope.net/maasrangatv/index.m3u8",
+    "streamUrl": "http://tvsen5.aynascope.net/maasrangatv/index.m3u8",
+    "stream_url": "http://tvsen5.aynascope.net/maasrangatv/index.m3u8",
+    "streams": [
+      {
+        "name": "Maasranga TV HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Maasranga TV HD",
+        "url": "http://mtv.sunplex.live/MAASRANGA-TV/index.m3u8",
+        "quality": "1080p FHD"
+      },
+      {
+        "name": "Maasranga TV HD (Server 2)",
+        "serverLabel": "Server 2",
+        "channelName": "Maasranga TV HD",
+        "url": "http://tvsen5.aynascope.net/maasrangatv/index.m3u8",
+        "quality": "720p HD"
+      },
+      {
+        "name": "Maasranga TV HD (Server 3)",
+        "serverLabel": "Server 3",
+        "channelName": "Maasranga TV HD",
+        "url": "https://tvsen5.aynaott.com/maasrangatv/index.m3u8",
+        "quality": "720p HD"
+      },
+      {
+        "name": "Maasranga TV HD (Server 4)",
+        "serverLabel": "Server 4",
+        "channelName": "Maasranga TV HD",
+        "url": "https://mtv.sunplex.live/MAASRANGA/tracks-v1a1/mono.m3u8",
+        "quality": "720p HD"
+      }
+    ],
+    "backupUrls": [
+      "http://tvsen5.aynascope.net/maasrangatv/index.m3u8",
+      "https://tvsen5.aynaott.com/maasrangatv/index.m3u8",
+      "https://mtv.sunplex.live/MAASRANGA/tracks-v1a1/mono.m3u8"
+    ],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-deshe-bideshe",
+    "name": "Deshe Bideshe",
+    "category": "Bengali",
+    "categories": [
+      "LiveTV",
+      "Bengali",
+      "Bangla",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://pbs.twimg.com/profile_images/739539785304281088/zMwNO936_400x400.jpg",
+    "url": "https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8",
+    "streamUrl": "https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8",
+    "stream_url": "https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8",
+    "streams": [
+      {
+        "name": "Deshe Bideshe (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Deshe Bideshe",
+        "url": "https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-my-tv",
+    "name": "MY TV",
+    "category": "Bengali",
+    "categories": [
+      "LiveTV",
+      "Bengali",
+      "Bangla",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/My%20TV.svg.png",
+    "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8",
+    "streamUrl": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8",
+    "stream_url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8",
+    "streams": [
+      {
+        "name": "MY TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "MY TV",
+        "url": "https://mytvbangla.com/0.m3u8",
+        "quality": "1080p FHD"
+      },
+      {
+        "name": "My TV (Server 2)",
+        "serverLabel": "Server 2",
+        "channelName": "My TV",
+        "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8",
+        "quality": "720p HD"
+      }
+    ],
+    "backupUrls": [
+      "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8"
+    ],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-rajdhani-tv",
+    "name": "Rajdhani TV",
+    "category": "Bengali",
+    "categories": [
+      "LiveTV",
+      "Bengali",
+      "Bangla",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/KECGB54BuUSiBsg_dHyj/posters/58af9c58-ed80-458c-af13-cf381680cec6.png",
+    "url": "https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8",
+    "streamUrl": "https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8",
+    "stream_url": "https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8",
+    "streams": [
+      {
+        "name": "Rajdhani TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Rajdhani TV",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/rajdhani_tv/playlist.m3u8",
+        "quality": "1080p FHD"
+      },
+      {
+        "name": "Rajdhani TV (Server 2)",
+        "serverLabel": "Server 2",
+        "channelName": "Rajdhani TV",
+        "url": "https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8",
+        "quality": "720p HD"
+      }
+    ],
+    "backupUrls": [
+      "https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8"
+    ],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-channel-s",
+    "name": "Channel S",
+    "category": "Bengali",
+    "categories": [
+      "LiveTV",
+      "Bengali",
+      "Bangla",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/WyPuDJsBEef-9-uVUA_z/posters/ea20055c-a824-443c-8083-ce8e2da8b922.png",
+    "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8",
+    "streamUrl": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8",
+    "stream_url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Channel S (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Channel S",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/channel_s_tv/playlist.m3u8",
+        "quality": "1080p FHD"
+      },
+      {
+        "name": "Channel S (Server 2)",
+        "serverLabel": "Server 2",
+        "channelName": "Channel S",
+        "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8",
+        "quality": "720p HD"
+      }
+    ],
+    "backupUrls": [
+      "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8"
+    ],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-ananda-tv",
+    "name": "Ananda TV",
+    "category": "Bengali",
+    "categories": [
+      "LiveTV",
+      "Bengali",
+      "Bangla",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/wCM3l5sBEef-9-uVXFvD/posters/d80f7aee-5bd7-4edc-97eb-ead0e3ebbe09.png",
+    "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/live-orgin/anandatv.stream/playlist.m3u8",
+    "streamUrl": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/live-orgin/anandatv.stream/playlist.m3u8",
+    "stream_url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/live-orgin/anandatv.stream/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Ananda TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Ananda TV",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/anandatv/playlist.m3u8",
+        "quality": "1080p FHD"
+      },
+      {
+        "name": "Ananda TV (Server 2)",
+        "serverLabel": "Server 2",
+        "channelName": "Ananda TV",
+        "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/live-orgin/anandatv.stream/playlist.m3u8",
+        "quality": "720p HD"
+      }
+    ],
+    "backupUrls": [
+      "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/live-orgin/anandatv.stream/playlist.m3u8"
+    ],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-cartoon-network",
+    "name": "Cartoon Network",
+    "category": "Kids",
+    "categories": [
+      "LiveTV",
+      "Kids",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/320px-Cartoon_Network_2010_logo.svg.png",
+    "url": "https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8",
+    "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8",
+    "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8",
+    "streams": [
+      {
+        "name": "Cartoon Network (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Cartoon Network",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/cartoon_network_sd/playlist.m3u8",
+        "quality": "1080p FHD"
+      },
+      {
+        "name": "Cartoon Network (Server 2)",
+        "serverLabel": "Server 2",
+        "channelName": "Cartoon Network",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8",
+        "quality": "720p HD"
+      }
+    ],
+    "backupUrls": [
+      "https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8"
+    ],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-star-sports-1-hindi",
+    "name": "Star Sports 1 Hindi",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Cricket",
+      "Kabaddi"
+    ],
+    "priority": 1,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/sports-star-sports-1-hindi.svg",
+    "url": "https://starsportshindiii.pages.dev/index.m3u8",
+    "streamUrl": "https://starsportshindiii.pages.dev/index.m3u8",
+    "stream_url": "https://starsportshindiii.pages.dev/index.m3u8",
+    "streams": [
+      {
+        "name": "Star Sports 1 Hindi (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Star Sports 1 Hindi",
+        "url": "https://cdn6.zohanayaan.com:1686/hls/starhindi.m3u8?md5=3uGoFkUteXHTq00tfl42UA&expires=1787160100",
+        "quality": "1080p FHD"
+      },
+      {
+        "name": "Star Sports-1 Hindi (Server 2)",
+        "serverLabel": "Server 2",
+        "channelName": "Star Sports-1 Hindi",
+        "url": "https://starsportshindiii.pages.dev/index.m3u8",
+        "quality": "720p HD"
+      }
+    ],
+    "backupUrls": [
+      "https://starsportshindiii.pages.dev/index.m3u8"
+    ],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-willow-hd",
+    "name": "Willow HD",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Cricket"
+    ],
+    "priority": 1,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/sports-willow-hd.svg",
+    "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
+    "streamUrl": "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
+    "stream_url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
+    "streams": [
+      {
+        "name": "Willow HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Willow HD",
+        "url": "https://cdn9.zohanayaan.com:1686/hls/willowusa.m3u8?md5=CYVJUG-GwQ16dfctgP2pOw&expires=1787160100",
+        "quality": "1080p FHD"
+      },
+      {
+        "name": "Willow HD (Server 2)",
+        "serverLabel": "Server 2",
+        "channelName": "Willow HD",
+        "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
+        "quality": "720p HD"
+      }
+    ],
+    "backupUrls": [
+      "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8"
+    ],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-boishakhi-tv",
+    "name": "Boishakhi TV",
+    "category": "Entertainment",
+    "categories": [
+      "LiveTV",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8",
+    "streamUrl": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8",
+    "stream_url": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8",
+    "streams": [
+      {
+        "name": "Boishakhi TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Boishakhi TV",
+        "url": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-gazi-tv",
+    "name": "Gazi TV",
+    "category": "Entertainment",
+    "categories": [
+      "LiveTV",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8",
+    "streamUrl": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8",
+    "stream_url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Gazi TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Gazi TV",
+        "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-deshi-tv-720p",
+    "name": "Deshi TV (720p)",
+    "category": "Bengali",
+    "categories": [
+      "LiveTV",
+      "Bengali",
+      "Bangla",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://deshitv.deshitv24.net/live/myStream/playlist.m3u8",
+    "streamUrl": "https://deshitv.deshitv24.net/live/myStream/playlist.m3u8",
+    "stream_url": "https://deshitv.deshitv24.net/live/myStream/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Deshi TV (720p) (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Deshi TV (720p)",
+        "url": "https://deshitv.deshitv24.net/live/myStream/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-rtv-720p",
+    "name": "RTV (720p)",
+    "category": "Bengali",
+    "categories": [
+      "LiveTV",
+      "Bengali",
+      "Bangla",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "http://tvsen5.aynascope.net/RtvHD/index.m3u8",
+    "streamUrl": "http://tvsen5.aynascope.net/RtvHD/index.m3u8",
+    "stream_url": "http://tvsen5.aynascope.net/RtvHD/index.m3u8",
+    "streams": [
+      {
+        "name": "RTV (720p) (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "RTV (720p)",
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/index.m3u8",
+        "quality": "1080p FHD"
+      },
+      {
+        "name": "RTV (720p) (Server 2)",
+        "serverLabel": "Server 2",
+        "channelName": "RTV (720p)",
+        "url": "http://tvsen5.aynascope.net/RtvHD/index.m3u8",
+        "quality": "720p HD"
+      },
+      {
+        "name": "RTV (720p) (Server 3)",
+        "serverLabel": "Server 3",
+        "channelName": "RTV (720p)",
+        "url": "https://tvsen5.aynaott.com/RtvHD/index.m3u8",
+        "quality": "720p HD"
+      }
+    ],
+    "backupUrls": [
+      "http://tvsen5.aynascope.net/RtvHD/index.m3u8",
+      "https://tvsen5.aynaott.com/RtvHD/index.m3u8"
+    ],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-saudia-arabia",
+    "name": "Saudia Arabia",
+    "category": "Entertainment",
+    "categories": [
+      "LiveTV",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/2ad66056b51fd8c1b624854623112e43/index.m3u8",
+    "streamUrl": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/2ad66056b51fd8c1b624854623112e43/index.m3u8",
+    "stream_url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/2ad66056b51fd8c1b624854623112e43/index.m3u8",
+    "streams": [
+      {
+        "name": "Saudia Arabia (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Saudia Arabia",
+        "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/2ad66056b51fd8c1b624854623112e43/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-bbc-cbeebies",
+    "name": "BBC Cbeebies",
+    "category": "Kids",
+    "categories": [
+      "LiveTV",
+      "Kids",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
+    "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
+    "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
+    "streams": [
+      {
+        "name": "BBC Cbeebies (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "BBC Cbeebies",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-pbs-kids",
+    "name": "PBS Kids",
+    "category": "Kids",
+    "categories": [
+      "LiveTV",
+      "Kids",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8",
+    "streamUrl": "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8",
+    "stream_url": "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8",
+    "streams": [
+      {
+        "name": "PBS Kids (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "PBS Kids",
+        "url": "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-al-ekhbaria",
+    "name": "AL EKHBARIA",
+    "category": "Islamic",
+    "categories": [
+      "LiveTV",
+      "Islamic"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://cdn-globecast.akamaized.net/live/eds/al_ekhbariya/hls_roku/index.m3u8",
+    "streamUrl": "https://cdn-globecast.akamaized.net/live/eds/al_ekhbariya/hls_roku/index.m3u8",
+    "stream_url": "https://cdn-globecast.akamaized.net/live/eds/al_ekhbariya/hls_roku/index.m3u8",
+    "streams": [
+      {
+        "name": "AL EKHBARIA (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "AL EKHBARIA",
+        "url": "https://cdn-globecast.akamaized.net/live/eds/al_ekhbariya/hls_roku/index.m3u8",
+        "quality": "1080p FHD"
+      },
+      {
+        "name": "AL EKHBARIA (Server 2)",
+        "serverLabel": "Server 2",
+        "channelName": "AL EKHBARIA",
+        "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/index.m3u8",
+        "quality": "720p HD"
+      }
+    ],
+    "backupUrls": [
+      "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/index.m3u8"
+    ],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-quran-radiotv-smc",
+    "name": "QURAN RADIOTV SMC",
+    "category": "Islamic",
+    "categories": [
+      "LiveTV",
+      "Islamic"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://live.kwikmotion.com/smcquranlive/quranradiolive/playlist.m3u8",
+    "streamUrl": "https://live.kwikmotion.com/smcquranlive/quranradiolive/playlist.m3u8",
+    "stream_url": "https://live.kwikmotion.com/smcquranlive/quranradiolive/playlist.m3u8",
+    "streams": [
+      {
+        "name": "QURAN RADIOTV SMC (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "QURAN RADIOTV SMC",
+        "url": "https://live.kwikmotion.com/smcquranlive/quranradiolive/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-saudi-sunnah",
+    "name": "Saudi Sunnah",
+    "category": "Islamic",
+    "categories": [
+      "LiveTV",
+      "Islamic"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8",
+    "streamUrl": "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8",
+    "stream_url": "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8",
+    "streams": [
+      {
+        "name": "Saudi Sunnah (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Saudi Sunnah",
+        "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-fm-radio",
+    "name": "FM Radio",
+    "category": "Radio",
+    "categories": [
+      "LiveTV",
+      "Radio"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://stream.spicefmbd.com/stream.m3u8",
+    "streamUrl": "https://stream.spicefmbd.com/stream.m3u8",
+    "stream_url": "https://stream.spicefmbd.com/stream.m3u8",
+    "streams": [
+      {
+        "name": "FM Radio (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "FM Radio",
+        "url": "https://stream.spicefmbd.com/stream.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-ntv-720p",
+    "name": "NTV (720p)",
+    "category": "Bengali",
+    "categories": [
+      "LiveTV",
+      "Bengali",
+      "Bangla",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/NTV_Bangladesh_Logo.svg/320px-NTV_Bangladesh_Logo.svg.png",
+    "url": "https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8",
+    "streamUrl": "https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8",
+    "stream_url": "https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8",
+    "streams": [
+      {
+        "name": "NTV (720p) (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "NTV (720p)",
+        "url": "https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-motor-vision",
+    "name": "Motor Vision",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "F1",
+      "Motorsport"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://mvg-mv-xumo.otteravision.com/mvg/mv/mv.m3u8",
+    "streamUrl": "https://mvg-mv-xumo.otteravision.com/mvg/mv/mv.m3u8",
+    "stream_url": "https://mvg-mv-xumo.otteravision.com/mvg/mv/mv.m3u8",
+    "streams": [
+      {
+        "name": "Motor Vision (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Motor Vision",
+        "url": "https://mvg-mv-xumo.otteravision.com/mvg/mv/mv.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-live-quran-tv",
+    "name": "Live Quran TV",
+    "category": "Islamic",
+    "categories": [
+      "LiveTV",
+      "Islamic"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://live.kwikmotion.com/sharjahtvquranlive/shqurantv.smil/playlist.m3u8",
+    "streamUrl": "https://live.kwikmotion.com/sharjahtvquranlive/shqurantv.smil/playlist.m3u8",
+    "stream_url": "https://live.kwikmotion.com/sharjahtvquranlive/shqurantv.smil/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Live Quran TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Live Quran TV",
+        "url": "https://live.kwikmotion.com/sharjahtvquranlive/shqurantv.smil/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-iran-news",
+    "name": "Iran News",
+    "category": "News",
+    "categories": [
+      "LiveTV",
+      "News"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://dev-live.livetvstream.co.uk/LS-63503-4/chunklist_b1196000.m3u8",
+    "streamUrl": "https://dev-live.livetvstream.co.uk/LS-63503-4/chunklist_b1196000.m3u8",
+    "stream_url": "https://dev-live.livetvstream.co.uk/LS-63503-4/chunklist_b1196000.m3u8",
+    "streams": [
+      {
+        "name": "Iran News (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Iran News",
+        "url": "https://dev-live.livetvstream.co.uk/LS-63503-4/chunklist_b1196000.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-al-sunnah-tv",
+    "name": "AL SUNNAH TV",
+    "category": "Islamic",
+    "categories": [
+      "LiveTV",
+      "Islamic"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "http://m.live.net.sa:1935/live/sunnah/playlist.m3u8",
+    "streamUrl": "http://m.live.net.sa:1935/live/sunnah/playlist.m3u8",
+    "stream_url": "http://m.live.net.sa:1935/live/sunnah/playlist.m3u8",
+    "streams": [
+      {
+        "name": "AL SUNNAH TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "AL SUNNAH TV",
+        "url": "http://m.live.net.sa:1935/live/sunnah/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sunnah-tv",
+    "name": "Sunnah Tv",
+    "category": "Islamic",
+    "categories": [
+      "LiveTV",
+      "Islamic"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "http://m.live.net.sa:1935/live/sunnah/chunklist.m3u8?v=1",
+    "streamUrl": "http://m.live.net.sa:1935/live/sunnah/chunklist.m3u8?v=1",
+    "stream_url": "http://m.live.net.sa:1935/live/sunnah/chunklist.m3u8?v=1",
+    "streams": [
+      {
+        "name": "Sunnah Tv (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sunnah Tv",
+        "url": "http://m.live.net.sa:1935/live/sunnah/chunklist.m3u8?v=1",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-quran",
+    "name": "QURAN",
+    "category": "Islamic",
+    "categories": [
+      "LiveTV",
+      "Islamic"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "http://m.live.net.sa:1935/live/quran/playlist.m3u8",
+    "streamUrl": "http://m.live.net.sa:1935/live/quran/playlist.m3u8",
+    "stream_url": "http://m.live.net.sa:1935/live/quran/playlist.m3u8",
+    "streams": [
+      {
+        "name": "QURAN (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "QURAN",
+        "url": "http://m.live.net.sa:1935/live/quran/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-pk-sports-hd",
+    "name": "Pk Sports HD",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/ch-ptv-sports.svg",
+    "url": "https://lbgo.bozztv.com/ssh101/ssh101/pksportshd/playlist.m3u8",
+    "streamUrl": "https://lbgo.bozztv.com/ssh101/ssh101/pksportshd/playlist.m3u8",
+    "stream_url": "https://lbgo.bozztv.com/ssh101/ssh101/pksportshd/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Pk Sports HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Pk Sports HD",
+        "url": "https://lbgo.bozztv.com/ssh101/ssh101/pksportshd/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-arabica-tv",
+    "name": "Arabica TV",
+    "category": "Bengali",
+    "categories": [
+      "LiveTV",
+      "Bengali",
+      "Bangla",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8",
+    "streamUrl": "http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8",
+    "stream_url": "http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Arabica TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Arabica TV",
+        "url": "http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-almasira-mubasher",
+    "name": "ALMASIRA MUBASHER",
+    "category": "Islamic",
+    "categories": [
+      "LiveTV",
+      "Islamic"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://live2.cdnbridge.tv/AlmasirahMubasher/Mubasher_All/playlist.m3u8",
+    "streamUrl": "https://live2.cdnbridge.tv/AlmasirahMubasher/Mubasher_All/playlist.m3u8",
+    "stream_url": "https://live2.cdnbridge.tv/AlmasirahMubasher/Mubasher_All/playlist.m3u8",
+    "streams": [
+      {
+        "name": "ALMASIRA MUBASHER (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "ALMASIRA MUBASHER",
+        "url": "https://live2.cdnbridge.tv/AlmasirahMubasher/Mubasher_All/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-mundial-sports-hd",
+    "name": "Mundial Sports HD",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://s2.bufaloweb.com/bufalo9/tracks-v4a1/mono.ts.m3u8",
+    "streamUrl": "https://s2.bufaloweb.com/bufalo9/tracks-v4a1/mono.ts.m3u8",
+    "stream_url": "https://s2.bufaloweb.com/bufalo9/tracks-v4a1/mono.ts.m3u8",
+    "streams": [
+      {
+        "name": "Mundial Sports HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Mundial Sports HD",
+        "url": "https://s2.bufaloweb.com/bufalo9/tracks-v4a1/mono.ts.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-madani-tv",
+    "name": "Madani Tv",
+    "category": "Islamic",
+    "categories": [
+      "LiveTV",
+      "Islamic"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://streaming.madanichannel.tv/static/streaming-playlists/hls/d3e49b76-ac06-4689-a641-9200445b647f/master.m3u8",
+    "streamUrl": "https://streaming.madanichannel.tv/static/streaming-playlists/hls/d3e49b76-ac06-4689-a641-9200445b647f/master.m3u8",
+    "stream_url": "https://streaming.madanichannel.tv/static/streaming-playlists/hls/d3e49b76-ac06-4689-a641-9200445b647f/master.m3u8",
+    "streams": [
+      {
+        "name": "Madani Tv (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Madani Tv",
+        "url": "https://streaming.madanichannel.tv/static/streaming-playlists/hls/d3e49b76-ac06-4689-a641-9200445b647f/master.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-qaz-sports-hd",
+    "name": "QAZ Sports HD",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "http://stream.mcquack.net/72/index.m3u8",
+    "streamUrl": "http://stream.mcquack.net/72/index.m3u8",
+    "stream_url": "http://stream.mcquack.net/72/index.m3u8",
+    "streams": [
+      {
+        "name": "QAZ Sports HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "QAZ Sports HD",
+        "url": "http://stream.mcquack.net/72/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-peace-tv-bangla",
+    "name": "Peace Tv Bangla",
+    "category": "Islamic",
+    "categories": [
+      "LiveTV",
+      "Islamic"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8?sid=s7AaNdTzDE2912wNcPLejQ",
+    "streamUrl": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8?sid=s7AaNdTzDE2912wNcPLejQ",
+    "stream_url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8?sid=s7AaNdTzDE2912wNcPLejQ",
+    "streams": [
+      {
+        "name": "Peace Tv Bangla (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Peace Tv Bangla",
+        "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8?sid=s7AaNdTzDE2912wNcPLejQ",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-a-spor",
+    "name": "A SPOR",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/ch-a-sports-hd.svg",
+    "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8",
+    "streamUrl": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8",
+    "stream_url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8",
+    "streams": [
+      {
+        "name": "A SPOR (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "A SPOR",
+        "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-ndtv-english",
+    "name": "NDTV English",
+    "category": "News",
+    "categories": [
+      "LiveTV",
+      "News",
+      "World Country",
+      "World"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8",
+    "streamUrl": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8",
+    "stream_url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8",
+    "streams": [
+      {
+        "name": "NDTV English (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "NDTV English",
+        "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-ndtv-hindi",
+    "name": "NDTV Hindi",
+    "category": "News",
+    "categories": [
+      "LiveTV",
+      "News",
+      "World Country",
+      "World"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8",
+    "streamUrl": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8",
+    "stream_url": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8",
+    "streams": [
+      {
+        "name": "NDTV Hindi (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "NDTV Hindi",
+        "url": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-dw-english",
+    "name": "DW English _",
+    "category": "News",
+    "categories": [
+      "LiveTV",
+      "News",
+      "World Country",
+      "World"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
+    "streamUrl": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
+    "stream_url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
+    "streams": [
+      {
+        "name": "DW English _ (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "DW English _",
+        "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
+        "quality": "1080p FHD"
+      },
+      {
+        "name": "DW English (Server 2)",
+        "serverLabel": "Server 2",
+        "channelName": "DW English",
+        "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8?v=1",
+        "quality": "720p HD"
+      }
+    ],
+    "backupUrls": [
+      "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8?v=1"
+    ],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-news-max-2",
+    "name": "News Max 2",
+    "category": "News",
+    "categories": [
+      "LiveTV",
+      "News",
+      "World Country",
+      "World"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8",
+    "streamUrl": "https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8",
+    "stream_url": "https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8",
+    "streams": [
+      {
+        "name": "News Max 2 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "News Max 2",
+        "url": "https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-ndtv-news",
+    "name": "NDTV NEWS",
+    "category": "News",
+    "categories": [
+      "LiveTV",
+      "News",
+      "World Country",
+      "World"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678-b/ndtv24x7/master.m3u8",
+    "streamUrl": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678-b/ndtv24x7/master.m3u8",
+    "stream_url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678-b/ndtv24x7/master.m3u8",
+    "streams": [
+      {
+        "name": "NDTV NEWS (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "NDTV NEWS",
+        "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678-b/ndtv24x7/master.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-dw-news",
+    "name": "DW NEWS",
+    "category": "News",
+    "categories": [
+      "LiveTV",
+      "News",
+      "World Country",
+      "World"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream02/streamPlaylist.m3u8",
+    "streamUrl": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream02/streamPlaylist.m3u8",
+    "stream_url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream02/streamPlaylist.m3u8",
+    "streams": [
+      {
+        "name": "DW NEWS (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "DW NEWS",
+        "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream02/streamPlaylist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-france-24-english-720p",
+    "name": "France 24 English (720p)",
+    "category": "News",
+    "categories": [
+      "LiveTV",
+      "News",
+      "World Country",
+      "World"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_2300.m3u8",
+    "streamUrl": "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_2300.m3u8",
+    "stream_url": "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_2300.m3u8",
+    "streams": [
+      {
+        "name": "France 24 English (720p) (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "France 24 English (720p)",
+        "url": "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_2300.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-france-news-24",
+    "name": "France News 24",
+    "category": "News",
+    "categories": [
+      "LiveTV",
+      "News",
+      "World Country",
+      "World"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8",
+    "streamUrl": "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8",
+    "stream_url": "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8",
+    "streams": [
+      {
+        "name": "France News 24 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "France News 24",
+        "url": "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-cnn-us",
+    "name": "CNN (US)",
+    "category": "News",
+    "categories": [
+      "LiveTV",
+      "News",
+      "World Country",
+      "World"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/320px-CNN.svg.png",
+    "url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8",
+    "streamUrl": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8",
+    "stream_url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8",
+    "streams": [
+      {
+        "name": "CNN (US) (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "CNN (US)",
+        "url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-global-news-us",
+    "name": "Global News (US)",
+    "category": "News",
+    "categories": [
+      "LiveTV",
+      "News",
+      "World Country",
+      "World"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://live.corusdigitaldev.com/groupb/live/3062d0e3-ed4c-4f47-8482-95648250f4b8/live.isml/.m3u8",
+    "streamUrl": "https://live.corusdigitaldev.com/groupb/live/3062d0e3-ed4c-4f47-8482-95648250f4b8/live.isml/.m3u8",
+    "stream_url": "https://live.corusdigitaldev.com/groupb/live/3062d0e3-ed4c-4f47-8482-95648250f4b8/live.isml/.m3u8",
+    "streams": [
+      {
+        "name": "Global News (US) (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Global News (US)",
+        "url": "https://live.corusdigitaldev.com/groupb/live/3062d0e3-ed4c-4f47-8482-95648250f4b8/live.isml/.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-t-global-news-canada",
+    "name": "T Global News (Canada)",
+    "category": "News",
+    "categories": [
+      "LiveTV",
+      "News",
+      "World Country",
+      "World"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/master.m3u8",
+    "streamUrl": "https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/master.m3u8",
+    "stream_url": "https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/master.m3u8",
+    "streams": [
+      {
+        "name": "T Global News (Canada) (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "T Global News (Canada)",
+        "url": "https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/master.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-travel-xp-english",
+    "name": "Travel XP English",
+    "category": "Infotainment",
+    "categories": [
+      "LiveTV",
+      "Infotainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8",
+    "streamUrl": "https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8",
+    "stream_url": "https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Travel XP English (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Travel XP English",
+        "url": "https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-pcv",
+    "name": "pcv",
+    "category": "Bengali",
+    "categories": [
+      "LiveTV",
+      "Bengali",
+      "Bangla",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://padmaonline.duckdns.org:8088/pcv/index.m3u8",
+    "streamUrl": "https://padmaonline.duckdns.org:8088/pcv/index.m3u8",
+    "stream_url": "https://padmaonline.duckdns.org:8088/pcv/index.m3u8",
+    "streams": [
+      {
+        "name": "pcv (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "pcv",
+        "url": "https://padmaonline.duckdns.org:8088/pcv/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-colors-infinity-sd",
+    "name": "Colors Infinity SD",
+    "category": "India",
+    "categories": [
+      "LiveTV",
+      "India",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8",
+    "streamUrl": "https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8",
+    "stream_url": "https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Colors Infinity SD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Colors Infinity SD",
+        "url": "https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-amazon-sat",
+    "name": "Amazon SAT",
+    "category": "Infotainment",
+    "categories": [
+      "LiveTV",
+      "Infotainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8",
+    "streamUrl": "https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8",
+    "stream_url": "https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8",
+    "streams": [
+      {
+        "name": "Amazon SAT (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Amazon SAT",
+        "url": "https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-btv-news",
+    "name": "BTV News",
+    "category": "Bengali",
+    "categories": [
+      "LiveTV",
+      "Bengali",
+      "Bangla",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Bangladesh_Television_%28BTV%29_Logo.svg/320px-Bangladesh_Television_%28BTV%29_Logo.svg.png",
+    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/btvbd-office-sg.stream/index.m3u8",
+    "streamUrl": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/btvbd-office-sg.stream/index.m3u8",
+    "stream_url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/btvbd-office-sg.stream/index.m3u8",
+    "streams": [
+      {
+        "name": "BTV News (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "BTV News",
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/btvbd-office-sg.stream/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-al-qamar",
+    "name": "AL QAMAR",
+    "category": "Islamic",
+    "categories": [
+      "LiveTV",
+      "Islamic"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://streamer3.premio.link/alqamar/playlist.m3u8",
+    "streamUrl": "https://streamer3.premio.link/alqamar/playlist.m3u8",
+    "stream_url": "https://streamer3.premio.link/alqamar/playlist.m3u8",
+    "streams": [
+      {
+        "name": "AL QAMAR (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "AL QAMAR",
+        "url": "https://streamer3.premio.link/alqamar/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-real-wild",
+    "name": "REAL WILD",
+    "category": "Infotainment",
+    "categories": [
+      "LiveTV",
+      "Infotainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realwild-tcl/playlist.m3u8",
+    "streamUrl": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realwild-tcl/playlist.m3u8",
+    "stream_url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realwild-tcl/playlist.m3u8",
+    "streams": [
+      {
+        "name": "REAL WILD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "REAL WILD",
+        "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realwild-tcl/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-al-istiqama",
+    "name": "AL ISTIQAMA",
+    "category": "Islamic",
+    "categories": [
+      "LiveTV",
+      "Islamic"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://jmc-live.ercdn.net/alistiqama/alistiqama.m3u8",
+    "streamUrl": "https://jmc-live.ercdn.net/alistiqama/alistiqama.m3u8",
+    "stream_url": "https://jmc-live.ercdn.net/alistiqama/alistiqama.m3u8",
+    "streams": [
+      {
+        "name": "AL ISTIQAMA (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "AL ISTIQAMA",
+        "url": "https://jmc-live.ercdn.net/alistiqama/alistiqama.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-bahrain-quran",
+    "name": "BAHRAIN QURAN",
+    "category": "Islamic",
+    "categories": [
+      "LiveTV",
+      "Islamic"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahrainquran_all/playlist.m3u8",
+    "streamUrl": "https://5c7b683162943.streamlock.net/live/ngrp:bahrainquran_all/playlist.m3u8",
+    "stream_url": "https://5c7b683162943.streamlock.net/live/ngrp:bahrainquran_all/playlist.m3u8",
+    "streams": [
+      {
+        "name": "BAHRAIN QURAN (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "BAHRAIN QURAN",
+        "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahrainquran_all/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-trt-world",
+    "name": "TRT WORLD",
+    "category": "News",
+    "categories": [
+      "LiveTV",
+      "News",
+      "World Country",
+      "World"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://tv-trtworld.medya.trt.com.tr/master.m3u8",
+    "streamUrl": "https://tv-trtworld.medya.trt.com.tr/master.m3u8",
+    "stream_url": "https://tv-trtworld.medya.trt.com.tr/master.m3u8",
+    "streams": [
+      {
+        "name": "TRT WORLD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "TRT WORLD",
+        "url": "https://tv-trtworld.medya.trt.com.tr/master.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-peace-tv-english",
+    "name": "Peace Tv English",
+    "category": "Islamic",
+    "categories": [
+      "LiveTV",
+      "Islamic"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8",
+    "streamUrl": "https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8",
+    "stream_url": "https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8",
+    "streams": [
+      {
+        "name": "Peace Tv English (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Peace Tv English",
+        "url": "https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-fashion-one",
+    "name": "FASHION ONE",
+    "category": "Entertainment",
+    "categories": [
+      "LiveTV",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8",
+    "streamUrl": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8",
+    "stream_url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8",
+    "streams": [
+      {
+        "name": "FASHION ONE (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "FASHION ONE",
+        "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8",
+        "quality": "1080p FHD"
+      },
+      {
+        "name": "FASHION ONE (Server 2)",
+        "serverLabel": "Server 2",
+        "channelName": "FASHION ONE",
+        "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8",
+        "quality": "720p HD"
+      }
+    ],
+    "backupUrls": [
+      "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8"
+    ],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-rtnews-global",
+    "name": "RTNEWS GLOBAL",
+    "category": "News",
+    "categories": [
+      "LiveTV",
+      "News",
+      "World Country",
+      "World"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8?v=1",
+    "streamUrl": "https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8?v=1",
+    "stream_url": "https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8?v=1",
+    "streams": [
+      {
+        "name": "RTNEWS GLOBAL (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "RTNEWS GLOBAL",
+        "url": "https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8?v=1",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-times-of-india",
+    "name": "Times Of India",
+    "category": "News",
+    "categories": [
+      "LiveTV",
+      "News",
+      "World Country",
+      "World"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://live.sli.ke/live/npnhm84gz9/master.m3u8",
+    "streamUrl": "https://live.sli.ke/live/npnhm84gz9/master.m3u8",
+    "stream_url": "https://live.sli.ke/live/npnhm84gz9/master.m3u8",
+    "streams": [
+      {
+        "name": "Times Of India (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Times Of India",
+        "url": "https://live.sli.ke/live/npnhm84gz9/master.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-action-hollywood-movies",
+    "name": "Action Hollywood Movies",
+    "category": "Movies",
+    "categories": [
+      "LiveTV",
+      "Movies",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://amg01076-lightningintern-actionhollywood-samsungnz-82rry.amagi.tv/playlist/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8",
+    "streamUrl": "https://amg01076-lightningintern-actionhollywood-samsungnz-82rry.amagi.tv/playlist/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8",
+    "stream_url": "https://amg01076-lightningintern-actionhollywood-samsungnz-82rry.amagi.tv/playlist/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Action Hollywood Movies (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Action Hollywood Movies",
+        "url": "https://amg01076-lightningintern-actionhollywood-samsungnz-82rry.amagi.tv/playlist/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-mr-bean-animated",
+    "name": "Mr Bean Animated",
+    "category": "Kids",
+    "categories": [
+      "LiveTV",
+      "Kids",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8",
+    "streamUrl": "https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8",
+    "stream_url": "https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Mr Bean Animated (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Mr Bean Animated",
+        "url": "https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-travel-xp-english-nz",
+    "name": "Travel XP English NZ",
+    "category": "Infotainment",
+    "categories": [
+      "LiveTV",
+      "Infotainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8",
+    "streamUrl": "https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8",
+    "stream_url": "https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Travel XP English NZ (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Travel XP English NZ",
+        "url": "https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-hindi-hits-hd",
+    "name": "Hindi Hits HD",
+    "category": "Music",
+    "categories": [
+      "LiveTV",
+      "Music",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "http://146.59.253.52:8080/hindihitshd/index.m3u8",
+    "streamUrl": "http://146.59.253.52:8080/hindihitshd/index.m3u8",
+    "stream_url": "http://146.59.253.52:8080/hindihitshd/index.m3u8",
+    "streams": [
+      {
+        "name": "Hindi Hits HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Hindi Hits HD",
+        "url": "http://146.59.253.52:8080/hindihitshd/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-peace-tv-urdu",
+    "name": "Peace TV Urdu",
+    "category": "Islamic",
+    "categories": [
+      "LiveTV",
+      "Islamic"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/index.m3u8",
+    "streamUrl": "https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/index.m3u8",
+    "stream_url": "https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/index.m3u8",
+    "streams": [
+      {
+        "name": "Peace TV Urdu (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Peace TV Urdu",
+        "url": "https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-gopal-bhar-tv",
+    "name": "Gopal Bhar TV",
+    "category": "Kids",
+    "categories": [
+      "LiveTV",
+      "Kids",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8",
+    "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8",
+    "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8",
+    "streams": [
+      {
+        "name": "Gopal Bhar TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Gopal Bhar TV",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-baallee",
+    "name": "Baallee",
+    "category": "Music",
+    "categories": [
+      "LiveTV",
+      "Music",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://mcncdndigital.com/balleballetv/tracks-v1a1/mono.ts.m3u8",
+    "streamUrl": "https://mcncdndigital.com/balleballetv/tracks-v1a1/mono.ts.m3u8",
+    "stream_url": "https://mcncdndigital.com/balleballetv/tracks-v1a1/mono.ts.m3u8",
+    "streams": [
+      {
+        "name": "Baallee (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Baallee",
+        "url": "https://mcncdndigital.com/balleballetv/tracks-v1a1/mono.ts.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-tom-jarry",
+    "name": "Tom & Jarry",
+    "category": "Kids",
+    "categories": [
+      "LiveTV",
+      "Kids",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8",
+    "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8",
+    "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Tom & Jarry (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Tom & Jarry",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-motu-patlu",
+    "name": "Motu Patlu",
+    "category": "Kids",
+    "categories": [
+      "LiveTV",
+      "Kids",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8",
+    "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8",
+    "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8",
+    "streams": [
+      {
+        "name": "Motu Patlu (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Motu Patlu",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-tom-jerry-tv",
+    "name": "Tom & Jerry TV",
+    "category": "Kids",
+    "categories": [
+      "LiveTV",
+      "Kids",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/tracks-v1a1/mono.ts.m3u8",
+    "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-208314/tracks-v1a1/mono.ts.m3u8",
+    "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/tracks-v1a1/mono.ts.m3u8",
+    "streams": [
+      {
+        "name": "Tom & Jerry TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Tom & Jerry TV",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/tracks-v1a1/mono.ts.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-doraemon-tv",
+    "name": "Doraemon TV",
+    "category": "Kids",
+    "categories": [
+      "LiveTV",
+      "Kids",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8",
+    "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8",
+    "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8",
+    "streams": [
+      {
+        "name": "Doraemon TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Doraemon TV",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-arihant-tv",
+    "name": "Arihant TV",
+    "category": "Islamic",
+    "categories": [
+      "LiveTV",
+      "Islamic"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://aasthaott.akamaized.net/110923/smil:arihant.smil/chunklist_b1928000.m3u8",
+    "streamUrl": "https://aasthaott.akamaized.net/110923/smil:arihant.smil/chunklist_b1928000.m3u8",
+    "stream_url": "https://aasthaott.akamaized.net/110923/smil:arihant.smil/chunklist_b1928000.m3u8",
+    "streams": [
+      {
+        "name": "Arihant TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Arihant TV",
+        "url": "https://aasthaott.akamaized.net/110923/smil:arihant.smil/chunklist_b1928000.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-star-sports-1-hd",
+    "name": "Star Sports 1 HD",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Cricket",
+      "Kabaddi"
+    ],
+    "priority": 1,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/sports-star-sports-1.svg",
+    "url": "http://41.205.93.154/STARSPORTS1/index.m3u8",
+    "streamUrl": "http://41.205.93.154/STARSPORTS1/index.m3u8",
+    "stream_url": "http://41.205.93.154/STARSPORTS1/index.m3u8",
+    "streams": [
+      {
+        "name": "Star Sports 1 HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Star Sports 1 HD",
+        "url": "http://41.205.93.154/STARSPORTS1/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-yrf-music-hd",
+    "name": "YRF Music HD",
+    "category": "Music",
+    "categories": [
+      "LiveTV",
+      "Music",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
+    "streamUrl": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
+    "stream_url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
+    "streams": [
+      {
+        "name": "YRF Music HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "YRF Music HD",
+        "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-ewtn-tv",
+    "name": "EWTN TV",
+    "category": "Islamic",
+    "categories": [
+      "LiveTV",
+      "Islamic"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/qrpsvkxl/720/chunklist.m3u8",
+    "streamUrl": "https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/qrpsvkxl/720/chunklist.m3u8",
+    "stream_url": "https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/qrpsvkxl/720/chunklist.m3u8",
+    "streams": [
+      {
+        "name": "EWTN TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "EWTN TV",
+        "url": "https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/qrpsvkxl/720/chunklist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-nk",
+    "name": "NK",
+    "category": "Kolkata",
+    "categories": [
+      "LiveTV",
+      "Kolkata",
+      "Bengali",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://amg01218-republictvfast-amg01218c1-samsung-in-1918.playouts.now.amagi.tv/playlist/amg01218-republictvfast-rbangla-samsungin/playlist.m3u8",
+    "streamUrl": "https://amg01218-republictvfast-amg01218c1-samsung-in-1918.playouts.now.amagi.tv/playlist/amg01218-republictvfast-rbangla-samsungin/playlist.m3u8",
+    "stream_url": "https://amg01218-republictvfast-amg01218c1-samsung-in-1918.playouts.now.amagi.tv/playlist/amg01218-republictvfast-rbangla-samsungin/playlist.m3u8",
+    "streams": [
+      {
+        "name": "NK (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "NK",
+        "url": "https://amg01218-republictvfast-amg01218c1-samsung-in-1918.playouts.now.amagi.tv/playlist/amg01218-republictvfast-rbangla-samsungin/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sheemaroo-bollywood",
+    "name": "Sheemaroo Bollywood",
+    "category": "Movies",
+    "categories": [
+      "LiveTV",
+      "Movies",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8",
+    "streamUrl": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8",
+    "stream_url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Sheemaroo Bollywood (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sheemaroo Bollywood",
+        "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-cowboy-tv",
+    "name": "Cowboy tv",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg17292-tetonridgellc-tetonridgefast-distrotvus/playlist.m3u8",
+    "streamUrl": "https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg17292-tetonridgellc-tetonridgefast-distrotvus/playlist.m3u8",
+    "stream_url": "https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg17292-tetonridgellc-tetonridgefast-distrotvus/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Cowboy tv (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Cowboy tv",
+        "url": "https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg17292-tetonridgellc-tetonridgefast-distrotvus/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-b4u-movies",
+    "name": "B4U Movies",
+    "category": "Movies",
+    "categories": [
+      "LiveTV",
+      "Movies",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8",
+    "streamUrl": "https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8",
+    "stream_url": "https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8",
+    "streams": [
+      {
+        "name": "B4U Movies (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "B4U Movies",
+        "url": "https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-rt-news-usa",
+    "name": "RT NEWS USA",
+    "category": "News",
+    "categories": [
+      "LiveTV",
+      "News",
+      "World Country",
+      "World"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8?v=1",
+    "streamUrl": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8?v=1",
+    "stream_url": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8?v=1",
+    "streams": [
+      {
+        "name": "RT NEWS USA (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "RT NEWS USA",
+        "url": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8?v=1",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-rt-news-en",
+    "name": "RT News (EN)",
+    "category": "News",
+    "categories": [
+      "LiveTV",
+      "News",
+      "World Country",
+      "World"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8",
+    "streamUrl": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8",
+    "stream_url": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8",
+    "streams": [
+      {
+        "name": "RT News (EN) (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "RT News (EN)",
+        "url": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-nursary-rhymes",
+    "name": "Nursary Rhymes",
+    "category": "Kids",
+    "categories": [
+      "LiveTV",
+      "Kids",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8",
+    "streamUrl": "http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8",
+    "stream_url": "http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8",
+    "streams": [
+      {
+        "name": "Nursary Rhymes (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Nursary Rhymes",
+        "url": "http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-dazn-5",
+    "name": "DAZN 5",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Boxing",
+      "MMA"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/ch-dazn-5.svg",
+    "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2535/index.m3u8",
+    "streamUrl": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2535/index.m3u8",
+    "stream_url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2535/index.m3u8",
+    "streams": [
+      {
+        "name": "DAZN 5 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "DAZN 5",
+        "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2535/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-dazn-4",
+    "name": "DAZN 4",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Boxing",
+      "MMA"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/ch-dazn-4.svg",
+    "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2534/index.m3u8",
+    "streamUrl": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2534/index.m3u8",
+    "stream_url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2534/index.m3u8",
+    "streams": [
+      {
+        "name": "DAZN 4 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "DAZN 4",
+        "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2534/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-ziggo-sport-1",
+    "name": "Ziggo Sport 1",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/ch-ziggo-sport-1.svg",
+    "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2560/index.m3u8",
+    "streamUrl": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2560/index.m3u8",
+    "stream_url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2560/index.m3u8",
+    "streams": [
+      {
+        "name": "Ziggo Sport 1 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Ziggo Sport 1",
+        "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2560/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-dazn-2",
+    "name": "DAZN 2",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Boxing",
+      "MMA"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/ch-dazn-2.svg",
+    "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2532/index.m3u8",
+    "streamUrl": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2532/index.m3u8",
+    "stream_url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2532/index.m3u8",
+    "streams": [
+      {
+        "name": "DAZN 2 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "DAZN 2",
+        "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2532/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-ziggo-sport-2",
+    "name": "Ziggo Sport 2",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/ch-ziggo-sport-2.svg",
+    "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2561/index.m3u8",
+    "streamUrl": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2561/index.m3u8",
+    "stream_url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2561/index.m3u8",
+    "streams": [
+      {
+        "name": "Ziggo Sport 2 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Ziggo Sport 2",
+        "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2561/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-dazn-1",
+    "name": "DAZN 1",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Boxing",
+      "MMA"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/ch-dazn-1.svg",
+    "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2531/index.m3u8",
+    "streamUrl": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2531/index.m3u8",
+    "stream_url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2531/index.m3u8",
+    "streams": [
+      {
+        "name": "DAZN 1 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "DAZN 1",
+        "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2531/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-ziggo-sport-3",
+    "name": "Ziggo Sport 3",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/ch-ziggo-sport-3.svg",
+    "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2559/index.m3u8",
+    "streamUrl": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2559/index.m3u8",
+    "stream_url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2559/index.m3u8",
+    "streams": [
+      {
+        "name": "Ziggo Sport 3 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Ziggo Sport 3",
+        "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2559/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-eurosport-1",
+    "name": "Eurosport 1",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Tennis",
+      "Hockey"
+    ],
+    "priority": 2,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/ch-eurosport-1.svg",
+    "url": "http://151.80.18.177:86/Eurosport_HD/index.m3u8",
+    "streamUrl": "http://151.80.18.177:86/Eurosport_HD/index.m3u8",
+    "stream_url": "http://151.80.18.177:86/Eurosport_HD/index.m3u8",
+    "streams": [
+      {
+        "name": "Eurosport 1 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Eurosport 1",
+        "url": "http://151.80.18.177:86/Eurosport_HD/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-eurosport-2",
+    "name": "Eurosport 2",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Tennis",
+      "Hockey"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/ch-eurosport-2.svg",
+    "url": "http://151.80.18.177:86/Eurosport_2_HD/index.m3u8",
+    "streamUrl": "http://151.80.18.177:86/Eurosport_2_HD/index.m3u8",
+    "stream_url": "http://151.80.18.177:86/Eurosport_2_HD/index.m3u8",
+    "streams": [
+      {
+        "name": "Eurosport 2 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Eurosport 2",
+        "url": "http://151.80.18.177:86/Eurosport_2_HD/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-live-sports-3",
+    "name": "Live Sports-3",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/ch-eurosport-1.svg",
+    "url": "http://151.80.18.177:86/Eurosport_HD/index.m3u8",
+    "streamUrl": "http://151.80.18.177:86/Eurosport_HD/index.m3u8",
+    "stream_url": "http://151.80.18.177:86/Eurosport_HD/index.m3u8",
+    "streams": [
+      {
+        "name": "Live Sports-3 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Live Sports-3",
+        "url": "http://151.80.18.177:86/Eurosport_HD/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-music-mastii",
+    "name": "Music Mastii",
+    "category": "Music",
+    "categories": [
+      "LiveTV",
+      "Music",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+    "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+    "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+    "streams": [
+      {
+        "name": "Music Mastii (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Music Mastii",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-hindi-movies",
+    "name": "Hindi Movies",
+    "category": "Movies",
+    "categories": [
+      "LiveTV",
+      "Movies",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://live20.bozztv.com/giatvplayout7/giatv-209612/tracks-v1a1/mono.ts.m3u8",
+    "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209612/tracks-v1a1/mono.ts.m3u8",
+    "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-209612/tracks-v1a1/mono.ts.m3u8",
+    "streams": [
+      {
+        "name": "Hindi Movies (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Hindi Movies",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209612/tracks-v1a1/mono.ts.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-south-movies",
+    "name": "South Movies",
+    "category": "Movies",
+    "categories": [
+      "LiveTV",
+      "Movies",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8",
+    "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8",
+    "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8",
+    "streams": [
+      {
+        "name": "South Movies (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "South Movies",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-mbc-tv",
+    "name": "MBC tv",
+    "category": "India",
+    "categories": [
+      "LiveTV",
+      "India",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "http://93.184.10.248/MBCBollywood/index.m3u8",
+    "streamUrl": "http://93.184.10.248/MBCBollywood/index.m3u8",
+    "stream_url": "http://93.184.10.248/MBCBollywood/index.m3u8",
+    "streams": [
+      {
+        "name": "MBC tv (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "MBC tv",
+        "url": "http://93.184.10.248/MBCBollywood/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-rtv",
+    "name": "RTV",
+    "category": "Bengali",
+    "categories": [
+      "LiveTV",
+      "Bengali",
+      "Bangla",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/tracks-v1a1/mono.m3u8",
+    "streamUrl": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/tracks-v1a1/mono.m3u8",
+    "stream_url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/tracks-v1a1/mono.m3u8",
+    "streams": [
+      {
+        "name": "RTV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "RTV",
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/tracks-v1a1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sky-sports-racing",
+    "name": "Sky Sports Racing",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "F1",
+      "Motorsport"
+    ],
+    "priority": 2,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/ch-sky-sports-racing.svg",
+    "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/7341/index.m3u8",
+    "streamUrl": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/7341/index.m3u8",
+    "stream_url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/7341/index.m3u8",
+    "streams": [
+      {
+        "name": "Sky Sports Racing (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sky Sports Racing",
+        "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/7341/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-dd-sports",
+    "name": "DD Sports",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/ch-dd-sports.svg",
+    "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8",
+    "streamUrl": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8",
+    "stream_url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8",
+    "streams": [
+      {
+        "name": "DD Sports (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "DD Sports",
+        "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-trace-sport-stars",
+    "name": "Trace Sport Stars",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/ch-trace-sport-stars.svg",
+    "url": "https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8",
+    "streamUrl": "https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8",
+    "stream_url": "https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Trace Sport Stars (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Trace Sport Stars",
+        "url": "https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  }
+]

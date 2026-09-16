@@ -1,0 +1,2012 @@
+{
+  "live": [
+    {
+      "id": "ch-t-sports-hd",
+      "name": "T Sports HD",
+      "category": "Sports",
+      "categories": [
+        "LiveTV",
+        "Sports"
+      ],
+      "sports": [
+        "Cricket",
+        "Football"
+      ],
+      "priority": 1,
+      "active": true,
+      "provider": "Standard",
+      "isAkashGo": false,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/T_Sports_Logo.svg/320px-T_Sports_Logo.svg.png",
+      "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/tracks-v1a1/mono.ts.m3u8",
+      "streamUrl": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/tracks-v1a1/mono.ts.m3u8",
+      "stream_url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/tracks-v1a1/mono.ts.m3u8",
+      "streams": [
+        {
+          "name": "T Sports HD (Server 1 HD)",
+          "serverLabel": "Server 1 HD",
+          "channelName": "T Sports HD",
+          "url": "https://live.tsports.com/mobile_hls/tsports_live_1/playlist.m3u8",
+          "quality": "1080p FHD"
+        },
+        {
+          "name": "T Sports HD (Server 2)",
+          "serverLabel": "Server 2",
+          "channelName": "T Sports HD",
+          "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/tracks-v1a1/mono.ts.m3u8",
+          "quality": "720p HD"
+        }
+      ],
+      "backupUrls": [
+        "https://tvsen5.aynaott.com/TnMn5kZz8aLm/tracks-v1a1/mono.ts.m3u8"
+      ],
+      "isLive": true,
+      "isHD": true
+    },
+    {
+      "id": "ch-t-sports",
+      "name": "T Sports",
+      "category": "Sports",
+      "categories": [
+        "LiveTV",
+        "Sports"
+      ],
+      "sports": [
+        "Cricket",
+        "Football"
+      ],
+      "priority": 1,
+      "active": true,
+      "provider": "Standard",
+      "isAkashGo": false,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/T_Sports_Logo.svg/320px-T_Sports_Logo.svg.png",
+      "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
+      "streamUrl": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
+      "stream_url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
+      "streams": [
+        {
+          "name": "T Sports (Server 1 HD)",
+          "serverLabel": "Server 1 HD",
+          "channelName": "T Sports",
+          "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
+          "quality": "1080p FHD"
+        }
+      ],
+      "backupUrls": [],
+      "isLive": true,
+      "isHD": true
+    },
+    {
+      "id": "ch-star-sports-1-hindi",
+      "name": "Star Sports 1 Hindi",
+      "category": "Sports",
+      "categories": [
+        "LiveTV",
+        "Sports"
+      ],
+      "sports": [
+        "Cricket",
+        "Kabaddi"
+      ],
+      "priority": 1,
+      "active": true,
+      "provider": "Standard",
+      "isAkashGo": false,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Star_Sports_1_logo.svg/320px-Star_Sports_1_logo.svg.png",
+      "url": "https://starsportshindiii.pages.dev/index.m3u8",
+      "streamUrl": "https://starsportshindiii.pages.dev/index.m3u8",
+      "stream_url": "https://starsportshindiii.pages.dev/index.m3u8",
+      "streams": [
+        {
+          "name": "Star Sports 1 Hindi (Server 1 HD)",
+          "serverLabel": "Server 1 HD",
+          "channelName": "Star Sports 1 Hindi",
+          "url": "https://cdn6.zohanayaan.com:1686/hls/starhindi.m3u8?md5=3uGoFkUteXHTq00tfl42UA&expires=1787160100",
+          "quality": "1080p FHD"
+        },
+        {
+          "name": "Star Sports-1 Hindi (Server 2)",
+          "serverLabel": "Server 2",
+          "channelName": "Star Sports-1 Hindi",
+          "url": "https://starsportshindiii.pages.dev/index.m3u8",
+          "quality": "720p HD"
+        }
+      ],
+      "backupUrls": [
+        "https://starsportshindiii.pages.dev/index.m3u8"
+      ],
+      "isLive": true,
+      "isHD": true
+    },
+    {
+      "id": "ch-mundial-sports-hd",
+      "name": "Mundial Sports HD",
+      "category": "Sports",
+      "categories": [
+        "LiveTV",
+        "Sports"
+      ],
+      "sports": [
+        "Football"
+      ],
+      "priority": 3,
+      "active": true,
+      "provider": "Standard",
+      "isAkashGo": false,
+      "logo": "",
+      "url": "https://s2.bufaloweb.com/bufalo9/tracks-v4a1/mono.ts.m3u8",
+      "streamUrl": "https://s2.bufaloweb.com/bufalo9/tracks-v4a1/mono.ts.m3u8",
+      "stream_url": "https://s2.bufaloweb.com/bufalo9/tracks-v4a1/mono.ts.m3u8",
+      "streams": [
+        {
+          "name": "Mundial Sports HD (Server 1 HD)",
+          "serverLabel": "Server 1 HD",
+          "channelName": "Mundial Sports HD",
+          "url": "https://s2.bufaloweb.com/bufalo9/tracks-v4a1/mono.ts.m3u8",
+          "quality": "1080p FHD"
+        }
+      ],
+      "backupUrls": [],
+      "isLive": true,
+      "isHD": true
+    },
+    {
+      "id": "ch-motor-vision",
+      "name": "Motor Vision",
+      "category": "Sports",
+      "categories": [
+        "LiveTV",
+        "Sports"
+      ],
+      "sports": [
+        "F1",
+        "Motorsport"
+      ],
+      "priority": 3,
+      "active": true,
+      "provider": "Standard",
+      "isAkashGo": false,
+      "logo": "",
+      "url": "https://mvg-mv-xumo.otteravision.com/mvg/mv/mv.m3u8",
+      "streamUrl": "https://mvg-mv-xumo.otteravision.com/mvg/mv/mv.m3u8",
+      "stream_url": "https://mvg-mv-xumo.otteravision.com/mvg/mv/mv.m3u8",
+      "streams": [
+        {
+          "name": "Motor Vision (Server 1 HD)",
+          "serverLabel": "Server 1 HD",
+          "channelName": "Motor Vision",
+          "url": "https://mvg-mv-xumo.otteravision.com/mvg/mv/mv.m3u8",
+          "quality": "1080p FHD"
+        }
+      ],
+      "backupUrls": [],
+      "isLive": true,
+      "isHD": true
+    },
+    {
+      "id": "ch-willow-hd",
+      "name": "Willow HD",
+      "category": "Sports",
+      "categories": [
+        "LiveTV",
+        "Sports"
+      ],
+      "sports": [
+        "Cricket"
+      ],
+      "priority": 1,
+      "active": true,
+      "provider": "Standard",
+      "isAkashGo": false,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Willow_TV_logo.svg/320px-Willow_TV_logo.svg.png",
+      "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
+      "streamUrl": "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
+      "stream_url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
+      "streams": [
+        {
+          "name": "Willow HD (Server 1 HD)",
+          "serverLabel": "Server 1 HD",
+          "channelName": "Willow HD",
+          "url": "https://cdn9.zohanayaan.com:1686/hls/willowusa.m3u8?md5=CYVJUG-GwQ16dfctgP2pOw&expires=1787160100",
+          "quality": "1080p FHD"
+        },
+        {
+          "name": "Willow HD (Server 2)",
+          "serverLabel": "Server 2",
+          "channelName": "Willow HD",
+          "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
+          "quality": "720p HD"
+        }
+      ],
+      "backupUrls": [
+        "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8"
+      ],
+      "isLive": true,
+      "isHD": true
+    },
+    {
+      "id": "ch-star-sports-1-hd",
+      "name": "Star Sports 1 HD",
+      "category": "Sports",
+      "categories": [
+        "LiveTV",
+        "Sports"
+      ],
+      "sports": [
+        "Cricket",
+        "Kabaddi"
+      ],
+      "priority": 1,
+      "active": true,
+      "provider": "Standard",
+      "isAkashGo": false,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Star_Sports_1_logo.svg/320px-Star_Sports_1_logo.svg.png",
+      "url": "http://41.205.93.154/STARSPORTS1/index.m3u8",
+      "streamUrl": "http://41.205.93.154/STARSPORTS1/index.m3u8",
+      "stream_url": "http://41.205.93.154/STARSPORTS1/index.m3u8",
+      "streams": [
+        {
+          "name": "Star Sports 1 HD (Server 1 HD)",
+          "serverLabel": "Server 1 HD",
+          "channelName": "Star Sports 1 HD",
+          "url": "http://41.205.93.154/STARSPORTS1/index.m3u8",
+          "quality": "1080p FHD"
+        }
+      ],
+      "backupUrls": [],
+      "isLive": true,
+      "isHD": true
+    },
+    {
+      "id": "ch-pk-sports-hd",
+      "name": "Pk Sports HD",
+      "category": "Sports",
+      "categories": [
+        "LiveTV",
+        "Sports"
+      ],
+      "sports": [
+        "Football",
+        "Cricket"
+      ],
+      "priority": 3,
+      "active": true,
+      "provider": "Standard",
+      "isAkashGo": false,
+      "logo": "",
+      "url": "https://lbgo.bozztv.com/ssh101/ssh101/pksportshd/playlist.m3u8",
+      "streamUrl": "https://lbgo.bozztv.com/ssh101/ssh101/pksportshd/playlist.m3u8",
+      "stream_url": "https://lbgo.bozztv.com/ssh101/ssh101/pksportshd/playlist.m3u8",
+      "streams": [
+        {
+          "name": "Pk Sports HD (Server 1 HD)",
+          "serverLabel": "Server 1 HD",
+          "channelName": "Pk Sports HD",
+          "url": "https://lbgo.bozztv.com/ssh101/ssh101/pksportshd/playlist.m3u8",
+          "quality": "1080p FHD"
+        }
+      ],
+      "backupUrls": [],
+      "isLive": true,
+      "isHD": true
+    },
+    {
+      "id": "ch-qaz-sports-hd",
+      "name": "QAZ Sports HD",
+      "category": "Sports",
+      "categories": [
+        "LiveTV",
+        "Sports"
+      ],
+      "sports": [
+        "Football",
+        "Cricket"
+      ],
+      "priority": 3,
+      "active": true,
+      "provider": "Standard",
+      "isAkashGo": false,
+      "logo": "",
+      "url": "http://stream.mcquack.net/72/index.m3u8",
+      "streamUrl": "http://stream.mcquack.net/72/index.m3u8",
+      "stream_url": "http://stream.mcquack.net/72/index.m3u8",
+      "streams": [
+        {
+          "name": "QAZ Sports HD (Server 1 HD)",
+          "serverLabel": "Server 1 HD",
+          "channelName": "QAZ Sports HD",
+          "url": "http://stream.mcquack.net/72/index.m3u8",
+          "quality": "1080p FHD"
+        }
+      ],
+      "backupUrls": [],
+      "isLive": true,
+      "isHD": true
+    },
+    {
+      "id": "ch-eurosport-1",
+      "name": "Eurosport 1",
+      "category": "Sports",
+      "categories": [
+        "LiveTV",
+        "Sports"
+      ],
+      "sports": [
+        "Tennis",
+        "Hockey"
+      ],
+      "priority": 2,
+      "active": true,
+      "provider": "Standard",
+      "isAkashGo": false,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Eurosport_1_logo_2015.svg/320px-Eurosport_1_logo_2015.svg.png",
+      "url": "http://151.80.18.177:86/Eurosport_HD/index.m3u8",
+      "streamUrl": "http://151.80.18.177:86/Eurosport_HD/index.m3u8",
+      "stream_url": "http://151.80.18.177:86/Eurosport_HD/index.m3u8",
+      "streams": [
+        {
+          "name": "Eurosport 1 (Server 1 HD)",
+          "serverLabel": "Server 1 HD",
+          "channelName": "Eurosport 1",
+          "url": "http://151.80.18.177:86/Eurosport_HD/index.m3u8",
+          "quality": "1080p FHD"
+        }
+      ],
+      "backupUrls": [],
+      "isLive": true,
+      "isHD": true
+    },
+    {
+      "id": "ch-dazn-2",
+      "name": "DAZN 2",
+      "category": "Sports",
+      "categories": [
+        "LiveTV",
+        "Sports"
+      ],
+      "sports": [
+        "Football",
+        "Boxing",
+        "MMA"
+      ],
+      "priority": 3,
+      "active": true,
+      "provider": "Standard",
+      "isAkashGo": false,
+      "logo": "./assets/channel-logos/ch-dazn-2.svg",
+      "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2532/index.m3u8",
+      "streamUrl": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2532/index.m3u8",
+      "stream_url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2532/index.m3u8",
+      "streams": [
+        {
+          "name": "DAZN 2 (Server 1 HD)",
+          "serverLabel": "Server 1 HD",
+          "channelName": "DAZN 2",
+          "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2532/index.m3u8",
+          "quality": "1080p FHD"
+        }
+      ],
+      "backupUrls": [],
+      "isLive": true,
+      "isHD": true
+    },
+    {
+      "id": "ch-ziggo-sport-1",
+      "name": "Ziggo Sport 1",
+      "category": "Sports",
+      "categories": [
+        "LiveTV",
+        "Sports"
+      ],
+      "sports": [
+        "Football"
+      ],
+      "priority": 3,
+      "active": true,
+      "provider": "Standard",
+      "isAkashGo": false,
+      "logo": "./assets/channel-logos/ch-ziggo-sport-1.svg",
+      "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2560/index.m3u8",
+      "streamUrl": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2560/index.m3u8",
+      "stream_url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2560/index.m3u8",
+      "streams": [
+        {
+          "name": "Ziggo Sport 1 (Server 1 HD)",
+          "serverLabel": "Server 1 HD",
+          "channelName": "Ziggo Sport 1",
+          "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2560/index.m3u8",
+          "quality": "1080p FHD"
+        }
+      ],
+      "backupUrls": [],
+      "isLive": true,
+      "isHD": true
+    },
+    {
+      "id": "ch-ziggo-sport-3",
+      "name": "Ziggo Sport 3",
+      "category": "Sports",
+      "categories": [
+        "LiveTV",
+        "Sports"
+      ],
+      "sports": [
+        "Football"
+      ],
+      "priority": 3,
+      "active": true,
+      "provider": "Standard",
+      "isAkashGo": false,
+      "logo": "./assets/channel-logos/ch-ziggo-sport-3.svg",
+      "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2559/index.m3u8",
+      "streamUrl": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2559/index.m3u8",
+      "stream_url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2559/index.m3u8",
+      "streams": [
+        {
+          "name": "Ziggo Sport 3 (Server 1 HD)",
+          "serverLabel": "Server 1 HD",
+          "channelName": "Ziggo Sport 3",
+          "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2559/index.m3u8",
+          "quality": "1080p FHD"
+        }
+      ],
+      "backupUrls": [],
+      "isLive": true,
+      "isHD": true
+    },
+    {
+      "id": "ch-ziggo-sport-2",
+      "name": "Ziggo Sport 2",
+      "category": "Sports",
+      "categories": [
+        "LiveTV",
+        "Sports"
+      ],
+      "sports": [
+        "Football"
+      ],
+      "priority": 3,
+      "active": true,
+      "provider": "Standard",
+      "isAkashGo": false,
+      "logo": "./assets/channel-logos/ch-ziggo-sport-2.svg",
+      "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2561/index.m3u8",
+      "streamUrl": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2561/index.m3u8",
+      "stream_url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2561/index.m3u8",
+      "streams": [
+        {
+          "name": "Ziggo Sport 2 (Server 1 HD)",
+          "serverLabel": "Server 1 HD",
+          "channelName": "Ziggo Sport 2",
+          "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2561/index.m3u8",
+          "quality": "1080p FHD"
+        }
+      ],
+      "backupUrls": [],
+      "isLive": true,
+      "isHD": true
+    },
+    {
+      "id": "ch-dazn-1",
+      "name": "DAZN 1",
+      "category": "Sports",
+      "categories": [
+        "LiveTV",
+        "Sports"
+      ],
+      "sports": [
+        "Football",
+        "Boxing",
+        "MMA"
+      ],
+      "priority": 3,
+      "active": true,
+      "provider": "Standard",
+      "isAkashGo": false,
+      "logo": "./assets/channel-logos/ch-dazn-1.svg",
+      "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2531/index.m3u8",
+      "streamUrl": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2531/index.m3u8",
+      "stream_url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2531/index.m3u8",
+      "streams": [
+        {
+          "name": "DAZN 1 (Server 1 HD)",
+          "serverLabel": "Server 1 HD",
+          "channelName": "DAZN 1",
+          "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2531/index.m3u8",
+          "quality": "1080p FHD"
+        }
+      ],
+      "backupUrls": [],
+      "isLive": true,
+      "isHD": true
+    },
+    {
+      "id": "ch-dazn-4",
+      "name": "DAZN 4",
+      "category": "Sports",
+      "categories": [
+        "LiveTV",
+        "Sports"
+      ],
+      "sports": [
+        "Football",
+        "Boxing",
+        "MMA"
+      ],
+      "priority": 3,
+      "active": true,
+      "provider": "Standard",
+      "isAkashGo": false,
+      "logo": "./assets/channel-logos/ch-dazn-4.svg",
+      "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2534/index.m3u8",
+      "streamUrl": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2534/index.m3u8",
+      "stream_url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2534/index.m3u8",
+      "streams": [
+        {
+          "name": "DAZN 4 (Server 1 HD)",
+          "serverLabel": "Server 1 HD",
+          "channelName": "DAZN 4",
+          "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2534/index.m3u8",
+          "quality": "1080p FHD"
+        }
+      ],
+      "backupUrls": [],
+      "isLive": true,
+      "isHD": true
+    },
+    {
+      "id": "ch-dazn-5",
+      "name": "DAZN 5",
+      "category": "Sports",
+      "categories": [
+        "LiveTV",
+        "Sports"
+      ],
+      "sports": [
+        "Football",
+        "Boxing",
+        "MMA"
+      ],
+      "priority": 3,
+      "active": true,
+      "provider": "Standard",
+      "isAkashGo": false,
+      "logo": "./assets/channel-logos/ch-dazn-5.svg",
+      "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2535/index.m3u8",
+      "streamUrl": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2535/index.m3u8",
+      "stream_url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2535/index.m3u8",
+      "streams": [
+        {
+          "name": "DAZN 5 (Server 1 HD)",
+          "serverLabel": "Server 1 HD",
+          "channelName": "DAZN 5",
+          "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/2535/index.m3u8",
+          "quality": "1080p FHD"
+        }
+      ],
+      "backupUrls": [],
+      "isLive": true,
+      "isHD": true
+    },
+    {
+      "id": "ch-live-sports-3",
+      "name": "Live Sports-3",
+      "category": "Sports",
+      "categories": [
+        "LiveTV",
+        "Sports"
+      ],
+      "sports": [
+        "Football",
+        "Cricket"
+      ],
+      "priority": 3,
+      "active": true,
+      "provider": "Standard",
+      "isAkashGo": false,
+      "logo": "",
+      "url": "http://151.80.18.177:86/Eurosport_HD/index.m3u8",
+      "streamUrl": "http://151.80.18.177:86/Eurosport_HD/index.m3u8",
+      "stream_url": "http://151.80.18.177:86/Eurosport_HD/index.m3u8",
+      "streams": [
+        {
+          "name": "Live Sports-3 (Server 1 HD)",
+          "serverLabel": "Server 1 HD",
+          "channelName": "Live Sports-3",
+          "url": "http://151.80.18.177:86/Eurosport_HD/index.m3u8",
+          "quality": "1080p FHD"
+        }
+      ],
+      "backupUrls": [],
+      "isLive": true,
+      "isHD": true
+    },
+    {
+      "id": "ch-cowboy-tv",
+      "name": "Cowboy tv",
+      "category": "Sports",
+      "categories": [
+        "LiveTV",
+        "Sports"
+      ],
+      "sports": [
+        "Football",
+        "Cricket"
+      ],
+      "priority": 3,
+      "active": true,
+      "provider": "Standard",
+      "isAkashGo": false,
+      "logo": "",
+      "url": "https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg17292-tetonridgellc-tetonridgefast-distrotvus/playlist.m3u8",
+      "streamUrl": "https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg17292-tetonridgellc-tetonridgefast-distrotvus/playlist.m3u8",
+      "stream_url": "https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg17292-tetonridgellc-tetonridgefast-distrotvus/playlist.m3u8",
+      "streams": [
+        {
+          "name": "Cowboy tv (Server 1 HD)",
+          "serverLabel": "Server 1 HD",
+          "channelName": "Cowboy tv",
+          "url": "https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg17292-tetonridgellc-tetonridgefast-distrotvus/playlist.m3u8",
+          "quality": "1080p FHD"
+        }
+      ],
+      "backupUrls": [],
+      "isLive": true,
+      "isHD": true
+    },
+    {
+      "id": "ch-trace-sport-stars",
+      "name": "Trace Sport Stars",
+      "category": "Sports",
+      "categories": [
+        "LiveTV",
+        "Sports"
+      ],
+      "sports": [
+        "Football",
+        "Cricket"
+      ],
+      "priority": 3,
+      "active": true,
+      "provider": "Standard",
+      "isAkashGo": false,
+      "logo": "./assets/channel-logos/ch-trace-sport-stars.svg",
+      "url": "https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8",
+      "streamUrl": "https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8",
+      "stream_url": "https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8",
+      "streams": [
+        {
+          "name": "Trace Sport Stars (Server 1 HD)",
+          "serverLabel": "Server 1 HD",
+          "channelName": "Trace Sport Stars",
+          "url": "https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8",
+          "quality": "1080p FHD"
+        }
+      ],
+      "backupUrls": [],
+      "isLive": true,
+      "isHD": true
+    },
+    {
+      "id": "ch-dd-sports",
+      "name": "DD Sports",
+      "category": "Sports",
+      "categories": [
+        "LiveTV",
+        "Sports"
+      ],
+      "sports": [
+        "Football",
+        "Cricket"
+      ],
+      "priority": 3,
+      "active": true,
+      "provider": "Standard",
+      "isAkashGo": false,
+      "logo": "./assets/channel-logos/ch-dd-sports.svg",
+      "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8",
+      "streamUrl": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8",
+      "stream_url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8",
+      "streams": [
+        {
+          "name": "DD Sports (Server 1 HD)",
+          "serverLabel": "Server 1 HD",
+          "channelName": "DD Sports",
+          "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8",
+          "quality": "1080p FHD"
+        }
+      ],
+      "backupUrls": [],
+      "isLive": true,
+      "isHD": true
+    },
+    {
+      "id": "ch-sky-sports-racing",
+      "name": "Sky Sports Racing",
+      "category": "Sports",
+      "categories": [
+        "LiveTV",
+        "Sports"
+      ],
+      "sports": [
+        "F1",
+        "Motorsport"
+      ],
+      "priority": 2,
+      "active": true,
+      "provider": "Standard",
+      "isAkashGo": false,
+      "logo": "./assets/channel-logos/ch-sky-sports-racing.svg",
+      "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/7341/index.m3u8",
+      "streamUrl": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/7341/index.m3u8",
+      "stream_url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/7341/index.m3u8",
+      "streams": [
+        {
+          "name": "Sky Sports Racing (Server 1 HD)",
+          "serverLabel": "Server 1 HD",
+          "channelName": "Sky Sports Racing",
+          "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/7341/index.m3u8",
+          "quality": "1080p FHD"
+        }
+      ],
+      "backupUrls": [],
+      "isLive": true,
+      "isHD": true
+    },
+    {
+      "id": "ch-eurosport-2",
+      "name": "Eurosport 2",
+      "category": "Sports",
+      "categories": [
+        "LiveTV",
+        "Sports"
+      ],
+      "sports": [
+        "Tennis",
+        "Hockey"
+      ],
+      "priority": 3,
+      "active": true,
+      "provider": "Standard",
+      "isAkashGo": false,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Eurosport_2_logo_2015.svg/320px-Eurosport_2_logo_2015.svg.png",
+      "url": "http://151.80.18.177:86/Eurosport_2_HD/index.m3u8",
+      "streamUrl": "http://151.80.18.177:86/Eurosport_2_HD/index.m3u8",
+      "stream_url": "http://151.80.18.177:86/Eurosport_2_HD/index.m3u8",
+      "streams": [
+        {
+          "name": "Eurosport 2 (Server 1 HD)",
+          "serverLabel": "Server 1 HD",
+          "channelName": "Eurosport 2",
+          "url": "http://151.80.18.177:86/Eurosport_2_HD/index.m3u8",
+          "quality": "1080p FHD"
+        }
+      ],
+      "backupUrls": [],
+      "isLive": true,
+      "isHD": true
+    }
+  ],
+  "dead": [
+    {
+      "channel": {
+        "id": "ch-a-spor",
+        "name": "A SPOR",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Football"
+        ],
+        "priority": 3,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "",
+        "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8",
+        "streamUrl": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8",
+        "stream_url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8",
+        "streams": [
+          {
+            "name": "A SPOR (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "A SPOR",
+            "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "AbortError"
+    },
+    {
+      "channel": {
+        "id": "ch-tnt-sports-4",
+        "name": "TNT Sports 4",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Cricket",
+          "Football",
+          "Basketball",
+          "Boxing",
+          "MMA"
+        ],
+        "priority": 1,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/T_Sports_Logo.svg/320px-T_Sports_Logo.svg.png",
+        "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/19054/index.m3u8",
+        "streamUrl": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/19054/index.m3u8",
+        "stream_url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/19054/index.m3u8",
+        "streams": [
+          {
+            "name": "TNT Sports 4 (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "TNT Sports 4",
+            "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/19054/index.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "No media segments in playlist"
+    },
+    {
+      "channel": {
+        "id": "ch-tnt-sports-3",
+        "name": "TNT Sports 3",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Cricket",
+          "Football",
+          "Basketball",
+          "Boxing",
+          "MMA"
+        ],
+        "priority": 1,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/T_Sports_Logo.svg/320px-T_Sports_Logo.svg.png",
+        "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/6564/index.m3u8",
+        "streamUrl": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/6564/index.m3u8",
+        "stream_url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/6564/index.m3u8",
+        "streams": [
+          {
+            "name": "TNT Sports 3 (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "TNT Sports 3",
+            "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/6564/index.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "No media segments in playlist"
+    },
+    {
+      "channel": {
+        "id": "ch-go3-sport-1-hd",
+        "name": "Go3 Sport 1 HD",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Football"
+        ],
+        "priority": 3,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "./assets/channel-logos/ch-go3-sport-1-hd.svg",
+        "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/18000/index.m3u8",
+        "streamUrl": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/18000/index.m3u8",
+        "stream_url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/18000/index.m3u8",
+        "streams": [
+          {
+            "name": "Go3 Sport 1 HD (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "Go3 Sport 1 HD",
+            "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/18000/index.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "No media segments in playlist"
+    },
+    {
+      "channel": {
+        "id": "ch-tnt-sports-1",
+        "name": "TNT Sports 1",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Cricket",
+          "Football",
+          "Basketball",
+          "Boxing",
+          "MMA"
+        ],
+        "priority": 1,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/T_Sports_Logo.svg/320px-T_Sports_Logo.svg.png",
+        "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/2505/index.m3u8",
+        "streamUrl": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/2505/index.m3u8",
+        "stream_url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/2505/index.m3u8",
+        "streams": [
+          {
+            "name": "TNT Sports 1 (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "TNT Sports 1",
+            "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/2505/index.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "No media segments in playlist"
+    },
+    {
+      "channel": {
+        "id": "ch-go3-sport-2-hd",
+        "name": "Go3 Sport 2 HD",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Football"
+        ],
+        "priority": 3,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "./assets/channel-logos/ch-go3-sport-2-hd.svg",
+        "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/18012/index.m3u8",
+        "streamUrl": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/18012/index.m3u8",
+        "stream_url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/18012/index.m3u8",
+        "streams": [
+          {
+            "name": "Go3 Sport 2 HD (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "Go3 Sport 2 HD",
+            "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/18012/index.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "No media segments in playlist"
+    },
+    {
+      "channel": {
+        "id": "ch-tnt-sports-2",
+        "name": "TNT Sports 2",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Cricket",
+          "Football",
+          "Basketball",
+          "Boxing",
+          "MMA"
+        ],
+        "priority": 1,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/T_Sports_Logo.svg/320px-T_Sports_Logo.svg.png",
+        "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/2506/index.m3u8",
+        "streamUrl": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/2506/index.m3u8",
+        "stream_url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/2506/index.m3u8",
+        "streams": [
+          {
+            "name": "TNT Sports 2 (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "TNT Sports 2",
+            "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/2506/index.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "No media segments in playlist"
+    },
+    {
+      "channel": {
+        "id": "ch-bein-sports-2",
+        "name": "beIN SPORTS 2",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Football"
+        ],
+        "priority": 2,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/BeIN_Sports_logo.svg/320px-BeIN_Sports_logo.svg.png",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streams": [
+          {
+            "name": "beIN SPORTS 2 (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "beIN SPORTS 2",
+            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "Invalid or placeholder/DRM URL"
+    },
+    {
+      "channel": {
+        "id": "ch-espn2",
+        "name": "ESPN2",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Football",
+          "Basketball"
+        ],
+        "priority": 3,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/ESPN2_logo.svg/320px-ESPN2_logo.svg.png",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streams": [
+          {
+            "name": "ESPN2 (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "ESPN2",
+            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "Invalid or placeholder/DRM URL"
+    },
+    {
+      "channel": {
+        "id": "ch-fs1",
+        "name": "FS1",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Football",
+          "Cricket"
+        ],
+        "priority": 3,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Fox_Sports_1_logo.svg/320px-Fox_Sports_1_logo.svg.png",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streams": [
+          {
+            "name": "FS1 (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "FS1",
+            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "Invalid or placeholder/DRM URL"
+    },
+    {
+      "channel": {
+        "id": "ch-telemundo",
+        "name": "Telemundo",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Football"
+        ],
+        "priority": 3,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Telemundo_logo_2018.svg/320px-Telemundo_logo_2018.svg.png",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streams": [
+          {
+            "name": "Telemundo (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "Telemundo",
+            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "Invalid or placeholder/DRM URL"
+    },
+    {
+      "channel": {
+        "id": "ch-bein-sports-4-hd",
+        "name": "beIN Sports 4 HD",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Football"
+        ],
+        "priority": 2,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "./assets/channel-logos/ch-bein-sports-4-hd.svg",
+        "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/6125/index.m3u8",
+        "streamUrl": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/6125/index.m3u8",
+        "stream_url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/6125/index.m3u8",
+        "streams": [
+          {
+            "name": "beIN Sports 4 HD (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "beIN Sports 4 HD",
+            "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/6125/index.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "No media segments in playlist"
+    },
+    {
+      "channel": {
+        "id": "ch-dazn-3",
+        "name": "DAZN 3",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Football",
+          "Boxing",
+          "MMA"
+        ],
+        "priority": 3,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "./assets/channel-logos/ch-dazn-3.svg",
+        "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/2533/index.m3u8",
+        "streamUrl": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/2533/index.m3u8",
+        "stream_url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/2533/index.m3u8",
+        "streams": [
+          {
+            "name": "DAZN 3 (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "DAZN 3",
+            "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/2533/index.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "No media segments in playlist"
+    },
+    {
+      "channel": {
+        "id": "ch-bein-sports-5-hd",
+        "name": "beIN Sports 5 HD",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Football"
+        ],
+        "priority": 2,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "./assets/channel-logos/ch-bein-sports-5-hd.svg",
+        "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/6126/index.m3u8",
+        "streamUrl": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/6126/index.m3u8",
+        "stream_url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/6126/index.m3u8",
+        "streams": [
+          {
+            "name": "beIN Sports 5 HD (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "beIN Sports 5 HD",
+            "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/6126/index.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "No media segments in playlist"
+    },
+    {
+      "channel": {
+        "id": "ch-bein-sports-1-hd",
+        "name": "beIN Sports 1 HD",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Football"
+        ],
+        "priority": 2,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "./assets/channel-logos/ch-bein-sports-1-hd.svg",
+        "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/6123/index.m3u8",
+        "streamUrl": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/6123/index.m3u8",
+        "stream_url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/6123/index.m3u8",
+        "streams": [
+          {
+            "name": "beIN Sports 1 HD (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "beIN Sports 1 HD",
+            "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/6123/index.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "No media segments in playlist"
+    },
+    {
+      "channel": {
+        "id": "ch-sky-sports-f1-hd",
+        "name": "Sky Sports F1 HD",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "F1",
+          "Motorsport"
+        ],
+        "priority": 2,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Sky_Sports_F1.svg/320px-Sky_Sports_F1.svg.png",
+        "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/7342/index.m3u8",
+        "streamUrl": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/7342/index.m3u8",
+        "stream_url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/7342/index.m3u8",
+        "streams": [
+          {
+            "name": "Sky Sports F1 HD (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "Sky Sports F1 HD",
+            "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/7342/index.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "No media segments in playlist"
+    },
+    {
+      "channel": {
+        "id": "ch-bein-sports-3-hd",
+        "name": "beIN Sports 3 HD",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Football"
+        ],
+        "priority": 2,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "./assets/channel-logos/ch-bein-sports-3-hd.svg",
+        "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/6124/index.m3u8",
+        "streamUrl": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/6124/index.m3u8",
+        "stream_url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/6124/index.m3u8",
+        "streams": [
+          {
+            "name": "beIN Sports 3 HD (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "beIN Sports 3 HD",
+            "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/6124/index.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "No media segments in playlist"
+    },
+    {
+      "channel": {
+        "id": "ch-gtv",
+        "name": "GTV",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Cricket"
+        ],
+        "priority": 3,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/GTV_Bangladesh_Logo.svg/320px-GTV_Bangladesh_Logo.svg.png",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streams": [
+          {
+            "name": "GTV (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "GTV",
+            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "Invalid or placeholder/DRM URL"
+    },
+    {
+      "channel": {
+        "id": "ch-star-sports-3",
+        "name": "Star Sports 3",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Cricket"
+        ],
+        "priority": 3,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Sports_logo.svg/320px-Star_Sports_logo.svg.png",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streams": [
+          {
+            "name": "Star Sports 3 (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "Star Sports 3",
+            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "Invalid or placeholder/DRM URL"
+    },
+    {
+      "channel": {
+        "id": "ch-willow-xtra",
+        "name": "Willow Xtra",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Cricket"
+        ],
+        "priority": 1,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "./assets/channel-logos/sports-willow-hd-2.svg",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streams": [
+          {
+            "name": "Willow Xtra (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "Willow Xtra",
+            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "Invalid or placeholder/DRM URL"
+    },
+    {
+      "channel": {
+        "id": "ch-supersport-grandstand",
+        "name": "SuperSport Grandstand",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Football",
+          "Cricket"
+        ],
+        "priority": 2,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/SuperSport_%28South_African_broadcaster%29_logo.svg/320px-SuperSport_%28South_African_broadcaster%29_logo.svg.png",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streams": [
+          {
+            "name": "SuperSport Grandstand (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "SuperSport Grandstand",
+            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "Invalid or placeholder/DRM URL"
+    },
+    {
+      "channel": {
+        "id": "ch-hub-sports-4",
+        "name": "Hub Sports 4",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Football",
+          "Cricket"
+        ],
+        "priority": 3,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/StarHub_TV_logo.svg/320px-StarHub_TV_logo.svg.png",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streams": [
+          {
+            "name": "Hub Sports 4 (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "Hub Sports 4",
+            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "Invalid or placeholder/DRM URL"
+    },
+    {
+      "channel": {
+        "id": "ch-mlb-network",
+        "name": "MLB Network",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Baseball"
+        ],
+        "priority": 3,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/MLB_Network_logo.svg/320px-MLB_Network_logo.svg.png",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streams": [
+          {
+            "name": "MLB Network (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "MLB Network",
+            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "Invalid or placeholder/DRM URL"
+    },
+    {
+      "channel": {
+        "id": "ch-sportsnet-one",
+        "name": "Sportsnet ONE",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Baseball"
+        ],
+        "priority": 3,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Sportsnet_logo.svg/320px-Sportsnet_logo.svg.png",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streams": [
+          {
+            "name": "Sportsnet ONE (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "Sportsnet ONE",
+            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "Invalid or placeholder/DRM URL"
+    },
+    {
+      "channel": {
+        "id": "ch-abc",
+        "name": "ABC",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Football",
+          "Cricket"
+        ],
+        "priority": 3,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/ABC_logo_2021.svg/320px-ABC_logo_2021.svg.png",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streams": [
+          {
+            "name": "ABC (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "ABC",
+            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "Invalid or placeholder/DRM URL"
+    },
+    {
+      "channel": {
+        "id": "ch-tsn",
+        "name": "TSN",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Football",
+          "Cricket"
+        ],
+        "priority": 3,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/The_Sports_Network_logo.svg/320px-The_Sports_Network_logo.svg.png",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streams": [
+          {
+            "name": "TSN (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "TSN",
+            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "Invalid or placeholder/DRM URL"
+    },
+    {
+      "channel": {
+        "id": "ch-supersport-tennis",
+        "name": "SuperSport Tennis",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Tennis"
+        ],
+        "priority": 2,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/SuperSport_%28South_African_broadcaster%29_logo.svg/320px-SuperSport_%28South_African_broadcaster%29_logo.svg.png",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streams": [
+          {
+            "name": "SuperSport Tennis (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "SuperSport Tennis",
+            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "Invalid or placeholder/DRM URL"
+    },
+    {
+      "channel": {
+        "id": "ch-canal",
+        "name": "Canal+",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Football",
+          "Cricket"
+        ],
+        "priority": 3,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Canal%2B_logo.svg/320px-Canal%2B_logo.svg.png",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streams": [
+          {
+            "name": "Canal+ (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "Canal+",
+            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "Invalid or placeholder/DRM URL"
+    },
+    {
+      "channel": {
+        "id": "ch-usa-network",
+        "name": "USA Network",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "WWE"
+        ],
+        "priority": 3,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/USA_Network_logo_2016.svg/320px-USA_Network_logo_2016.svg.png",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streams": [
+          {
+            "name": "USA Network (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "USA Network",
+            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "Invalid or placeholder/DRM URL"
+    },
+    {
+      "channel": {
+        "id": "ch-sony-sports-ten-2",
+        "name": "Sony Sports Ten 2",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Football",
+          "Tennis"
+        ],
+        "priority": 1,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Sony_Sports_Ten_1_Logo.svg/320px-Sony_Sports_Ten_1_Logo.svg.png",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streams": [
+          {
+            "name": "Sony Sports Ten 2 (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "Sony Sports Ten 2",
+            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "Invalid or placeholder/DRM URL"
+    },
+    {
+      "channel": {
+        "id": "ch-nhl-network",
+        "name": "NHL Network",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "priority": 3,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/NHL_Network_logo.svg/320px-NHL_Network_logo.svg.png",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streams": [
+          {
+            "name": "NHL Network (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "NHL Network",
+            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "Invalid or placeholder/DRM URL"
+    },
+    {
+      "channel": {
+        "id": "ch-sony-sports-ten-4",
+        "name": "Sony Sports Ten 4",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Football",
+          "Cricket"
+        ],
+        "priority": 3,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "./assets/channel-logos/sports-sony-ten-2.svg",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streams": [
+          {
+            "name": "Sony Sports Ten 4 (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "Sony Sports Ten 4",
+            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "Invalid or placeholder/DRM URL"
+    },
+    {
+      "channel": {
+        "id": "ch-stan-sport",
+        "name": "Stan Sport",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Football",
+          "Cricket"
+        ],
+        "priority": 3,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Stan_logo.svg/320px-Stan_logo.svg.png",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "stream_url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "streams": [
+          {
+            "name": "Stan Sport (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "Stan Sport",
+            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "Invalid or placeholder/DRM URL"
+    },
+    {
+      "channel": {
+        "id": "ch-dazn-fast-hd",
+        "name": "DAZN FAST HD",
+        "category": "Sports",
+        "categories": [
+          "LiveTV",
+          "Sports"
+        ],
+        "sports": [
+          "Football",
+          "Boxing",
+          "MMA"
+        ],
+        "priority": 3,
+        "active": true,
+        "provider": "Standard",
+        "isAkashGo": false,
+        "logo": "./assets/channel-logos/ch-daznfasthd.svg",
+        "url": "https://ac-003.live.p7s1video.net/63f8995e/t_003/dazn-fast-hd/cenc-default.mpd",
+        "streamUrl": "https://ac-003.live.p7s1video.net/63f8995e/t_003/dazn-fast-hd/cenc-default.mpd",
+        "stream_url": "https://ac-003.live.p7s1video.net/63f8995e/t_003/dazn-fast-hd/cenc-default.mpd",
+        "streams": [
+          {
+            "name": "DAZN FAST HD (Server 1 HD)",
+            "serverLabel": "Server 1 HD",
+            "channelName": "DAZN FAST HD",
+            "url": "https://ac-003.live.p7s1video.net/63f8995e/t_003/dazn-fast-hd/cenc-default.mpd",
+            "quality": "1080p FHD"
+          }
+        ],
+        "backupUrls": [],
+        "isLive": true,
+        "isHD": true
+      },
+      "reason": "Invalid or placeholder/DRM URL"
+    }
+  ]
+}

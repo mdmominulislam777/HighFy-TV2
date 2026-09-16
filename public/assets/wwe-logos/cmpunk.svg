@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="50%" stop-color="#09090b"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+    <linearGradient id="starRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#b91c1c"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="94" fill="url(#cmBg)" stroke="#38bdf8" stroke-width="2.5"/>
+  <!-- Chicago 4 Red Stars -->
+  <g transform="translate(10, -5)">
+    <!-- 4 Stars row -->
+    <path d="M50 48 L53 55 L60 56 L55 61 L56 68 L50 64 L44 68 L45 61 L40 56 L47 55 Z" fill="url(#starRed)"/>
+    <path d="M80 48 L83 55 L90 56 L85 61 L86 68 L80 64 L74 68 L75 61 L70 56 L77 55 Z" fill="url(#starRed)"/>
+    <path d="M110 48 L113 55 L120 56 L115 61 L116 68 L110 64 L104 68 L105 61 L100 56 L107 55 Z" fill="url(#starRed)"/>
+    <path d="M140 48 L143 55 L150 56 L145 61 L146 68 L140 64 L134 68 L135 61 L130 56 L137 55 Z" fill="url(#starRed)"/>
+  </g>
+  <!-- Tape Fist & Lightning Bolt -->
+  <g transform="translate(68, 70)">
+    <rect x="12" y="10" width="40" height="42" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+    <!-- Crossed black tape -->
+    <path d="M12 10 L52 52 M52 10 L12 52" stroke="#dc2626" stroke-width="4"/>
+  </g>
+  <!-- Name -->
+  <rect x="25" y="148" width="150" height="26" rx="6" fill="#0f172a" stroke="#38bdf8" stroke-width="1"/>
+  <text x="100" y="165" fill="#ffffff" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="12" letter-spacing="2" text-anchor="middle">CM PUNK</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <circle cx="100" cy="100" r="94" fill="#09090b" stroke="#e2e8f0" stroke-width="2.5"/>
+  <g transform="translate(60, 40)">
+    <circle cx="40" cy="40" r="32" fill="#1e293b" stroke="#ffffff" stroke-width="3"/>
+    <text x="40" y="48" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="22" text-anchor="middle">EGO</text>
+  </g>
+  <rect x="20" y="152" width="160" height="26" rx="6" fill="#18181b" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="100" y="169" fill="#ffffff" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="12" letter-spacing="2" text-anchor="middle">ETHAN PAGE</text>
+</svg>

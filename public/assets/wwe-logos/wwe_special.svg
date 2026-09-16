@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pleGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#eab308"/>
+      <stop offset="100%" stop-color="#a16207"/>
+    </linearGradient>
+    <linearGradient id="purpleGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6b21a8"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Shield -->
+  <rect x="8" y="8" width="184" height="184" rx="28" fill="#090514" stroke="#a855f7" stroke-width="3"/>
+  <!-- Top Mini WWE Network Star -->
+  <g transform="translate(76, 20) scale(0.24)">
+    <path d="M42 56 L62 136 L78 136 L66 82 L84 136 L100 136 L82 56 Z" fill="#ffffff"/>
+    <path d="M158 56 L138 136 L122 136 L134 82 L116 136 L100 136 L118 56 Z" fill="#ffffff"/>
+    <path d="M36 128 L164 128 L152 144 L48 144 Z" fill="#ef4444"/>
+  </g>
+  <!-- Trophy / Crown Crest -->
+  <g transform="translate(45, 60)">
+    <path d="M10 20 L30 10 L55 35 L80 10 L100 20 L90 55 C90 75 55 90 55 90 C55 90 20 75 20 55 Z" fill="url(#purpleGlow)" stroke="url(#pleGold)" stroke-width="2.5"/>
+    <!-- Championship Stars -->
+    <circle cx="55" cy="50" r="14" fill="url(#pleGold)"/>
+    <path d="M55 40 L58 47 L65 48 L60 53 L62 60 L55 56 L48 60 L50 53 L45 48 L52 47 Z" fill="#090514"/>
+  </g>
+  <!-- Subtitle -->
+  <rect x="22" y="152" width="156" height="26" rx="6" fill="url(#pleGold)"/>
+  <text x="100" y="169" fill="#090514" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="10.5" letter-spacing="1.5" text-anchor="middle">PREMIUM LIVE EVENT</text>
+</svg>

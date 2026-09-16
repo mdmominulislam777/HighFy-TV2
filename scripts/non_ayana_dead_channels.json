@@ -1,0 +1,5697 @@
+[
+  {
+    "id": "ch-music-bangla",
+    "name": "MUSIC BANGLA",
+    "category": "Music",
+    "categories": [
+      "LiveTV",
+      "Music",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://static.wikia.nocookie.net/logopedia/images/7/75/Music_Bangla_new.jpeg",
+    "url": "http://live.matribhumitv.com/music-bangla/index.m3u8",
+    "streamUrl": "http://live.matribhumitv.com/music-bangla/index.m3u8",
+    "stream_url": "http://live.matribhumitv.com/music-bangla/index.m3u8",
+    "streams": [
+      {
+        "name": "MUSIC BANGLA (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "MUSIC BANGLA",
+        "url": "http://live.matribhumitv.com/music-bangla/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-wc-match-recap",
+    "name": "WC Match Recap",
+    "category": "Entertainment",
+    "categories": [
+      "LiveTV",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/V__o054BObUt2AG6LL5C/posters/84590b8d-6430-4ba8-a0a5-757bf2f57c05.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/fifa_world_cup/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/fifa_world_cup/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/fifa_world_cup/playlist.m3u8",
+    "streams": [
+      {
+        "name": "WC Match Recap (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "WC Match Recap",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/fifa_world_cup/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-channel-i",
+    "name": "Channel i",
+    "category": "Bengali",
+    "categories": [
+      "LiveTV",
+      "Bengali",
+      "Bangla",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Channel_i_logo.svg/320px-Channel_i_logo.svg.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/channel_i/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/channel_i/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/channel_i/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Channel i (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Channel i",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/channel_i/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-epl-channel-1",
+    "name": "EPL channel 1",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports",
+      "Akash Go"
+    ],
+    "sports": [
+      "Football"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/JS1AqZgBNnOkwJLWlwg-/posters/08617b27-2af1-4035-bcc3-d054ce42ca4b.png",
+    "url": "https://mprod-cdn.toffeelive.com/live/match-1/index.m3u8",
+    "streamUrl": "https://mprod-cdn.toffeelive.com/live/match-1/index.m3u8",
+    "stream_url": "https://mprod-cdn.toffeelive.com/live/match-1/index.m3u8",
+    "streams": [
+      {
+        "name": "EPL channel 1 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "EPL channel 1",
+        "url": "https://mprod-cdn.toffeelive.com/live/match-1/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sony-sports-ten-1-hd",
+    "name": "Sony Sports Ten 1 HD",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports",
+      "Akash Go"
+    ],
+    "sports": [
+      "WWE",
+      "Hockey",
+      "Kabaddi"
+    ],
+    "priority": 1,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Sony_Sports_Ten_1_Logo.svg/320px-Sony_Sports_Ten_1_Logo.svg.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_sports_1_hd/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_sports_1_hd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_sports_1_hd/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Sony Sports Ten 1 HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sony Sports Ten 1 HD",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_sports_1_hd/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-global-tv",
+    "name": "Global TV",
+    "category": "Bengali",
+    "categories": [
+      "LiveTV",
+      "Bengali",
+      "Bangla",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/0y_tDJsBNnOkwJLWNrdE/posters/2ff058e1-630f-4657-8dc6-b677e65642c5.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/globaltv/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/globaltv/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/globaltv/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Global TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Global TV",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/globaltv/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sony-sports-ten-5-hd",
+    "name": "Sony Sports Ten 5 HD",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports",
+      "Akash Go"
+    ],
+    "sports": [
+      "Tennis",
+      "Hockey"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Sony_Sports_Ten_1_Logo.svg/320px-Sony_Sports_Ten_1_Logo.svg.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_sports_5_hd/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_sports_5_hd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_sports_5_hd/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Sony Sports Ten 5 HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sony Sports Ten 5 HD",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_sports_5_hd/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-ekhon-tv",
+    "name": "Ekhon TV",
+    "category": "Bengali",
+    "categories": [
+      "LiveTV",
+      "Bengali",
+      "Bangla",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/o3v235oBcqxnFHJBkAdC/posters/159af631-796d-4342-a2a7-c272f32bcd32.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ekhon_tv/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ekhon_tv/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ekhon_tv/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Ekhon TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Ekhon TV",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ekhon_tv/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-ntv",
+    "name": "NTV",
+    "category": "Bengali",
+    "categories": [
+      "LiveTV",
+      "Bengali",
+      "Bangla",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/NTV_Bangladesh_Logo.svg/320px-NTV_Bangladesh_Logo.svg.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/n_tv/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/n_tv/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/n_tv/playlist.m3u8",
+    "streams": [
+      {
+        "name": "NTV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "NTV",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/n_tv/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-eurosport-1-hd",
+    "name": "Eurosport 1 HD",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports",
+      "Akash Go"
+    ],
+    "sports": [
+      "Tennis",
+      "Hockey"
+    ],
+    "priority": 2,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Eurosport_1_logo_2015.svg/320px-Eurosport_1_logo_2015.svg.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/euro_sports_hd/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/euro_sports_hd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/euro_sports_hd/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Eurosport 1 HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Eurosport 1 HD",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/euro_sports_hd/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sony-sports-ten-2-hd",
+    "name": "Sony Sports Ten 2 HD",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports",
+      "Akash Go"
+    ],
+    "sports": [
+      "Football",
+      "Tennis"
+    ],
+    "priority": 1,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Sony_Sports_Ten_1_Logo.svg/320px-Sony_Sports_Ten_1_Logo.svg.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_sports_2_hd/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_sports_2_hd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_sports_2_hd/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Sony Sports Ten 2 HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sony Sports Ten 2 HD",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_sports_2_hd/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sony-ten-cricket-hd",
+    "name": "Sony Ten Cricket HD",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports",
+      "Akash Go"
+    ],
+    "sports": [
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Sony_Sports_Ten_1_Logo.svg/320px-Sony_Sports_Ten_1_Logo.svg.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_cricket/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_cricket/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_cricket/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Sony Ten Cricket HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sony Ten Cricket HD",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_cricket/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-jamuna-tv",
+    "name": "Jamuna TV",
+    "category": "Bengali",
+    "categories": [
+      "LiveTV",
+      "Bengali",
+      "Bangla",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Somoy_TV_logo.svg/320px-Somoy_TV_logo.svg.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/jamuna_tv/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/jamuna_tv/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/jamuna_tv/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Jamuna TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Jamuna TV",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/jamuna_tv/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-toffee-tv",
+    "name": "Toffee TV",
+    "category": "Entertainment",
+    "categories": [
+      "LiveTV",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/DNMXs5UBm1RY_In7IJ72/posters/737b5c6e-8435-4cd8-81de-16a499fa6f4e.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/toffee_drama/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/toffee_drama/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/toffee_drama/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Toffee TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Toffee TV",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/toffee_drama/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-bbc-news",
+    "name": "BBC News",
+    "category": "News",
+    "categories": [
+      "LiveTV",
+      "News",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/BBC_News_2019.svg/320px-BBC_News_2019.svg.png",
+    "url": "https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News-avc1_3000000=8-mp4a_208000_eng=2.m3u8",
+    "streamUrl": "https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News-avc1_3000000=8-mp4a_208000_eng=2.m3u8",
+    "stream_url": "https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News-avc1_3000000=8-mp4a_208000_eng=2.m3u8",
+    "streams": [
+      {
+        "name": "BBC News (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "BBC News",
+        "url": "https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News-avc1_3000000=8-mp4a_208000_eng=2.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-day-1-1st-test-19-aug-2026-english-pakistan-tour-of-england-2026",
+    "name": "Day 1 - 1st Test - 19 Aug 2026 [English] - Pakistan Tour of England 2026",
+    "category": "Entertainment",
+    "categories": [
+      "LiveTV",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://img.media.jio.com/tvpimages/26/82/3351927cebe858f996dcc48366ad739a_1787155022886_l_medium.jpg",
+    "url": "https://sonydaimenew.akamaized.net/hls/live/20000376/criclive1908/ENG/master.m3u8?hdnea=exp=1787199168~acl=/*~id=85050945937146301541515456382296~hmac=db43507dff6e959da5a167c1a8669c6672e168f92817d0910213a29f51bcc0f5",
+    "streamUrl": "https://sonydaimenew.akamaized.net/hls/live/20000376/criclive1908/ENG/master.m3u8?hdnea=exp=1787199168~acl=/*~id=85050945937146301541515456382296~hmac=db43507dff6e959da5a167c1a8669c6672e168f92817d0910213a29f51bcc0f5",
+    "stream_url": "https://sonydaimenew.akamaized.net/hls/live/20000376/criclive1908/ENG/master.m3u8?hdnea=exp=1787199168~acl=/*~id=85050945937146301541515456382296~hmac=db43507dff6e959da5a167c1a8669c6672e168f92817d0910213a29f51bcc0f5",
+    "streams": [
+      {
+        "name": "Day 1 - 1st Test - 19 Aug 2026 [English] - Pakistan Tour of England 2026 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Day 1 - 1st Test - 19 Aug 2026 [English] - Pakistan Tour of England 2026",
+        "url": "https://sonydaimenew.akamaized.net/hls/live/20000376/criclive1908/ENG/master.m3u8?hdnea=exp=1787199168~acl=/*~id=85050945937146301541515456382296~hmac=db43507dff6e959da5a167c1a8669c6672e168f92817d0910213a29f51bcc0f5",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-england-vs-india-7th-t20i-19-aug-2026-eng-vitality-mixed-disability-it20-series",
+    "name": "England vs India - 7th T20I - 19 Aug 2026 [ENG] - Vitality Mixed Disability IT20 series",
+    "category": "Entertainment",
+    "categories": [
+      "LiveTV",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000021920/1786182966623520_Vitality_Mixed_Disability_7th_T20i_England_vs_India_landscape_thumb.jpg",
+    "url": "https://sonydaimenew.akamaized.net/hls/live/20000298/Cricket_1908/ENG/std_lrh-800300010.m3u8?hdnea=exp=1787199168~acl=/*~id=85050945937146301541515456382296~hmac=db43507dff6e959da5a167c1a8669c6672e168f92817d0910213a29f51bcc0f5",
+    "streamUrl": "https://sonydaimenew.akamaized.net/hls/live/20000298/Cricket_1908/ENG/std_lrh-800300010.m3u8?hdnea=exp=1787199168~acl=/*~id=85050945937146301541515456382296~hmac=db43507dff6e959da5a167c1a8669c6672e168f92817d0910213a29f51bcc0f5",
+    "stream_url": "https://sonydaimenew.akamaized.net/hls/live/20000298/Cricket_1908/ENG/std_lrh-800300010.m3u8?hdnea=exp=1787199168~acl=/*~id=85050945937146301541515456382296~hmac=db43507dff6e959da5a167c1a8669c6672e168f92817d0910213a29f51bcc0f5",
+    "streams": [
+      {
+        "name": "England vs India - 7th T20I - 19 Aug 2026 [ENG] - Vitality Mixed Disability IT20 series (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "England vs India - 7th T20I - 19 Aug 2026 [ENG] - Vitality Mixed Disability IT20 series",
+        "url": "https://sonydaimenew.akamaized.net/hls/live/20000298/Cricket_1908/ENG/std_lrh-800300010.m3u8?hdnea=exp=1787199168~acl=/*~id=85050945937146301541515456382296~hmac=db43507dff6e959da5a167c1a8669c6672e168f92817d0910213a29f51bcc0f5",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-ekushey-tv",
+    "name": "Ekushey TV",
+    "category": "Bengali",
+    "categories": [
+      "LiveTV",
+      "Bengali",
+      "Bangla",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://s4.gifyu.com/images/image534fa27d7683f33d.png",
+    "url": "http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8",
+    "streamUrl": "http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8",
+    "stream_url": "http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8",
+    "streams": [
+      {
+        "name": "Ekushey TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Ekushey TV",
+        "url": "http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-somoy-tv",
+    "name": "Somoy TV",
+    "category": "Bengali",
+    "categories": [
+      "LiveTV",
+      "Bengali",
+      "Bangla",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Somoy_TV_logo.svg/320px-Somoy_TV_logo.svg.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/somoy_tv/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/somoy_tv/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/somoy_tv/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Somoy TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Somoy TV",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/somoy_tv/playlist.m3u8",
+        "quality": "1080p FHD"
+      },
+      {
+        "name": "Somoy TV (Server 2)",
+        "serverLabel": "Server 2",
+        "channelName": "Somoy TV",
+        "url": "http://103.165.93.31:8095/somoyTv/tracks-v1a1/mono.m3u8",
+        "quality": "720p HD"
+      }
+    ],
+    "backupUrls": [
+      "http://103.165.93.31:8095/somoyTv/tracks-v1a1/mono.m3u8"
+    ],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-islamic-tv",
+    "name": "Islamic TV",
+    "category": "Islamic",
+    "categories": [
+      "LiveTV",
+      "Islamic",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/jehEA54BIxFjn23xAmdw/posters/2c276556-cbcd-4467-b627-4394bb20f250.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/islamic_tv/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/islamic_tv/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/islamic_tv/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Islamic TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Islamic TV",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/islamic_tv/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-desh-tv",
+    "name": "Desh TV",
+    "category": "Bengali",
+    "categories": [
+      "LiveTV",
+      "Bengali",
+      "Bangla",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/6Hz1PJwBcqxnFHJBhgkV/posters/845f1e3f-987a-47cc-a48d-ee12d8f4d419.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/desh_tv/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/desh_tv/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/desh_tv/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Desh TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Desh TV",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/desh_tv/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-ekattor-tv",
+    "name": "Ekattor TV",
+    "category": "Bengali",
+    "categories": [
+      "LiveTV",
+      "Bengali",
+      "Bangla",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/Ekattor_TV_logo.svg/320px-Ekattor_TV_logo.svg.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ekattor_tv/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ekattor_tv/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ekattor_tv/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Ekattor TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Ekattor TV",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ekattor_tv/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-independent-tv",
+    "name": "Independent TV",
+    "category": "News",
+    "categories": [
+      "LiveTV",
+      "News",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/Independent_Television_logo.svg/320px-Independent_Television_logo.svg.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/independent_tv/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/independent_tv/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/independent_tv/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Independent TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Independent TV",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/independent_tv/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sony-max-hd",
+    "name": "Sony MAX HD",
+    "category": "Entertainment",
+    "categories": [
+      "LiveTV",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Sony_Max_logo.svg/320px-Sony_Max_logo.svg.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_max_hd/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_max_hd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_max_hd/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Sony MAX HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sony MAX HD",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_max_hd/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-b4u-movies-apac",
+    "name": "B4U Movies APAC",
+    "category": "Movies",
+    "categories": [
+      "LiveTV",
+      "Movies",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/PC6F-JQBv9knK3AHlTUO/posters/fb0243ba-39a0-4101-a78c-c197be550c6c.webp",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/b4u_movies/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/b4u_movies/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/b4u_movies/playlist.m3u8",
+    "streams": [
+      {
+        "name": "B4U Movies APAC (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "B4U Movies APAC",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/b4u_movies/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-movie-bangla",
+    "name": "Movie Bangla",
+    "category": "Movies",
+    "categories": [
+      "LiveTV",
+      "Movies",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/CXz4PJwBcqxnFHJBPwrG/posters/2f913e34-3a6c-45e6-9f1f-97bf129a2ff5.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/movie_bangla/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/movie_bangla/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/movie_bangla/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Movie Bangla (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Movie Bangla",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/movie_bangla/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-pictures-hd",
+    "name": "& Pictures HD",
+    "category": "Entertainment",
+    "categories": [
+      "LiveTV",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/QMwWnZUBtpl-Sbt7S2sx/posters/8cad9a82-842a-47bf-a060-f17011f11c07.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/andpicture_hd/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/andpicture_hd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/andpicture_hd/playlist.m3u8",
+    "streams": [
+      {
+        "name": "& Pictures HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "& Pictures HD",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/andpicture_hd/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sony-max-2",
+    "name": "Sony MAX 2",
+    "category": "Entertainment",
+    "categories": [
+      "LiveTV",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Ii5_-JQBv9knK3AHLDV3/posters/d961cc87-81b6-4b30-8414-8c0af2774818.webp",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonymax_2/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonymax_2/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonymax_2/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Sony MAX 2 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sony MAX 2",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonymax_2/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sony-pix-hd",
+    "name": "Sony PIX HD",
+    "category": "Movies",
+    "categories": [
+      "LiveTV",
+      "Movies",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Sony_PIX_logo.svg/320px-Sony_PIX_logo.svg.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonypix_hd/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonypix_hd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonypix_hd/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Sony PIX HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sony PIX HD",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonypix_hd/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-nexus-tv",
+    "name": "Nexus TV",
+    "category": "Bengali",
+    "categories": [
+      "LiveTV",
+      "Bengali",
+      "Bangla",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/FHz5PJwBcqxnFHJBdAqW/posters/419869ac-8ddf-4909-86c1-b69f0a3adf13.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/nexus_tv/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/nexus_tv/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/nexus_tv/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Nexus TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Nexus TV",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/nexus_tv/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-bangla-tv",
+    "name": "Bangla TV",
+    "category": "Entertainment",
+    "categories": [
+      "LiveTV",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/JiK-_poBEef-9-uVZv6L/posters/757a328e-70d6-45de-b093-0a843c69ade7.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/bangla_tv/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/bangla_tv/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/bangla_tv/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Bangla TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Bangla TV",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/bangla_tv/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-zee-bollywood",
+    "name": "Zee Bollywood",
+    "category": "Entertainment",
+    "categories": [
+      "LiveTV",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/OnSlPJYBcqxnFHJB6lFX/posters/d9ccb2a6-227f-4a41-8714-efaddab5cf5e.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_bollywood/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_bollywood/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_bollywood/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Zee Bollywood (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Zee Bollywood",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_bollywood/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-bijoy-tv",
+    "name": "Bijoy TV",
+    "category": "Bengali",
+    "categories": [
+      "LiveTV",
+      "Bengali",
+      "Bangla",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/bns4l5sBcqxnFHJBVZ32/posters/feaf9f3d-cc3b-4a3d-81a3-2cb703e561eb.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/bijoytv/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/bijoytv/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/bijoytv/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Bijoy TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Bijoy TV",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/bijoytv/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-cnn",
+    "name": "CNN",
+    "category": "News",
+    "categories": [
+      "LiveTV",
+      "News",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/320px-CNN.svg.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/cnn/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/cnn/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/cnn/playlist.m3u8",
+    "streams": [
+      {
+        "name": "CNN (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "CNN",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/cnn/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-zee-bangla-cinema",
+    "name": "Zee Bangla Cinema",
+    "category": "Movies",
+    "categories": [
+      "LiveTV",
+      "Movies",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Zee_Bangla_Logo_2023.png/320px-Zee_Bangla_Logo_2023.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_bangla_cinema/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_bangla_cinema/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_bangla_cinema/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Zee Bangla Cinema (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Zee Bangla Cinema",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_bangla_cinema/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-zee-cafe",
+    "name": "Zee Cafe",
+    "category": "Entertainment",
+    "categories": [
+      "LiveTV",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/U3QEd5YBcqxnFHJBpYzc/posters/8bc7ae1b-1a46-4b76-bdb1-13c7dbd3a95c.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_cafe_hd/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_cafe_hd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_cafe_hd/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Zee Cafe (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Zee Cafe",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_cafe_hd/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-mohona-tv",
+    "name": "Mohona TV",
+    "category": "Bengali",
+    "categories": [
+      "LiveTV",
+      "Bengali",
+      "Bangla",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/-Xz3PJwBcqxnFHJBDAlE/posters/fecea361-8b60-4aeb-a530-6e27eee8178a.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/mohona_tv/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/mohona_tv/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/mohona_tv/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Mohona TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Mohona TV",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/mohona_tv/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-zee-cinema-hd",
+    "name": "Zee Cinema HD",
+    "category": "Movies",
+    "categories": [
+      "LiveTV",
+      "Movies",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Zee_Cinema_Logo.svg/320px-Zee_Cinema_Logo.svg.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_cinema_hd/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_cinema_hd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_cinema_hd/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Zee Cinema HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Zee Cinema HD",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_cinema_hd/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-asian-tv",
+    "name": "Asian TV",
+    "category": "Bengali",
+    "categories": [
+      "LiveTV",
+      "Bengali",
+      "Bangla",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/MyK__poBEef-9-uVmf5l/posters/1eadef5b-28e7-4dc2-b42f-c67a3357c9a0.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/asian_tv/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/asian_tv/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/asian_tv/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Asian TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Asian TV",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/asian_tv/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-toffee-movies",
+    "name": "Toffee Movies",
+    "category": "Movies",
+    "categories": [
+      "LiveTV",
+      "Movies",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/b60Ss5UBrjBfS2_RJPb8/posters/2e5b8ff3-9deb-4040-947e-4ce6a4674ef0.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/toffee_movie/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/toffee_movie/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/toffee_movie/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Toffee Movies (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Toffee Movies",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/toffee_movie/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sony-max",
+    "name": "Sony MAX",
+    "category": "Entertainment",
+    "categories": [
+      "LiveTV",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Sony_Max_logo.svg/320px-Sony_Max_logo.svg.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_max/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_max/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_max/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Sony MAX (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sony MAX",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_max/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sony-entertainment-television-hd",
+    "name": "Sony Entertainment Television HD",
+    "category": "India",
+    "categories": [
+      "LiveTV",
+      "India",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/-y50-JQBv9knK3AHLzSn/posters/0ab48ac0-ec84-4ca2-9601-746ff3cb809e.webp",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonyentertainmnt_hd/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonyentertainmnt_hd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonyentertainmnt_hd/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Sony Entertainment Television HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sony Entertainment Television HD",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonyentertainmnt_hd/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-b4u-music",
+    "name": "B4U Music",
+    "category": "Music",
+    "categories": [
+      "LiveTV",
+      "Music",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/PS6F-JQBv9knK3AHqjVz/posters/0f83ee72-be0f-4861-94df-30b158d3df8d.webp",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/b4u_music/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/b4u_music/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/b4u_music/playlist.m3u8",
+    "streams": [
+      {
+        "name": "B4U Music (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "B4U Music",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/b4u_music/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-hum",
+    "name": "HUM",
+    "category": "Entertainment",
+    "categories": [
+      "LiveTV",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/0C63X5UBv9knK3AHxaOs/posters/6dce1143-1045-4fec-ac4f-86d2bfb32447.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/hum_tv/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/hum_tv/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/hum_tv/playlist.m3u8",
+    "streams": [
+      {
+        "name": "HUM (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "HUM",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/hum_tv/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-zee-action",
+    "name": "Zee Action",
+    "category": "Movies",
+    "categories": [
+      "LiveTV",
+      "Movies",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Pc3RD5YBtpl-Sbt7doxr/posters/33d667ae-bcc3-4f6b-b376-76c552136923.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_action/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_action/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_action/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Zee Action (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Zee Action",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_action/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-hum-sitaray",
+    "name": "HUM Sitaray",
+    "category": "Pakistan",
+    "categories": [
+      "LiveTV",
+      "Pakistan",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/WtPBX5UBm1RY_In7mXEU/posters/188d51f6-aeef-41ed-835b-e25ff911e209.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/hum_sitaray/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/hum_sitaray/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/hum_sitaray/playlist.m3u8",
+    "streams": [
+      {
+        "name": "HUM Sitaray (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "HUM Sitaray",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/hum_sitaray/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-tv-hd",
+    "name": "&TV HD",
+    "category": "India",
+    "categories": [
+      "LiveTV",
+      "India",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/5cwRnZUBtpl-Sbt7wWrN/posters/5779ade3-e9ba-4107-b3da-bae6f891500a.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/and_tv_hd/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/and_tv_hd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/and_tv_hd/playlist.m3u8",
+    "streams": [
+      {
+        "name": "&TV HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "&TV HD",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/and_tv_hd/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sony-sab-hd",
+    "name": "Sony SAB HD",
+    "category": "India",
+    "categories": [
+      "LiveTV",
+      "India",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/50/Sony_SAB_Logo_2022.svg/320px-Sony_SAB_Logo_2022.svg.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonysab_hd/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonysab_hd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonysab_hd/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Sony SAB HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sony SAB HD",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonysab_hd/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sony-bbc-earth-hd",
+    "name": "Sony BBC Earth HD",
+    "category": "News",
+    "categories": [
+      "LiveTV",
+      "News",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/MC6C-JQBv9knK3AHUzUT/posters/a8c32fd3-2ba7-437c-85ac-de2f1b2fa6ca.webp",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonybbc_earth_hd/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonybbc_earth_hd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonybbc_earth_hd/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Sony BBC Earth HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sony BBC Earth HD",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonybbc_earth_hd/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-tlc-hd",
+    "name": "TLC HD",
+    "category": "Infotainment",
+    "categories": [
+      "LiveTV",
+      "Infotainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/7S6j-JQBv9knK3AHbzXC/posters/0973097c-bc5c-4b28-aaca-f04d6f6cb5e2.webp",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/tlc_hd/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/tlc_hd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/tlc_hd/playlist.m3u8",
+    "streams": [
+      {
+        "name": "TLC HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "TLC HD",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/tlc_hd/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-hum-masala",
+    "name": "HUM Masala",
+    "category": "Pakistan",
+    "categories": [
+      "LiveTV",
+      "Pakistan",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/T9O9X5UBm1RY_In7UXFv/posters/30e0f372-eb3e-4cf9-be1e-b196a40c2fc7.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/hum_masala/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/hum_masala/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/hum_masala/playlist.m3u8",
+    "streams": [
+      {
+        "name": "HUM Masala (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "HUM Masala",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/hum_masala/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-animal-planet",
+    "name": "Animal Planet",
+    "category": "Infotainment",
+    "categories": [
+      "LiveTV",
+      "Infotainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Animal_Planet_2018.svg/320px-Animal_Planet_2018.svg.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/animal_planet_sd/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/animal_planet_sd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/animal_planet_sd/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Animal Planet (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Animal Planet",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/animal_planet_sd/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-zee-bangla",
+    "name": "Zee Bangla",
+    "category": "Entertainment",
+    "categories": [
+      "LiveTV",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Zee_Bangla_Logo_2023.png/320px-Zee_Bangla_Logo_2023.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_bangla/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_bangla/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_bangla/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Zee Bangla (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Zee Bangla",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_bangla/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-discovery",
+    "name": "Discovery",
+    "category": "Infotainment",
+    "categories": [
+      "LiveTV",
+      "Infotainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Discovery_Channel_Logo.svg/320px-Discovery_Channel_Logo.svg.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_sd/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_sd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_sd/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Discovery (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Discovery",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_sd/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-discovery-turbo",
+    "name": "Discovery Turbo",
+    "category": "Infotainment",
+    "categories": [
+      "LiveTV",
+      "Infotainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Ay6s-JQBv9knK3AHJTY1/posters/e8f65578-e82d-4e4a-a1ff-073becc5bd71.webp",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_turbo/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_turbo/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_turbo/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Discovery Turbo (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Discovery Turbo",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_turbo/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sony-aath",
+    "name": "Sony Aath",
+    "category": "Kolkata",
+    "categories": [
+      "LiveTV",
+      "Kolkata",
+      "Bengali",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/xi6xX5UBv9knK3AH9aMk/posters/f4db1c12-b10f-46e8-a09b-e0efb8820970.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonyaath/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonyaath/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonyaath/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Sony Aath (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sony Aath",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonyaath/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-zee-anmol",
+    "name": "Zee Anmol",
+    "category": "Entertainment",
+    "categories": [
+      "LiveTV",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/7x0Jd5YBEef-9-uVv_Gy/posters/f9c07bfc-9fde-40d0-91a1-e28c5840f400.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_anmol/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_anmol/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_anmol/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Zee Anmol (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Zee Anmol",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_anmol/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-zee-tv-hd",
+    "name": "Zee TV HD",
+    "category": "India",
+    "categories": [
+      "LiveTV",
+      "India",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/ltPQX5UBm1RY_In7b3F1/posters/d039d9df-9877-4969-a0b6-56888ebe2385.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_tv_hd/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_tv_hd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_tv_hd/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Zee TV HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Zee TV HD",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_tv_hd/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-zing",
+    "name": "Zing",
+    "category": "Music",
+    "categories": [
+      "LiveTV",
+      "Music",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/DK8dd5YBrjBfS2_Ru22e/posters/a4e57fd0-1853-4540-a9bc-0265ee43b5cb.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zing_sd/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zing_sd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zing_sd/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Zing (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Zing",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zing_sd/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sony-entertainment-television",
+    "name": "Sony Entertainment Television",
+    "category": "India",
+    "categories": [
+      "LiveTV",
+      "India",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/2S5t-JQBv9knK3AHJTTW/posters/ae74f943-77c9-4395-a16c-8ed84b439080.webp",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_entertainment/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_entertainment/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_entertainment/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Sony Entertainment Television (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sony Entertainment Television",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_entertainment/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-tlc",
+    "name": "TLC",
+    "category": "Infotainment",
+    "categories": [
+      "LiveTV",
+      "Infotainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/7C6j-JQBv9knK3AHVzUA/posters/e8f84105-5efe-4e91-a0d4-18a0849cf2f2.webp",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/tlc_sd/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/tlc_sd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/tlc_sd/playlist.m3u8",
+    "streams": [
+      {
+        "name": "TLC (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "TLC",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/tlc_sd/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-animal-planet-hd",
+    "name": "Animal Planet HD",
+    "category": "Infotainment",
+    "categories": [
+      "LiveTV",
+      "Infotainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Animal_Planet_2018.svg/320px-Animal_Planet_2018.svg.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/animal_planet_hd/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/animal_planet_hd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/animal_planet_hd/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Animal Planet HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Animal Planet HD",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/animal_planet_hd/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-discovery-science",
+    "name": "Discovery Science",
+    "category": "Infotainment",
+    "categories": [
+      "LiveTV",
+      "Infotainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/AS6s-JQBv9knK3AHDTZb/posters/eab8fd0f-9351-464c-b45e-332f38b49f4b.webp",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_science/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_science/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_science/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Discovery Science (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Discovery Science",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_science/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-investigation-discovery-hd",
+    "name": "Investigation Discovery HD",
+    "category": "Infotainment",
+    "categories": [
+      "LiveTV",
+      "Infotainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Discovery_Channel_Logo.svg/320px-Discovery_Channel_Logo.svg.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/discovary_investigation_hd/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/discovary_investigation_hd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/discovary_investigation_hd/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Investigation Discovery HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Investigation Discovery HD",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/discovary_investigation_hd/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-discovery-hd",
+    "name": "Discovery HD",
+    "category": "Infotainment",
+    "categories": [
+      "LiveTV",
+      "Infotainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Discovery_Channel_Logo.svg/320px-Discovery_Channel_Logo.svg.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_hd/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_hd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_hd/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Discovery HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Discovery HD",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_hd/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-cartoon-network-hd",
+    "name": "Cartoon Network HD +",
+    "category": "Kids",
+    "categories": [
+      "LiveTV",
+      "Kids",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/320px-Cartoon_Network_2010_logo.svg.png",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/cartoon_network_hd/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/cartoon_network_hd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/cartoon_network_hd/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Cartoon Network HD + (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Cartoon Network HD +",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/cartoon_network_hd/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-pogo",
+    "name": "POGO",
+    "category": "Kids",
+    "categories": [
+      "LiveTV",
+      "Kids",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/ny6W-JQBv9knK3AHujXC/posters/7e7c2afe-a663-4c09-983a-2d0fa0f1ca9a.webp",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/pogo_sd/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/pogo_sd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/pogo_sd/playlist.m3u8",
+    "streams": [
+      {
+        "name": "POGO (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "POGO",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/pogo_sd/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-discovery-kids",
+    "name": "Discovery Kids",
+    "category": "Infotainment",
+    "categories": [
+      "LiveTV",
+      "Infotainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/1i6e-JQBv9knK3AHHTXR/posters/325887a7-84ea-4cf9-a6fd-6111ddc25671.webp",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_kids/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_kids/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_kids/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Discovery Kids (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Discovery Kids",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_kids/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sony-yay",
+    "name": "Sony YAY",
+    "category": "Kids",
+    "categories": [
+      "LiveTV",
+      "Kids",
+      "Entertainment",
+      "Akash Go"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Akash Go",
+    "isAkashGo": true,
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/IC5_-JQBv9knK3AHFDXh/posters/36df4012-80f2-4a98-9970-3b663f62093f.webp",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonyyay/playlist.m3u8",
+    "streamUrl": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonyyay/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonyyay/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Sony YAY (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sony YAY",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonyyay/playlist.m3u8",
+        "quality": "1080p FHD"
+      },
+      {
+        "name": "Sony Yay (Server 2)",
+        "serverLabel": "Server 2",
+        "channelName": "Sony Yay",
+        "url": "https://s2.itcnbd.live/server-2/stream/sonyyay.m3u8",
+        "quality": "720p HD"
+      }
+    ],
+    "backupUrls": [
+      "https://s2.itcnbd.live/server-2/stream/sonyyay.m3u8"
+    ],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sky-sport-nz-3",
+    "name": "Sky Sport Nz 3",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
+    "url": "https://cdn6.zohanayaan.com:1686/hls/sky3nz.m3u8?md5=V-I1PNDc1nc2A9kqhHLurA&expires=1787160103",
+    "streamUrl": "https://cdn6.zohanayaan.com:1686/hls/sky3nz.m3u8?md5=V-I1PNDc1nc2A9kqhHLurA&expires=1787160103",
+    "stream_url": "https://cdn6.zohanayaan.com:1686/hls/sky3nz.m3u8?md5=V-I1PNDc1nc2A9kqhHLurA&expires=1787160103",
+    "streams": [
+      {
+        "name": "Sky Sport Nz 3 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sky Sport Nz 3",
+        "url": "https://cdn6.zohanayaan.com:1686/hls/sky3nz.m3u8?md5=V-I1PNDc1nc2A9kqhHLurA&expires=1787160103",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-tnt-3",
+    "name": "TNT 3",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/tnt.png",
+    "url": "https://cdn5.zohanayaan.com:1686/hls/bbtsp3.m3u8?md5=aCNqfCvFHHHqAp3JKnhj-w&expires=1787160102",
+    "streamUrl": "https://cdn5.zohanayaan.com:1686/hls/bbtsp3.m3u8?md5=aCNqfCvFHHHqAp3JKnhj-w&expires=1787160102",
+    "stream_url": "https://cdn5.zohanayaan.com:1686/hls/bbtsp3.m3u8?md5=aCNqfCvFHHHqAp3JKnhj-w&expires=1787160102",
+    "streams": [
+      {
+        "name": "TNT 3 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "TNT 3",
+        "url": "https://cdn5.zohanayaan.com:1686/hls/bbtsp3.m3u8?md5=aCNqfCvFHHHqAp3JKnhj-w&expires=1787160102",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sky-sport-nz-7",
+    "name": "Sky Sport Nz 7",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
+    "url": "https://cdn6.zohanayaan.com:1686/hls/sky7nz.m3u8?md5=nTeHA7OrZLxrOiw2o6LbzA&expires=1787160104",
+    "streamUrl": "https://cdn6.zohanayaan.com:1686/hls/sky7nz.m3u8?md5=nTeHA7OrZLxrOiw2o6LbzA&expires=1787160104",
+    "stream_url": "https://cdn6.zohanayaan.com:1686/hls/sky7nz.m3u8?md5=nTeHA7OrZLxrOiw2o6LbzA&expires=1787160104",
+    "streams": [
+      {
+        "name": "Sky Sport Nz 7 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sky Sport Nz 7",
+        "url": "https://cdn6.zohanayaan.com:1686/hls/sky7nz.m3u8?md5=nTeHA7OrZLxrOiw2o6LbzA&expires=1787160104",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sky-sport-nz-1",
+    "name": "Sky Sport Nz 1",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
+    "url": "https://cdn10.zohanayaan.com:1686/hls/sky1nz.m3u8?md5=v5u46P8MyGR3ogvjTRf8nQ&expires=1787160103",
+    "streamUrl": "https://cdn10.zohanayaan.com:1686/hls/sky1nz.m3u8?md5=v5u46P8MyGR3ogvjTRf8nQ&expires=1787160103",
+    "stream_url": "https://cdn10.zohanayaan.com:1686/hls/sky1nz.m3u8?md5=v5u46P8MyGR3ogvjTRf8nQ&expires=1787160103",
+    "streams": [
+      {
+        "name": "Sky Sport Nz 1 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sky Sport Nz 1",
+        "url": "https://cdn10.zohanayaan.com:1686/hls/sky1nz.m3u8?md5=v5u46P8MyGR3ogvjTRf8nQ&expires=1787160103",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-ptv-sports",
+    "name": "PTV Sports",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Cricket"
+    ],
+    "priority": 1,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/PTV_Sports_logo.svg/320px-PTV_Sports_logo.svg.png",
+    "url": "https://cdn1.zohanayaan.com:1686/hls/ptvpk.m3u8?md5=r8px8GYKCr8Q05R23jrFEg&expires=1787160100",
+    "streamUrl": "https://cdn1.zohanayaan.com:1686/hls/ptvpk.m3u8?md5=r8px8GYKCr8Q05R23jrFEg&expires=1787160100",
+    "stream_url": "https://cdn1.zohanayaan.com:1686/hls/ptvpk.m3u8?md5=r8px8GYKCr8Q05R23jrFEg&expires=1787160100",
+    "streams": [
+      {
+        "name": "PTV Sports (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "PTV Sports",
+        "url": "https://cdn1.zohanayaan.com:1686/hls/ptvpk.m3u8?md5=r8px8GYKCr8Q05R23jrFEg&expires=1787160100",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sky-sport-nz-8",
+    "name": "Sky Sport Nz 8",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
+    "url": "https://cdn3.zohanayaan.com:1686/hls/sky8nz.m3u8?md5=M4gc1cgzWoQeOvIzh41dKg&expires=1787160104",
+    "streamUrl": "https://cdn3.zohanayaan.com:1686/hls/sky8nz.m3u8?md5=M4gc1cgzWoQeOvIzh41dKg&expires=1787160104",
+    "stream_url": "https://cdn3.zohanayaan.com:1686/hls/sky8nz.m3u8?md5=M4gc1cgzWoQeOvIzh41dKg&expires=1787160104",
+    "streams": [
+      {
+        "name": "Sky Sport Nz 8 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sky Sport Nz 8",
+        "url": "https://cdn3.zohanayaan.com:1686/hls/sky8nz.m3u8?md5=M4gc1cgzWoQeOvIzh41dKg&expires=1787160104",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-willow-hd-2",
+    "name": "Willow HD 2",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Cricket"
+    ],
+    "priority": 1,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Willow_TV_logo.svg/320px-Willow_TV_logo.svg.png",
+    "url": "https://cdn9.zohanayaan.com:1686/hls/willowextra.m3u8?md5=hqyptd61oG74sdoV7hBQ5Q&expires=1787160101",
+    "streamUrl": "https://cdn9.zohanayaan.com:1686/hls/willowextra.m3u8?md5=hqyptd61oG74sdoV7hBQ5Q&expires=1787160101",
+    "stream_url": "https://cdn9.zohanayaan.com:1686/hls/willowextra.m3u8?md5=hqyptd61oG74sdoV7hBQ5Q&expires=1787160101",
+    "streams": [
+      {
+        "name": "Willow HD 2 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Willow HD 2",
+        "url": "https://cdn9.zohanayaan.com:1686/hls/willowextra.m3u8?md5=hqyptd61oG74sdoV7hBQ5Q&expires=1787160101",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-star-sports-1",
+    "name": "Star Sports 1",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Cricket",
+      "Kabaddi"
+    ],
+    "priority": 1,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Star_Sports_1_logo.svg/320px-Star_Sports_1_logo.svg.png",
+    "url": "https://cdn10.zohanayaan.com:1686/hls/star1in.m3u8?md5=_OOHBfSs4-F7nrHWdaOvRA&expires=1787160100",
+    "streamUrl": "https://cdn10.zohanayaan.com:1686/hls/star1in.m3u8?md5=_OOHBfSs4-F7nrHWdaOvRA&expires=1787160100",
+    "stream_url": "https://cdn10.zohanayaan.com:1686/hls/star1in.m3u8?md5=_OOHBfSs4-F7nrHWdaOvRA&expires=1787160100",
+    "streams": [
+      {
+        "name": "Star Sports 1 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Star Sports 1",
+        "url": "https://cdn10.zohanayaan.com:1686/hls/star1in.m3u8?md5=_OOHBfSs4-F7nrHWdaOvRA&expires=1787160100",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sky-sport-nz-4",
+    "name": "Sky Sport Nz 4",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
+    "url": "https://cdn6.zohanayaan.com:1686/hls/sky4nz.m3u8?md5=LzzBowTXr2lIT4XM3YRNJg&expires=1787160103",
+    "streamUrl": "https://cdn6.zohanayaan.com:1686/hls/sky4nz.m3u8?md5=LzzBowTXr2lIT4XM3YRNJg&expires=1787160103",
+    "stream_url": "https://cdn6.zohanayaan.com:1686/hls/sky4nz.m3u8?md5=LzzBowTXr2lIT4XM3YRNJg&expires=1787160103",
+    "streams": [
+      {
+        "name": "Sky Sport Nz 4 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sky Sport Nz 4",
+        "url": "https://cdn6.zohanayaan.com:1686/hls/sky4nz.m3u8?md5=LzzBowTXr2lIT4XM3YRNJg&expires=1787160103",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sky-sport-6-nz",
+    "name": "Sky Sport 6 Nz",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
+    "url": "https://cdn3.zohanayaan.com:1686/hls/sky6nz.m3u8?md5=GV0p-d06wo-KBdRwdlqm2Q&expires=1787160104",
+    "streamUrl": "https://cdn3.zohanayaan.com:1686/hls/sky6nz.m3u8?md5=GV0p-d06wo-KBdRwdlqm2Q&expires=1787160104",
+    "stream_url": "https://cdn3.zohanayaan.com:1686/hls/sky6nz.m3u8?md5=GV0p-d06wo-KBdRwdlqm2Q&expires=1787160104",
+    "streams": [
+      {
+        "name": "Sky Sport 6 Nz (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sky Sport 6 Nz",
+        "url": "https://cdn3.zohanayaan.com:1686/hls/sky6nz.m3u8?md5=GV0p-d06wo-KBdRwdlqm2Q&expires=1787160104",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-a-sports-hd",
+    "name": "A Sports HD",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Cricket",
+      "Football"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/12-by-xfireflix.png",
+    "url": "https://cdn8.zohanayaan.com:1686/hls/asportshd.m3u8?md5=IxS649coN83ERcq0m5uUrA&expires=1787160101",
+    "streamUrl": "https://cdn8.zohanayaan.com:1686/hls/asportshd.m3u8?md5=IxS649coN83ERcq0m5uUrA&expires=1787160101",
+    "stream_url": "https://cdn8.zohanayaan.com:1686/hls/asportshd.m3u8?md5=IxS649coN83ERcq0m5uUrA&expires=1787160101",
+    "streams": [
+      {
+        "name": "A Sports HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "A Sports HD",
+        "url": "https://cdn8.zohanayaan.com:1686/hls/asportshd.m3u8?md5=IxS649coN83ERcq0m5uUrA&expires=1787160101",
+        "quality": "1080p FHD"
+      },
+      {
+        "name": "A Sports HD (Server 2)",
+        "serverLabel": "Server 2",
+        "channelName": "A Sports HD",
+        "url": "https://playztv-apps.pages.dev/asports/index.m3u8",
+        "quality": "720p HD"
+      }
+    ],
+    "backupUrls": [
+      "https://playztv-apps.pages.dev/asports/index.m3u8"
+    ],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sky-sports-main-event",
+    "name": "Sky Sports Main Event",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 2,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/18-by-xfireflix.png",
+    "url": "https://cdn2.zohanayaan.com:1686/hls/skysme.m3u8?md5=nKAOS4lkbx7SiqKeZZCSpg&expires=1787160102",
+    "streamUrl": "https://cdn2.zohanayaan.com:1686/hls/skysme.m3u8?md5=nKAOS4lkbx7SiqKeZZCSpg&expires=1787160102",
+    "stream_url": "https://cdn2.zohanayaan.com:1686/hls/skysme.m3u8?md5=nKAOS4lkbx7SiqKeZZCSpg&expires=1787160102",
+    "streams": [
+      {
+        "name": "Sky Sports Main Event (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sky Sports Main Event",
+        "url": "https://cdn2.zohanayaan.com:1686/hls/skysme.m3u8?md5=nKAOS4lkbx7SiqKeZZCSpg&expires=1787160102",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-ten-sports",
+    "name": "Ten Sports",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/10-by-xfireflix.png",
+    "url": "https://cdn3.zohanayaan.com:1686/hls/tenspk.m3u8?md5=CN2FaffVJgR6__z8ctOa0Q&expires=1787160101",
+    "streamUrl": "https://cdn3.zohanayaan.com:1686/hls/tenspk.m3u8?md5=CN2FaffVJgR6__z8ctOa0Q&expires=1787160101",
+    "stream_url": "https://cdn3.zohanayaan.com:1686/hls/tenspk.m3u8?md5=CN2FaffVJgR6__z8ctOa0Q&expires=1787160101",
+    "streams": [
+      {
+        "name": "Ten Sports (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Ten Sports",
+        "url": "https://cdn3.zohanayaan.com:1686/hls/tenspk.m3u8?md5=CN2FaffVJgR6__z8ctOa0Q&expires=1787160101",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-tnt-2",
+    "name": "TNT 2",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/tnt.png",
+    "url": "https://cdn6.zohanayaan.com:1686/hls/bbtsp2.m3u8?md5=aySoboatAr0B7_vdaNO9DQ&expires=1787160102",
+    "streamUrl": "https://cdn6.zohanayaan.com:1686/hls/bbtsp2.m3u8?md5=aySoboatAr0B7_vdaNO9DQ&expires=1787160102",
+    "stream_url": "https://cdn6.zohanayaan.com:1686/hls/bbtsp2.m3u8?md5=aySoboatAr0B7_vdaNO9DQ&expires=1787160102",
+    "streams": [
+      {
+        "name": "TNT 2 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "TNT 2",
+        "url": "https://cdn6.zohanayaan.com:1686/hls/bbtsp2.m3u8?md5=aySoboatAr0B7_vdaNO9DQ&expires=1787160102",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sky-sports-cricket",
+    "name": "Sky Sports Cricket",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Cricket"
+    ],
+    "priority": 2,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Sky_Sports_Cricket.svg/320px-Sky_Sports_Cricket.svg.png",
+    "url": "https://cdn9.zohanayaan.com:1686/hls/skyscric.m3u8?md5=vKqnXIQMF2pTw-rdyHo_dQ&expires=1787160102",
+    "streamUrl": "https://cdn9.zohanayaan.com:1686/hls/skyscric.m3u8?md5=vKqnXIQMF2pTw-rdyHo_dQ&expires=1787160102",
+    "stream_url": "https://cdn9.zohanayaan.com:1686/hls/skyscric.m3u8?md5=vKqnXIQMF2pTw-rdyHo_dQ&expires=1787160102",
+    "streams": [
+      {
+        "name": "Sky Sports Cricket (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sky Sports Cricket",
+        "url": "https://cdn9.zohanayaan.com:1686/hls/skyscric.m3u8?md5=vKqnXIQMF2pTw-rdyHo_dQ&expires=1787160102",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sky-sport-nz-5",
+    "name": "Sky Sport Nz 5",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
+    "url": "https://cdn3.zohanayaan.com:1686/hls/sky5nz.m3u8?md5=Mttx1TOG9ej5pZTApZZgYQ&expires=1787160104",
+    "streamUrl": "https://cdn3.zohanayaan.com:1686/hls/sky5nz.m3u8?md5=Mttx1TOG9ej5pZTApZZgYQ&expires=1787160104",
+    "stream_url": "https://cdn3.zohanayaan.com:1686/hls/sky5nz.m3u8?md5=Mttx1TOG9ej5pZTApZZgYQ&expires=1787160104",
+    "streams": [
+      {
+        "name": "Sky Sport Nz 5 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sky Sport Nz 5",
+        "url": "https://cdn3.zohanayaan.com:1686/hls/sky5nz.m3u8?md5=Mttx1TOG9ej5pZTApZZgYQ&expires=1787160104",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-tnt-4",
+    "name": "TNT 4",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/tnt.png",
+    "url": "https://cdn1.zohanayaan.com:1686/hls/bbtespn.m3u8?md5=PT117FaPrido-xqZ_SYDug&expires=1787160103",
+    "streamUrl": "https://cdn1.zohanayaan.com:1686/hls/bbtespn.m3u8?md5=PT117FaPrido-xqZ_SYDug&expires=1787160103",
+    "stream_url": "https://cdn1.zohanayaan.com:1686/hls/bbtespn.m3u8?md5=PT117FaPrido-xqZ_SYDug&expires=1787160103",
+    "streams": [
+      {
+        "name": "TNT 4 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "TNT 4",
+        "url": "https://cdn1.zohanayaan.com:1686/hls/bbtespn.m3u8?md5=PT117FaPrido-xqZ_SYDug&expires=1787160103",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sky-sport-nz-2",
+    "name": "Sky Sport Nz 2",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
+    "url": "https://cdn7.zohanayaan.com:1686/hls/sky2nz.m3u8?md5=uvbhT5bQOjQZCbz8cJUdtA&expires=1787160103",
+    "streamUrl": "https://cdn7.zohanayaan.com:1686/hls/sky2nz.m3u8?md5=uvbhT5bQOjQZCbz8cJUdtA&expires=1787160103",
+    "stream_url": "https://cdn7.zohanayaan.com:1686/hls/sky2nz.m3u8?md5=uvbhT5bQOjQZCbz8cJUdtA&expires=1787160103",
+    "streams": [
+      {
+        "name": "Sky Sport Nz 2 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sky Sport Nz 2",
+        "url": "https://cdn7.zohanayaan.com:1686/hls/sky2nz.m3u8?md5=uvbhT5bQOjQZCbz8cJUdtA&expires=1787160103",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-tnt-1",
+    "name": "TNT 1",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/tnt.png",
+    "url": "https://cdn8.zohanayaan.com:1686/hls/bbtsp1.m3u8?md5=i5R2y3sYQngayE0u6VAKrA&expires=1787160102",
+    "streamUrl": "https://cdn8.zohanayaan.com:1686/hls/bbtsp1.m3u8?md5=i5R2y3sYQngayE0u6VAKrA&expires=1787160102",
+    "stream_url": "https://cdn8.zohanayaan.com:1686/hls/bbtsp1.m3u8?md5=i5R2y3sYQngayE0u6VAKrA&expires=1787160102",
+    "streams": [
+      {
+        "name": "TNT 1 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "TNT 1",
+        "url": "https://cdn8.zohanayaan.com:1686/hls/bbtsp1.m3u8?md5=i5R2y3sYQngayE0u6VAKrA&expires=1787160102",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-super-football",
+    "name": "Super Football",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/34-by-xfireflix.png",
+    "url": "https://cdn5.zohanayaan.com:1686/hls/superfotball.m3u8?md5=gWJGGJ8GQlYjNAjCSZzTgA&expires=1787160106",
+    "streamUrl": "https://cdn5.zohanayaan.com:1686/hls/superfotball.m3u8?md5=gWJGGJ8GQlYjNAjCSZzTgA&expires=1787160106",
+    "stream_url": "https://cdn5.zohanayaan.com:1686/hls/superfotball.m3u8?md5=gWJGGJ8GQlYjNAjCSZzTgA&expires=1787160106",
+    "streams": [
+      {
+        "name": "Super Football (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Super Football",
+        "url": "https://cdn5.zohanayaan.com:1686/hls/superfotball.m3u8?md5=gWJGGJ8GQlYjNAjCSZzTgA&expires=1787160106",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sky-sports-tennis",
+    "name": "Sky Sports Tennis",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Tennis"
+    ],
+    "priority": 2,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745009085794.png",
+    "url": "https://cdn10.zohanayaan.com:1686/hls/skystennis.m3u8?md5=cdnfkQ-jNceRXN3IvcUgcw&expires=1787160107",
+    "streamUrl": "https://cdn10.zohanayaan.com:1686/hls/skystennis.m3u8?md5=cdnfkQ-jNceRXN3IvcUgcw&expires=1787160107",
+    "stream_url": "https://cdn10.zohanayaan.com:1686/hls/skystennis.m3u8?md5=cdnfkQ-jNceRXN3IvcUgcw&expires=1787160107",
+    "streams": [
+      {
+        "name": "Sky Sports Tennis (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sky Sports Tennis",
+        "url": "https://cdn10.zohanayaan.com:1686/hls/skystennis.m3u8?md5=cdnfkQ-jNceRXN3IvcUgcw&expires=1787160107",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-super-premier-league",
+    "name": "Super Premier League",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745008781606.png",
+    "url": "https://cdn9.zohanayaan.com:1686/hls/superpremier.m3u8?md5=0U6T32_1rzhflhMYM398mQ&expires=1787160106",
+    "streamUrl": "https://cdn9.zohanayaan.com:1686/hls/superpremier.m3u8?md5=0U6T32_1rzhflhMYM398mQ&expires=1787160106",
+    "stream_url": "https://cdn9.zohanayaan.com:1686/hls/superpremier.m3u8?md5=0U6T32_1rzhflhMYM398mQ&expires=1787160106",
+    "streams": [
+      {
+        "name": "Super Premier League (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Super Premier League",
+        "url": "https://cdn9.zohanayaan.com:1686/hls/superpremier.m3u8?md5=0U6T32_1rzhflhMYM398mQ&expires=1787160106",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-espn-1",
+    "name": "ESPN 1",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Basketball"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/17-by-xfireflix.png",
+    "url": "https://cdn10.zohanayaan.com:1686/hls/espnusa.m3u8?md5=KIrSHP6-MedCSACCwwvMhg&expires=1787160107",
+    "streamUrl": "https://cdn10.zohanayaan.com:1686/hls/espnusa.m3u8?md5=KIrSHP6-MedCSACCwwvMhg&expires=1787160107",
+    "stream_url": "https://cdn10.zohanayaan.com:1686/hls/espnusa.m3u8?md5=KIrSHP6-MedCSACCwwvMhg&expires=1787160107",
+    "streams": [
+      {
+        "name": "ESPN 1 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "ESPN 1",
+        "url": "https://cdn10.zohanayaan.com:1686/hls/espnusa.m3u8?md5=KIrSHP6-MedCSACCwwvMhg&expires=1787160107",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sky-sports-f1",
+    "name": "Sky Sports F1",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "F1",
+      "Motorsport"
+    ],
+    "priority": 2,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Sky_Sports_F1.svg/320px-Sky_Sports_F1.svg.png",
+    "url": "https://cdn3.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=AChexlA7dZwBQP9K-5rJUg&expires=1787160106",
+    "streamUrl": "https://cdn3.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=AChexlA7dZwBQP9K-5rJUg&expires=1787160106",
+    "stream_url": "https://cdn3.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=AChexlA7dZwBQP9K-5rJUg&expires=1787160106",
+    "streams": [
+      {
+        "name": "Sky Sports F1 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sky Sports F1",
+        "url": "https://cdn3.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=AChexlA7dZwBQP9K-5rJUg&expires=1787160106",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sky-cinema",
+    "name": "Sky Cinema",
+    "category": "Movies",
+    "categories": [
+      "LiveTV",
+      "Movies",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/skycinema.png",
+    "url": "https://cdn2.zohanayaan.com:1686/hls/skysme.m3u8?md5=nKAOS4lkbx7SiqKeZZCSpg&expires=1787160102",
+    "streamUrl": "https://cdn2.zohanayaan.com:1686/hls/skysme.m3u8?md5=nKAOS4lkbx7SiqKeZZCSpg&expires=1787160102",
+    "stream_url": "https://cdn2.zohanayaan.com:1686/hls/skysme.m3u8?md5=nKAOS4lkbx7SiqKeZZCSpg&expires=1787160102",
+    "streams": [
+      {
+        "name": "Sky Cinema (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sky Cinema",
+        "url": "https://cdn2.zohanayaan.com:1686/hls/skysme.m3u8?md5=nKAOS4lkbx7SiqKeZZCSpg&expires=1787160102",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sky-sport-nz-9",
+    "name": "Sky Sport Nz 9",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
+    "url": "https://cdn3.zohanayaan.com:1686/hls/sky9nz.m3u8?md5=pUzsmuco0MfkAKXZuuJoMw&expires=1787160104",
+    "streamUrl": "https://cdn3.zohanayaan.com:1686/hls/sky9nz.m3u8?md5=pUzsmuco0MfkAKXZuuJoMw&expires=1787160104",
+    "stream_url": "https://cdn3.zohanayaan.com:1686/hls/sky9nz.m3u8?md5=pUzsmuco0MfkAKXZuuJoMw&expires=1787160104",
+    "streams": [
+      {
+        "name": "Sky Sport Nz 9 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sky Sport Nz 9",
+        "url": "https://cdn3.zohanayaan.com:1686/hls/sky9nz.m3u8?md5=pUzsmuco0MfkAKXZuuJoMw&expires=1787160104",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-premier-sports-1",
+    "name": "Premier Sports 1",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/31-by-xfireflix.png",
+    "url": "https://cdn6.zohanayaan.com:1686/hls/premieruk.m3u8?md5=81M-ctpQLZXn-LHWxWXAMA&expires=1787160106",
+    "streamUrl": "https://cdn6.zohanayaan.com:1686/hls/premieruk.m3u8?md5=81M-ctpQLZXn-LHWxWXAMA&expires=1787160106",
+    "stream_url": "https://cdn6.zohanayaan.com:1686/hls/premieruk.m3u8?md5=81M-ctpQLZXn-LHWxWXAMA&expires=1787160106",
+    "streams": [
+      {
+        "name": "Premier Sports 1 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Premier Sports 1",
+        "url": "https://cdn6.zohanayaan.com:1686/hls/premieruk.m3u8?md5=81M-ctpQLZXn-LHWxWXAMA&expires=1787160106",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-premier-sports-2",
+    "name": "Premier Sports 2",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/31-by-xfireflix.png",
+    "url": "https://cdn1.zohanayaan.com:1686/hls/hdchnl2.m3u8?md5=poGGK0mBHiok8C4dPC-mrw&expires=1787160106",
+    "streamUrl": "https://cdn1.zohanayaan.com:1686/hls/hdchnl2.m3u8?md5=poGGK0mBHiok8C4dPC-mrw&expires=1787160106",
+    "stream_url": "https://cdn1.zohanayaan.com:1686/hls/hdchnl2.m3u8?md5=poGGK0mBHiok8C4dPC-mrw&expires=1787160106",
+    "streams": [
+      {
+        "name": "Premier Sports 2 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Premier Sports 2",
+        "url": "https://cdn1.zohanayaan.com:1686/hls/hdchnl2.m3u8?md5=poGGK0mBHiok8C4dPC-mrw&expires=1787160106",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sky-sports-premier-league",
+    "name": "Sky Sports Premier League",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football"
+    ],
+    "priority": 2,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Sky_Sports_Premier_League.svg/320px-Sky_Sports_Premier_League.svg.png",
+    "url": "https://cdn3.zohanayaan.com:1686/hls/skysprem.m3u8?md5=6PrXwkUgrZd8LuaIHG7a9w&expires=1787160105",
+    "streamUrl": "https://cdn3.zohanayaan.com:1686/hls/skysprem.m3u8?md5=6PrXwkUgrZd8LuaIHG7a9w&expires=1787160105",
+    "stream_url": "https://cdn3.zohanayaan.com:1686/hls/skysprem.m3u8?md5=6PrXwkUgrZd8LuaIHG7a9w&expires=1787160105",
+    "streams": [
+      {
+        "name": "Sky Sports Premier League (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sky Sports Premier League",
+        "url": "https://cdn3.zohanayaan.com:1686/hls/skysprem.m3u8?md5=6PrXwkUgrZd8LuaIHG7a9w&expires=1787160105",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-astro-cricket",
+    "name": "Astro Cricket",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745008895589.png",
+    "url": "https://cdn1.zohanayaan.com:1686/hls/fox501.m3u8?md5=XgPu0BNjKXHyTjIA_XctpQ&expires=1787160106",
+    "streamUrl": "https://cdn1.zohanayaan.com:1686/hls/fox501.m3u8?md5=XgPu0BNjKXHyTjIA_XctpQ&expires=1787160106",
+    "stream_url": "https://cdn1.zohanayaan.com:1686/hls/fox501.m3u8?md5=XgPu0BNjKXHyTjIA_XctpQ&expires=1787160106",
+    "streams": [
+      {
+        "name": "Astro Cricket (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Astro Cricket",
+        "url": "https://cdn1.zohanayaan.com:1686/hls/fox501.m3u8?md5=XgPu0BNjKXHyTjIA_XctpQ&expires=1787160106",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sky-sports-plus",
+    "name": "Sky Sports Plus",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 2,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745008347584.png",
+    "url": "https://cdn7.zohanayaan.com:1686/hls/skysare.m3u8?md5=9ci0PXLnwTL7SCSlLUVvrw&expires=1787160105",
+    "streamUrl": "https://cdn7.zohanayaan.com:1686/hls/skysare.m3u8?md5=9ci0PXLnwTL7SCSlLUVvrw&expires=1787160105",
+    "stream_url": "https://cdn7.zohanayaan.com:1686/hls/skysare.m3u8?md5=9ci0PXLnwTL7SCSlLUVvrw&expires=1787160105",
+    "streams": [
+      {
+        "name": "Sky Sports Plus (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sky Sports Plus",
+        "url": "https://cdn7.zohanayaan.com:1686/hls/skysare.m3u8?md5=9ci0PXLnwTL7SCSlLUVvrw&expires=1787160105",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sky-sports-mix",
+    "name": "Sky Sports Mix",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 2,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/13-by-xfireflix.png",
+    "url": "https://cdn4.zohanayaan.com:1686/hls/skysmixx.m3u8?md5=vnO0pOHUDLAEXcdWwDRIuw&expires=1787160107",
+    "streamUrl": "https://cdn4.zohanayaan.com:1686/hls/skysmixx.m3u8?md5=vnO0pOHUDLAEXcdWwDRIuw&expires=1787160107",
+    "stream_url": "https://cdn4.zohanayaan.com:1686/hls/skysmixx.m3u8?md5=vnO0pOHUDLAEXcdWwDRIuw&expires=1787160107",
+    "streams": [
+      {
+        "name": "Sky Sports Mix (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sky Sports Mix",
+        "url": "https://cdn4.zohanayaan.com:1686/hls/skysmixx.m3u8?md5=vnO0pOHUDLAEXcdWwDRIuw&expires=1787160107",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sky-sports-action",
+    "name": "Sky Sports Action",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 2,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745007829332.png",
+    "url": "https://cdn4.zohanayaan.com:1686/hls/skysact.m3u8?md5=4ldcjvTonlP1eLmsfbLLgg&expires=1787160105",
+    "streamUrl": "https://cdn4.zohanayaan.com:1686/hls/skysact.m3u8?md5=4ldcjvTonlP1eLmsfbLLgg&expires=1787160105",
+    "stream_url": "https://cdn4.zohanayaan.com:1686/hls/skysact.m3u8?md5=4ldcjvTonlP1eLmsfbLLgg&expires=1787160105",
+    "streams": [
+      {
+        "name": "Sky Sports Action (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sky Sports Action",
+        "url": "https://cdn4.zohanayaan.com:1686/hls/skysact.m3u8?md5=4ldcjvTonlP1eLmsfbLLgg&expires=1787160105",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sky-sports-football",
+    "name": "Sky Sports Football",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football"
+    ],
+    "priority": 2,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Sky_Sports_Football.svg/320px-Sky_Sports_Football.svg.png",
+    "url": "https://cdn2.zohanayaan.com:1686/hls/skysfott.m3u8?md5=LZzZNb64XZJhQ23Bmx7ElQ&expires=1787160105",
+    "streamUrl": "https://cdn2.zohanayaan.com:1686/hls/skysfott.m3u8?md5=LZzZNb64XZJhQ23Bmx7ElQ&expires=1787160105",
+    "stream_url": "https://cdn2.zohanayaan.com:1686/hls/skysfott.m3u8?md5=LZzZNb64XZJhQ23Bmx7ElQ&expires=1787160105",
+    "streams": [
+      {
+        "name": "Sky Sports Football (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sky Sports Football",
+        "url": "https://cdn2.zohanayaan.com:1686/hls/skysfott.m3u8?md5=LZzZNb64XZJhQ23Bmx7ElQ&expires=1787160105",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sky-sports-golf",
+    "name": "Sky Sports Golf",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Golf"
+    ],
+    "priority": 2,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745008055327.png",
+    "url": "https://cdn4.zohanayaan.com:1686/hls/skysgol.m3u8?md5=7npf61-LZKySJHjGZr1hBg&expires=1787160105",
+    "streamUrl": "https://cdn4.zohanayaan.com:1686/hls/skysgol.m3u8?md5=7npf61-LZKySJHjGZr1hBg&expires=1787160105",
+    "stream_url": "https://cdn4.zohanayaan.com:1686/hls/skysgol.m3u8?md5=7npf61-LZKySJHjGZr1hBg&expires=1787160105",
+    "streams": [
+      {
+        "name": "Sky Sports Golf (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sky Sports Golf",
+        "url": "https://cdn4.zohanayaan.com:1686/hls/skysgol.m3u8?md5=7npf61-LZKySJHjGZr1hBg&expires=1787160105",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-fox-cricket-501-hd",
+    "name": "Fox Cricket 501 HD",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/6-by-xfireflix.png",
+    "url": "https://cdn1.zohanayaan.com:1686/hls/fox501.m3u8?md5=XgPu0BNjKXHyTjIA_XctpQ&expires=1787160106",
+    "streamUrl": "https://cdn1.zohanayaan.com:1686/hls/fox501.m3u8?md5=XgPu0BNjKXHyTjIA_XctpQ&expires=1787160106",
+    "stream_url": "https://cdn1.zohanayaan.com:1686/hls/fox501.m3u8?md5=XgPu0BNjKXHyTjIA_XctpQ&expires=1787160106",
+    "streams": [
+      {
+        "name": "Fox Cricket 501 HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Fox Cricket 501 HD",
+        "url": "https://cdn1.zohanayaan.com:1686/hls/fox501.m3u8?md5=XgPu0BNjKXHyTjIA_XctpQ&expires=1787160106",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sky-sports-arena",
+    "name": "Sky Sports Arena",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 2,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745007829327.png",
+    "url": "https://cdn7.zohanayaan.com:1686/hls/skysare.m3u8?md5=9ci0PXLnwTL7SCSlLUVvrw&expires=1787160105",
+    "streamUrl": "https://cdn7.zohanayaan.com:1686/hls/skysare.m3u8?md5=9ci0PXLnwTL7SCSlLUVvrw&expires=1787160105",
+    "stream_url": "https://cdn7.zohanayaan.com:1686/hls/skysare.m3u8?md5=9ci0PXLnwTL7SCSlLUVvrw&expires=1787160105",
+    "streams": [
+      {
+        "name": "Sky Sports Arena (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sky Sports Arena",
+        "url": "https://cdn7.zohanayaan.com:1686/hls/skysare.m3u8?md5=9ci0PXLnwTL7SCSlLUVvrw&expires=1787160105",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-laliga",
+    "name": "LaLiGA",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/19-by-xfireflix.png",
+    "url": "https://cdn7.zohanayaan.com:1686/hls/laligauk.m3u8?md5=U7ChibftDR22l_LS0dQ4NA&expires=1787160106",
+    "streamUrl": "https://cdn7.zohanayaan.com:1686/hls/laligauk.m3u8?md5=U7ChibftDR22l_LS0dQ4NA&expires=1787160106",
+    "stream_url": "https://cdn7.zohanayaan.com:1686/hls/laligauk.m3u8?md5=U7ChibftDR22l_LS0dQ4NA&expires=1787160106",
+    "streams": [
+      {
+        "name": "LaLiGA (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "LaLiGA",
+        "url": "https://cdn7.zohanayaan.com:1686/hls/laligauk.m3u8?md5=U7ChibftDR22l_LS0dQ4NA&expires=1787160106",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-espn-2",
+    "name": "ESPN 2",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Basketball"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/17-by-xfireflix.png",
+    "url": "https://cdn7.zohanayaan.com:1686/hls/espn2.m3u8?md5=w3peYpUJYnlzq0mlEiC39Q&expires=1787160107",
+    "streamUrl": "https://cdn7.zohanayaan.com:1686/hls/espn2.m3u8?md5=w3peYpUJYnlzq0mlEiC39Q&expires=1787160107",
+    "stream_url": "https://cdn7.zohanayaan.com:1686/hls/espn2.m3u8?md5=w3peYpUJYnlzq0mlEiC39Q&expires=1787160107",
+    "streams": [
+      {
+        "name": "ESPN 2 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "ESPN 2",
+        "url": "https://cdn7.zohanayaan.com:1686/hls/espn2.m3u8?md5=w3peYpUJYnlzq0mlEiC39Q&expires=1787160107",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sony-sports3",
+    "name": "Sony Sports3",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1000173192-modified.png",
+    "url": "https://cdn4.zohanayaan.com:1686/hls/ten1hd.m3u8?md5=VBhKrM95FVlvx_YFeNePwg&expires=1787160108",
+    "streamUrl": "https://cdn4.zohanayaan.com:1686/hls/ten1hd.m3u8?md5=VBhKrM95FVlvx_YFeNePwg&expires=1787160108",
+    "stream_url": "https://cdn4.zohanayaan.com:1686/hls/ten1hd.m3u8?md5=VBhKrM95FVlvx_YFeNePwg&expires=1787160108",
+    "streams": [
+      {
+        "name": "Sony Sports3 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sony Sports3",
+        "url": "https://cdn4.zohanayaan.com:1686/hls/ten1hd.m3u8?md5=VBhKrM95FVlvx_YFeNePwg&expires=1787160108",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-bein-sports-direct-hd",
+    "name": "Bein Sports Direct HD",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football"
+    ],
+    "priority": 2,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "http://145.239.5.177/557a/index.m3u8",
+    "streamUrl": "http://145.239.5.177/557a/index.m3u8",
+    "stream_url": "http://145.239.5.177/557a/index.m3u8",
+    "streams": [
+      {
+        "name": "Bein Sports Direct HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Bein Sports Direct HD",
+        "url": "http://145.239.5.177/557a/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-channel-1-news-hd",
+    "name": "Channel 1 News HD",
+    "category": "News",
+    "categories": [
+      "LiveTV",
+      "News",
+      "World Country",
+      "World"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/tracks-v1a1/mono.m3u8",
+    "streamUrl": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/tracks-v1a1/mono.m3u8",
+    "stream_url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/tracks-v1a1/mono.m3u8",
+    "streams": [
+      {
+        "name": "Channel 1 News HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Channel 1 News HD",
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/tracks-v1a1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-btv",
+    "name": "BTV",
+    "category": "Bengali",
+    "categories": [
+      "LiveTV",
+      "Bengali",
+      "Bangla",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Bangladesh_Television_%28BTV%29_Logo.svg/320px-Bangladesh_Television_%28BTV%29_Logo.svg.png",
+    "url": "http://103.165.93.31:8095/btv/tracks-v1a1/mono.m3u8",
+    "streamUrl": "http://103.165.93.31:8095/btv/tracks-v1a1/mono.m3u8",
+    "stream_url": "http://103.165.93.31:8095/btv/tracks-v1a1/mono.m3u8",
+    "streams": [
+      {
+        "name": "BTV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "BTV",
+        "url": "http://103.165.93.31:8095/btv/tracks-v1a1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-insight",
+    "name": "Insight",
+    "category": "Infotainment",
+    "categories": [
+      "LiveTV",
+      "Infotainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://insighttv-samsung-us.amagi.tv/playlist.m3u8",
+    "streamUrl": "https://insighttv-samsung-us.amagi.tv/playlist.m3u8",
+    "stream_url": "https://insighttv-samsung-us.amagi.tv/playlist.m3u8",
+    "streams": [
+      {
+        "name": "Insight (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Insight",
+        "url": "https://insighttv-samsung-us.amagi.tv/playlist.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-ptv-sports-hd",
+    "name": "PTV Sports HD",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Cricket"
+    ],
+    "priority": 1,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/PTV_Sports_logo.svg/320px-PTV_Sports_logo.svg.png",
+    "url": "https://s1.itcnbd.live/PTV-Sports/tracks-v1a1/mono.m3u8?nocache=1785582200018",
+    "streamUrl": "https://s1.itcnbd.live/PTV-Sports/tracks-v1a1/mono.m3u8?nocache=1785582200018",
+    "stream_url": "https://s1.itcnbd.live/PTV-Sports/tracks-v1a1/mono.m3u8?nocache=1785582200018",
+    "streams": [
+      {
+        "name": "PTV Sports HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "PTV Sports HD",
+        "url": "https://s1.itcnbd.live/PTV-Sports/tracks-v1a1/mono.m3u8?nocache=1785582200018",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sony-tv-hd",
+    "name": "Sony TV HD",
+    "category": "India",
+    "categories": [
+      "LiveTV",
+      "India",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://s2.itcnbd.live/server-2/stream/sonyentertainmnt_hd.m3u8",
+    "streamUrl": "https://s2.itcnbd.live/server-2/stream/sonyentertainmnt_hd.m3u8",
+    "stream_url": "https://s2.itcnbd.live/server-2/stream/sonyentertainmnt_hd.m3u8",
+    "streams": [
+      {
+        "name": "Sony TV HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sony TV HD",
+        "url": "https://s2.itcnbd.live/server-2/stream/sonyentertainmnt_hd.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-aakash-aath",
+    "name": "AAKASH AATH",
+    "category": "Kolkata",
+    "categories": [
+      "LiveTV",
+      "Kolkata",
+      "Bengali",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://cdn-4.pishow.tv/live/969/master.m3u8",
+    "streamUrl": "https://cdn-4.pishow.tv/live/969/master.m3u8",
+    "stream_url": "https://cdn-4.pishow.tv/live/969/master.m3u8",
+    "streams": [
+      {
+        "name": "AAKASH AATH (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "AAKASH AATH",
+        "url": "https://cdn-4.pishow.tv/live/969/master.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-goldmines-movies-2",
+    "name": "Goldmines Movies 2",
+    "category": "Movies",
+    "categories": [
+      "LiveTV",
+      "Movies",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://cdn-2.pishow.tv/live/1460/master.m3u8",
+    "streamUrl": "https://cdn-2.pishow.tv/live/1460/master.m3u8",
+    "stream_url": "https://cdn-2.pishow.tv/live/1460/master.m3u8",
+    "streams": [
+      {
+        "name": "Goldmines Movies 2 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Goldmines Movies 2",
+        "url": "https://cdn-2.pishow.tv/live/1460/master.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-r-plus-gold",
+    "name": "R Plus Gold",
+    "category": "Kolkata",
+    "categories": [
+      "LiveTV",
+      "Kolkata",
+      "Bengali",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://cdn-4.pishow.tv/live/1231/1231_1.m3u8",
+    "streamUrl": "https://cdn-4.pishow.tv/live/1231/1231_1.m3u8",
+    "stream_url": "https://cdn-4.pishow.tv/live/1231/1231_1.m3u8",
+    "streams": [
+      {
+        "name": "R Plus Gold (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "R Plus Gold",
+        "url": "https://cdn-4.pishow.tv/live/1231/1231_1.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-jalsha-movies",
+    "name": "Jalsha Movies",
+    "category": "Movies",
+    "categories": [
+      "LiveTV",
+      "Movies",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "http://103.165.93.31:8095/jalshaMovies/index.m3u8",
+    "streamUrl": "http://103.165.93.31:8095/jalshaMovies/index.m3u8",
+    "stream_url": "http://103.165.93.31:8095/jalshaMovies/index.m3u8",
+    "streams": [
+      {
+        "name": "Jalsha Movies (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Jalsha Movies",
+        "url": "http://103.165.93.31:8095/jalshaMovies/index.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-live-sports",
+    "name": "Live Sports",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streamUrl": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "stream_url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streams": [
+      {
+        "name": "Live Sports (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Live Sports",
+        "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+        "quality": "1080p FHD"
+      },
+      {
+        "name": "Live Sports (Server 2)",
+        "serverLabel": "Server 2",
+        "channelName": "Live Sports",
+        "url": "https://s3.itcnbd.live/channel/2929059f34d114ca.m3u8",
+        "quality": "720p HD"
+      },
+      {
+        "name": "Live Sports (Server 3)",
+        "serverLabel": "Server 3",
+        "channelName": "Live Sports",
+        "url": "https://s3.itcnbd.live/channel/ea25a516d781cb1c.m3u8",
+        "quality": "720p HD"
+      },
+      {
+        "name": "Live Sports (Server 4)",
+        "serverLabel": "Server 4",
+        "channelName": "Live Sports",
+        "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+        "quality": "720p HD"
+      },
+      {
+        "name": "Live Sports (Server 5)",
+        "serverLabel": "Server 5",
+        "channelName": "Live Sports",
+        "url": "https://s2.itcnbd.live/server-2/proxy/ten_cricket/playlist?u=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fslang%2Ften_cricket_576%2Ften_cricket_576.m3u8",
+        "quality": "720p HD"
+      }
+    ],
+    "backupUrls": [
+      "https://s3.itcnbd.live/channel/2929059f34d114ca.m3u8",
+      "https://s3.itcnbd.live/channel/ea25a516d781cb1c.m3u8",
+      "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+      "https://s2.itcnbd.live/server-2/proxy/ten_cricket/playlist?u=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fslang%2Ften_cricket_576%2Ften_cricket_576.m3u8"
+    ],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-star-sports-khel",
+    "name": "Star Sports Khel",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/ch-star-sports-khel.svg",
+    "url": "http://103.175.73.12:8080/live/151/151_0.m3u8",
+    "streamUrl": "http://103.175.73.12:8080/live/151/151_0.m3u8",
+    "stream_url": "http://103.175.73.12:8080/live/151/151_0.m3u8",
+    "streams": [
+      {
+        "name": "Star Sports Khel (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Star Sports Khel",
+        "url": "http://103.175.73.12:8080/live/151/151_0.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-r-plus-gould",
+    "name": "R Plus Gould",
+    "category": "Kolkata",
+    "categories": [
+      "LiveTV",
+      "Kolkata",
+      "Bengali",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://cdn-4.pishow.tv/live/1231/1231_2.m3u8",
+    "streamUrl": "https://cdn-4.pishow.tv/live/1231/1231_2.m3u8",
+    "stream_url": "https://cdn-4.pishow.tv/live/1231/1231_2.m3u8",
+    "streams": [
+      {
+        "name": "R Plus Gould (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "R Plus Gould",
+        "url": "https://cdn-4.pishow.tv/live/1231/1231_2.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-colors",
+    "name": "Colors",
+    "category": "India",
+    "categories": [
+      "LiveTV",
+      "India",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://cdn-2.pishow.tv/live/1461/master.m3u8",
+    "streamUrl": "https://cdn-2.pishow.tv/live/1461/master.m3u8",
+    "stream_url": "https://cdn-2.pishow.tv/live/1461/master.m3u8",
+    "streams": [
+      {
+        "name": "Colors (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Colors",
+        "url": "https://cdn-2.pishow.tv/live/1461/master.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-mk-six",
+    "name": "MK Six",
+    "category": "India",
+    "categories": [
+      "LiveTV",
+      "India",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://cdn-3.pishow.tv/live/1253/master.m3u8",
+    "streamUrl": "https://cdn-3.pishow.tv/live/1253/master.m3u8",
+    "stream_url": "https://cdn-3.pishow.tv/live/1253/master.m3u8",
+    "streams": [
+      {
+        "name": "MK Six (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "MK Six",
+        "url": "https://cdn-3.pishow.tv/live/1253/master.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-bflix-movies",
+    "name": "Bflix Movies",
+    "category": "Movies",
+    "categories": [
+      "LiveTV",
+      "Movies",
+      "Entertainment"
+    ],
+    "sports": [],
+    "priority": 5,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "",
+    "url": "https://cdn-2.pishow.tv/live/1459/master.m3u8",
+    "streamUrl": "https://cdn-2.pishow.tv/live/1459/master.m3u8",
+    "stream_url": "https://cdn-2.pishow.tv/live/1459/master.m3u8",
+    "streams": [
+      {
+        "name": "Bflix Movies (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Bflix Movies",
+        "url": "https://cdn-2.pishow.tv/live/1459/master.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-fifa-world-cup-2026",
+    "name": "FIFA World Cup 2026",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/ch-fifa-world-cup-2026.svg",
+    "url": "https://live.inplyr.com/room/168740.m3u8",
+    "streamUrl": "https://live.inplyr.com/room/168740.m3u8",
+    "stream_url": "https://live.inplyr.com/room/168740.m3u8",
+    "streams": [
+      {
+        "name": "FIFA World Cup 2026 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "FIFA World Cup 2026",
+        "url": "https://live.inplyr.com/room/168740.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-supersport-premier-league",
+    "name": "SuperSport Premier League",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football"
+    ],
+    "priority": 2,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/sports-supersport-pl.svg",
+    "url": "https://s3.itcnbd.live/channel/ea25a516d781cb1c.m3u8",
+    "streamUrl": "https://s3.itcnbd.live/channel/ea25a516d781cb1c.m3u8",
+    "stream_url": "https://s3.itcnbd.live/channel/ea25a516d781cb1c.m3u8",
+    "streams": [
+      {
+        "name": "SuperSport Premier League (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "SuperSport Premier League",
+        "url": "https://s3.itcnbd.live/channel/ea25a516d781cb1c.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-ten-sports-pakistan",
+    "name": "Ten Sports Pakistan",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/ch-ten-sports-pk.svg",
+    "url": "https://s1.itcnbd.live/PTV-Sports/tracks-v1a1/mono.m3u8?nocache=1785582200018",
+    "streamUrl": "https://s1.itcnbd.live/PTV-Sports/tracks-v1a1/mono.m3u8?nocache=1785582200018",
+    "stream_url": "https://s1.itcnbd.live/PTV-Sports/tracks-v1a1/mono.m3u8?nocache=1785582200018",
+    "streams": [
+      {
+        "name": "Ten Sports Pakistan (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Ten Sports Pakistan",
+        "url": "https://s1.itcnbd.live/PTV-Sports/tracks-v1a1/mono.m3u8?nocache=1785582200018",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-fox-sports",
+    "name": "FOX Sports",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Fox_Sports_logo.svg/320px-Fox_Sports_logo.svg.png",
+    "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streamUrl": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "stream_url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streams": [
+      {
+        "name": "FOX Sports (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "FOX Sports",
+        "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-bein-sports",
+    "name": "beIN SPORTS",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football"
+    ],
+    "priority": 2,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/BeIN_Sports_logo.svg/320px-BeIN_Sports_logo.svg.png",
+    "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streamUrl": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "stream_url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streams": [
+      {
+        "name": "beIN SPORTS (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "beIN SPORTS",
+        "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-bein-sports-3",
+    "name": "beIN SPORTS 3",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football"
+    ],
+    "priority": 2,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/BeIN_Sports_logo.svg/320px-BeIN_Sports_logo.svg.png",
+    "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streamUrl": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "stream_url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streams": [
+      {
+        "name": "beIN SPORTS 3 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "beIN SPORTS 3",
+        "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-espn-deportes",
+    "name": "ESPN Deportes",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Basketball"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/320px-ESPN_wordmark.svg.png",
+    "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streamUrl": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "stream_url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streams": [
+      {
+        "name": "ESPN Deportes (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "ESPN Deportes",
+        "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-nbc-sports",
+    "name": "NBC Sports",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/NBC_Sports_logo.svg/320px-NBC_Sports_logo.svg.png",
+    "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streamUrl": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "stream_url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streams": [
+      {
+        "name": "NBC Sports (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "NBC Sports",
+        "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-supersport-football",
+    "name": "SuperSport Football",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football"
+    ],
+    "priority": 2,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/SuperSport_%28South_African_broadcaster%29_logo.svg/320px-SuperSport_%28South_African_broadcaster%29_logo.svg.png",
+    "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streamUrl": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "stream_url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streams": [
+      {
+        "name": "SuperSport Football (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "SuperSport Football",
+        "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-star-sports-select-2",
+    "name": "Star Sports Select 2",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Sports_logo.svg/320px-Star_Sports_logo.svg.png",
+    "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streamUrl": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "stream_url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streams": [
+      {
+        "name": "Star Sports Select 2 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Star Sports Select 2",
+        "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-star-sports-2",
+    "name": "Star Sports 2",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Cricket",
+      "Kabaddi"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Sports_logo.svg/320px-Star_Sports_logo.svg.png",
+    "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streamUrl": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "stream_url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streams": [
+      {
+        "name": "Star Sports 2 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Star Sports 2",
+        "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-fifa",
+    "name": "FIFA+",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/FIFA_wordmark.svg/320px-FIFA_wordmark.svg.png",
+    "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streamUrl": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "stream_url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streams": [
+      {
+        "name": "FIFA+ (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "FIFA+",
+        "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-tbs",
+    "name": "TBS",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Baseball"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/TBS_logo_2016.svg/320px-TBS_logo_2016.svg.png",
+    "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streamUrl": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "stream_url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streams": [
+      {
+        "name": "TBS (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "TBS",
+        "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-supersport-cricket",
+    "name": "SuperSport Cricket",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Cricket"
+    ],
+    "priority": 2,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/SuperSport_%28South_African_broadcaster%29_logo.svg/320px-SuperSport_%28South_African_broadcaster%29_logo.svg.png",
+    "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streamUrl": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "stream_url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streams": [
+      {
+        "name": "SuperSport Cricket (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "SuperSport Cricket",
+        "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sportsnet",
+    "name": "Sportsnet",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Baseball"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Sportsnet_logo.svg/320px-Sportsnet_logo.svg.png",
+    "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streamUrl": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "stream_url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streams": [
+      {
+        "name": "Sportsnet (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sportsnet",
+        "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-criclife-max",
+    "name": "CricLife Max",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/CricLife_logo.png/320px-CricLife_logo.png",
+    "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streamUrl": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "stream_url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streams": [
+      {
+        "name": "CricLife Max (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "CricLife Max",
+        "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-willow-tv",
+    "name": "Willow TV",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Cricket"
+    ],
+    "priority": 1,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Willow_TV_logo.svg/320px-Willow_TV_logo.svg.png",
+    "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streamUrl": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "stream_url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streams": [
+      {
+        "name": "Willow TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Willow TV",
+        "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-fancode",
+    "name": "FanCode",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Cricket",
+      "Baseball"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/FanCode_logo.svg/320px-FanCode_logo.svg.png",
+    "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streamUrl": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "stream_url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streams": [
+      {
+        "name": "FanCode (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "FanCode",
+        "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-fs2",
+    "name": "FS2",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Fox_Sports_2_logo.svg/320px-Fox_Sports_2_logo.svg.png",
+    "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streamUrl": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "stream_url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streams": [
+      {
+        "name": "FS2 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "FS2",
+        "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-cbs-sports",
+    "name": "CBS Sports",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/CBS_Sports_logo.svg/320px-CBS_Sports_logo.svg.png",
+    "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streamUrl": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "stream_url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streams": [
+      {
+        "name": "CBS Sports (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "CBS Sports",
+        "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-tudn",
+    "name": "TUDN",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/TUDN_logo.svg/320px-TUDN_logo.svg.png",
+    "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streamUrl": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "stream_url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streams": [
+      {
+        "name": "TUDN (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "TUDN",
+        "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-spotv",
+    "name": "SPOTV",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/SPOTV_logo.svg/320px-SPOTV_logo.svg.png",
+    "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streamUrl": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "stream_url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streams": [
+      {
+        "name": "SPOTV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "SPOTV",
+        "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-star-sports-select-1",
+    "name": "Star Sports Select 1",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Sports_logo.svg/320px-Star_Sports_logo.svg.png",
+    "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streamUrl": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "stream_url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streams": [
+      {
+        "name": "Star Sports Select 1 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Star Sports Select 1",
+        "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-hub-sports-5",
+    "name": "Hub Sports 5",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/StarHub_TV_logo.svg/320px-StarHub_TV_logo.svg.png",
+    "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streamUrl": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "stream_url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streams": [
+      {
+        "name": "Hub Sports 5 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Hub Sports 5",
+        "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-peacock",
+    "name": "Peacock",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/NBCUniversal_Peacock_Logo.svg/320px-NBCUniversal_Peacock_Logo.svg.png",
+    "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streamUrl": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "stream_url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streams": [
+      {
+        "name": "Peacock (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Peacock",
+        "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-f1-tv",
+    "name": "F1 TV",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "F1",
+      "Motorsport"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/racehub/f1-logo.svg",
+    "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streamUrl": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "stream_url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streams": [
+      {
+        "name": "F1 TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "F1 TV",
+        "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-netflix",
+    "name": "Netflix",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/320px-Netflix_2015_logo.svg.png",
+    "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streamUrl": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "stream_url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streams": [
+      {
+        "name": "Netflix (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Netflix",
+        "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-tennis-channel",
+    "name": "Tennis Channel",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Tennis"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tennis_Channel_logo_2014.svg/320px-Tennis_Channel_logo_2014.svg.png",
+    "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streamUrl": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "stream_url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streams": [
+      {
+        "name": "Tennis Channel (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Tennis Channel",
+        "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-wwe-network",
+    "name": "WWE Network",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "WWE"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/WWE_Network_logo.svg/320px-WWE_Network_logo.svg.png",
+    "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streamUrl": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "stream_url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streams": [
+      {
+        "name": "WWE Network (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "WWE Network",
+        "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-tva-sports",
+    "name": "TVA Sports",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Cricket",
+      "Football"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/TVA_Sports_logo.svg/320px-TVA_Sports_logo.svg.png",
+    "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streamUrl": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "stream_url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streams": [
+      {
+        "name": "TVA Sports (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "TVA Sports",
+        "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-nba-tv",
+    "name": "NBA TV",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Basketball"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/NBA_TV_logo_%282017%29.svg/320px-NBA_TV_logo_%282017%29.svg.png",
+    "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streamUrl": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "stream_url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streams": [
+      {
+        "name": "NBA TV (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "NBA TV",
+        "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sony-sports-ten-1",
+    "name": "Sony Sports Ten 1",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "WWE",
+      "Hockey",
+      "Kabaddi"
+    ],
+    "priority": 1,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Sony_Sports_Ten_1_Logo.svg/320px-Sony_Sports_Ten_1_Logo.svg.png",
+    "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streamUrl": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "stream_url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streams": [
+      {
+        "name": "Sony Sports Ten 1 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sony Sports Ten 1",
+        "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-prime-video",
+    "name": "Prime Video",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Prime_Video.png/320px-Prime_Video.png",
+    "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streamUrl": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "stream_url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streams": [
+      {
+        "name": "Prime Video (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Prime Video",
+        "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-apple-tv",
+    "name": "Apple TV+",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Apple_TV_Plus_Logo.svg/320px-Apple_TV_Plus_Logo.svg.png",
+    "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streamUrl": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "stream_url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streams": [
+      {
+        "name": "Apple TV+ (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Apple TV+",
+        "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-nbcsn",
+    "name": "NBCSN",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/NBC_Sports_logo.svg/320px-NBC_Sports_logo.svg.png",
+    "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streamUrl": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "stream_url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streams": [
+      {
+        "name": "NBCSN (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "NBCSN",
+        "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-viaplay",
+    "name": "Viaplay",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Viaplay_logo.svg/320px-Viaplay_logo.svg.png",
+    "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streamUrl": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "stream_url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streams": [
+      {
+        "name": "Viaplay (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Viaplay",
+        "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sony-sports-ten-3",
+    "name": "Sony Sports Ten 3",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "WWE"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/sports-sony-ten-1.svg",
+    "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streamUrl": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "stream_url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streams": [
+      {
+        "name": "Sony Sports Ten 3 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sony Sports Ten 3",
+        "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-cbc",
+    "name": "CBC",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/CBC_Logo_1992-Present.svg/320px-CBC_Logo_1992-Present.svg.png",
+    "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streamUrl": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "stream_url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streams": [
+      {
+        "name": "CBC (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "CBC",
+        "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sony-sports-ten-5",
+    "name": "Sony Sports Ten 5",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Tennis",
+      "Hockey"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Sony_Sports_Ten_1_Logo.svg/320px-Sony_Sports_Ten_1_Logo.svg.png",
+    "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streamUrl": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "stream_url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streams": [
+      {
+        "name": "Sony Sports Ten 5 (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sony Sports Ten 5",
+        "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-jiosports",
+    "name": "JioSports",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/JioCinema_logo.svg/320px-JioCinema_logo.svg.png",
+    "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streamUrl": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "stream_url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streams": [
+      {
+        "name": "JioSports (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "JioSports",
+        "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-supersport-rugby",
+    "name": "SuperSport Rugby",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Rugby"
+    ],
+    "priority": 2,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/SuperSport_%28South_African_broadcaster%29_logo.svg/320px-SuperSport_%28South_African_broadcaster%29_logo.svg.png",
+    "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streamUrl": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "stream_url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+    "streams": [
+      {
+        "name": "SuperSport Rugby (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "SuperSport Rugby",
+        "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-florugby",
+    "name": "FloRugby",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Rugby"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/FloSports_logo.svg/320px-FloSports_logo.svg.png",
+    "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streamUrl": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "stream_url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+    "streams": [
+      {
+        "name": "FloRugby (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "FloRugby",
+        "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-fancode-sports-live",
+    "name": "FanCode Sports Live",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Cricket",
+      "Baseball"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/ch-fancodesportslive.svg",
+    "url": "https://otte.live.fly.ww.aiv-cdn.net/sin-nitro/live/clients/dash-sd/enc/v8g0dlo4z8/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd",
+    "streamUrl": "https://otte.live.fly.ww.aiv-cdn.net/sin-nitro/live/clients/dash-sd/enc/v8g0dlo4z8/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd",
+    "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/sin-nitro/live/clients/dash-sd/enc/v8g0dlo4z8/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd",
+    "streams": [
+      {
+        "name": "FanCode Sports Live (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "FanCode Sports Live",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/sin-nitro/live/clients/dash-sd/enc/v8g0dlo4z8/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sky-sport-main-event-uhd",
+    "name": "SKY SPORT MAIN EVENT UHD",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/ch-skysportmaineventuhd.svg",
+    "url": "http://fastshare1.com:8080//live/25711345/late8airline/384215.ts",
+    "streamUrl": "http://fastshare1.com:8080//live/25711345/late8airline/384215.ts",
+    "stream_url": "http://fastshare1.com:8080//live/25711345/late8airline/384215.ts",
+    "streams": [
+      {
+        "name": "SKY SPORT MAIN EVENT UHD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "SKY SPORT MAIN EVENT UHD",
+        "url": "http://fastshare1.com:8080//live/25711345/late8airline/384215.ts",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-4k-cricket-live-ultra",
+    "name": "4K Cricket Live Ultra",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/ch-4kcricketliveultra.svg",
+    "url": "http://fastshare1.com:8080//live/25711345/late8airline/333368.ts",
+    "streamUrl": "http://fastshare1.com:8080//live/25711345/late8airline/333368.ts",
+    "stream_url": "http://fastshare1.com:8080//live/25711345/late8airline/333368.ts",
+    "streams": [
+      {
+        "name": "4K Cricket Live Ultra (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "4K Cricket Live Ultra",
+        "url": "http://fastshare1.com:8080//live/25711345/late8airline/333368.ts",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-kantipur-max-hd",
+    "name": "Kantipur MAX HD",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/ch-kantipurmaxhd.svg",
+    "url": "https://webott.viatv.com.np/v0t1/CineplexHD.stream/chunks.m3u8",
+    "streamUrl": "https://webott.viatv.com.np/v0t1/CineplexHD.stream/chunks.m3u8",
+    "stream_url": "https://webott.viatv.com.np/v0t1/CineplexHD.stream/chunks.m3u8",
+    "streams": [
+      {
+        "name": "Kantipur MAX HD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Kantipur MAX HD",
+        "url": "https://webott.viatv.com.np/v0t1/CineplexHD.stream/chunks.m3u8",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sky-sports-f1-uhd",
+    "name": "Sky Sports F1 UHD",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "F1",
+      "Motorsport"
+    ],
+    "priority": 2,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Sky_Sports_F1.svg/320px-Sky_Sports_F1.svg.png",
+    "url": "http://fastshare1.com:8080//live/25711345/late8airline/384213.ts",
+    "streamUrl": "http://fastshare1.com:8080//live/25711345/late8airline/384213.ts",
+    "stream_url": "http://fastshare1.com:8080//live/25711345/late8airline/384213.ts",
+    "streams": [
+      {
+        "name": "Sky Sports F1 UHD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sky Sports F1 UHD",
+        "url": "http://fastshare1.com:8080//live/25711345/late8airline/384213.ts",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-fifa-world-cup-2026-live",
+    "name": "FIFA World Cup 2026 Live",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/ch-fifaworldcup2026live.svg",
+    "url": "http://fastshare1.com:8080//live/25711345/late8airline/688287.ts",
+    "streamUrl": "http://fastshare1.com:8080//live/25711345/late8airline/688287.ts",
+    "stream_url": "http://fastshare1.com:8080//live/25711345/late8airline/688287.ts",
+    "streams": [
+      {
+        "name": "FIFA World Cup 2026 Live (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "FIFA World Cup 2026 Live",
+        "url": "http://fastshare1.com:8080//live/25711345/late8airline/688287.ts",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-sky-sport-uhd",
+    "name": "Sky Sport UHD",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football",
+      "Cricket"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/ch-skysportuhd.svg",
+    "url": "http://fastshare1.com:8080//live/25711345/late8airline/581307.ts",
+    "streamUrl": "http://fastshare1.com:8080//live/25711345/late8airline/581307.ts",
+    "stream_url": "http://fastshare1.com:8080//live/25711345/late8airline/581307.ts",
+    "streams": [
+      {
+        "name": "Sky Sport UHD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Sky Sport UHD",
+        "url": "http://fastshare1.com:8080//live/25711345/late8airline/581307.ts",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  },
+  {
+    "id": "ch-eleven-sports-1-uhd",
+    "name": "Eleven Sports 1 UHD",
+    "category": "Sports",
+    "categories": [
+      "LiveTV",
+      "Sports"
+    ],
+    "sports": [
+      "Football"
+    ],
+    "priority": 3,
+    "active": true,
+    "provider": "Standard",
+    "isAkashGo": false,
+    "logo": "./assets/channel-logos/ch-elevensports1uhd.svg",
+    "url": "http://fastshare1.com:8080//live/25711345/late8airline/688288.ts",
+    "streamUrl": "http://fastshare1.com:8080//live/25711345/late8airline/688288.ts",
+    "stream_url": "http://fastshare1.com:8080//live/25711345/late8airline/688288.ts",
+    "streams": [
+      {
+        "name": "Eleven Sports 1 UHD (Server 1 HD)",
+        "serverLabel": "Server 1 HD",
+        "channelName": "Eleven Sports 1 UHD",
+        "url": "http://fastshare1.com:8080//live/25711345/late8airline/688288.ts",
+        "quality": "1080p FHD"
+      }
+    ],
+    "backupUrls": [],
+    "isLive": true,
+    "isHD": true
+  }
+]

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <circle cx="100" cy="100" r="94" fill="#022c22" stroke="#10b981" stroke-width="2.5"/>
+  <g transform="translate(60, 36)">
+    <!-- Assassin Sword / Blade -->
+    <path d="M40 10 L50 40 L40 75 L30 40 Z" fill="#10b981"/>
+    <circle cx="40" cy="40" r="12" fill="#047857"/>
+  </g>
+  <rect x="15" y="152" width="170" height="26" rx="6" fill="#18181b" stroke="#10b981" stroke-width="1.5"/>
+  <text x="100" y="169" fill="#a7f3d0" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="11.5" letter-spacing="1.5" text-anchor="middle">WILL OSPREAY</text>
+</svg>

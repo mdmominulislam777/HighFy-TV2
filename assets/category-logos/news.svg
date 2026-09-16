@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="48" fill="#059669" stroke="#047857" stroke-width="2"/>
+  <circle cx="50" cy="50" r="40" fill="#ffffff"/>
+  <rect x="24" y="28" width="52" height="44" rx="4" fill="#10b981"/>
+  <rect x="28" y="32" width="44" height="12" fill="#047857"/>
+  <text x="50" y="42" font-family="Arial Black, Impact, sans-serif" font-size="9" font-weight="900" fill="#ffffff" text-anchor="middle">NEWS</text>
+  <rect x="28" y="48" width="18" height="18" fill="#047857"/>
+  <line x1="50" y1="50" x2="68" y2="50" stroke="#047857" stroke-width="3"/>
+  <line x1="50" y1="56" x2="68" y2="56" stroke="#047857" stroke-width="2"/>
+  <line x1="50" y1="62" x2="68" y2="62" stroke="#047857" stroke-width="2"/>
+</svg>

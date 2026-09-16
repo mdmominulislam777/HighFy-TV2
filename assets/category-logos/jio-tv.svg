@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="jioGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="48" fill="url(#jioGrad)" stroke="#38bdf8" stroke-width="2.5"/>
+  <circle cx="50" cy="50" r="36" fill="#0c4a6e" opacity="0.6"/>
+  <circle cx="50" cy="50" r="28" fill="#e11d48"/>
+  <text x="50" y="55" font-family="Arial Black, Impact, sans-serif" font-size="16" font-weight="900" fill="#ffffff" text-anchor="middle">Jio</text>
+  <text x="50" y="68" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#facc15" text-anchor="middle" letter-spacing="1">TV</text>
+</svg>

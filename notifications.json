@@ -1,0 +1,46 @@
+[
+  {
+    "id": "notif-app-update-1",
+    "type": "update",
+    "title": "🎉 HighFy TV v4.2 অ্যাপ আপডেট!",
+    "body": "এইচডি লাইভ স্পোর্টস প্লেয়ার, মাল্টি-সার্ভার সুইচিং ও ইনস্ট্যান্ট সার্চ আপডেট চালু হয়েছে।",
+    "time": "Just Now",
+    "badge": "UPDATE",
+    "active": true,
+    "sport": "App",
+    "channelId": null
+  },
+  {
+    "id": "notif-match-1",
+    "type": "match",
+    "title": "⚽ Real Madrid vs Barcelona (El Clasico)",
+    "body": "আজ রাত ৮:০০ টায় লা লিগার মেগা এল ক্লাসিকো ম্যাচ লাইভ সম্প্রচার হবে। মিস করবেন না!",
+    "time": "20:00 LIVE",
+    "badge": "LIVE MATCH",
+    "active": true,
+    "sport": "Football",
+    "channelId": "ch-t-sports-hd"
+  },
+  {
+    "id": "notif-match-2",
+    "type": "match",
+    "title": "🏏 Bangladesh vs India (Asia Cup / T20)",
+    "body": "হাই-ভোল্টেজ ক্রিকেট ম্যাচ লাইভ দেখুন T Sports ও Sony Ten এ ফুল এইচডি কোয়ালিটিতে।",
+    "time": "15:30",
+    "badge": "UPCOMING",
+    "active": true,
+    "sport": "Cricket",
+    "channelId": "ch-sony-ten-cricket-hd"
+  },
+  {
+    "id": "notif-server-1",
+    "type": "system",
+    "title": "⚡ আল্ট্রা-ফাস্ট স্ট্রিমিং সার্ভার সক্রিয়",
+    "body": "সবগুলো ফুটবল ও ক্রিকেট চ্যানেলের জন্য বাফার-ফ্রি ব্যাকআপ সার্ভার প্রস্তুত রয়েছে।",
+    "time": "Active",
+    "badge": "SYSTEM",
+    "active": true,
+    "sport": "General",
+    "channelId": null
+  }
+]

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="rawRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b91c1c"/>
+      <stop offset="50%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#7f1d1d"/>
+    </linearGradient>
+    <linearGradient id="metalSilver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#94a3b8"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Shield -->
+  <rect x="8" y="8" width="184" height="184" rx="28" fill="#09090b" stroke="#dc2626" stroke-width="3"/>
+  <path d="M8 80 L192 80" stroke="#ef4444" stroke-width="1.5" stroke-opacity="0.3"/>
+  <!-- Top Mini WWE Emblem -->
+  <g transform="translate(76, 22) scale(0.24)">
+    <path d="M42 56 L62 136 L78 136 L66 82 L84 136 L100 136 L82 56 Z" fill="#ffffff"/>
+    <path d="M158 56 L138 136 L122 136 L134 82 L116 136 L100 136 L118 56 Z" fill="#ffffff"/>
+    <path d="M36 128 L164 128 L152 144 L48 144 Z" fill="#ef4444"/>
+  </g>
+  <!-- Bold RAW Typography -->
+  <g transform="translate(18, 65)">
+    <!-- R -->
+    <path d="M10 10 H36 C48 10 54 18 54 28 C54 36 48 42 38 45 L56 75 H38 L24 48 H22 V75 H10 Z M22 22 V36 H34 C40 36 42 33 42 29 C42 25 40 22 34 22 Z" fill="#ffffff"/>
+    <!-- A -->
+    <path d="M72 10 H88 L108 75 H92 L87 56 H71 L66 75 H52 Z M79 26 L74 44 H84 Z" fill="#ef4444"/>
+    <!-- W -->
+    <path d="M112 10 H124 L133 50 L143 10 H155 L165 50 L174 10 H186 L171 75 H157 L149 38 L141 75 H127 Z" fill="#ffffff"/>
+  </g>
+  <!-- Badge Subtitle -->
+  <rect x="25" y="152" width="150" height="26" rx="6" fill="url(#rawRed)"/>
+  <text x="100" y="169" fill="#ffffff" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="11" letter-spacing="2" text-anchor="middle">MONDAY NIGHT RAW</text>
+</svg>

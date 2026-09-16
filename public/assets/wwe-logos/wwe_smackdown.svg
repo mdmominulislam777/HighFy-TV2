@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sdBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0369a1"/>
+      <stop offset="50%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0c4a6e"/>
+    </linearGradient>
+    <linearGradient id="neonBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Shield -->
+  <rect x="8" y="8" width="184" height="184" rx="28" fill="#050b14" stroke="#0284c7" stroke-width="3"/>
+  <path d="M8 80 L192 80" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.3"/>
+  <!-- Top Mini WWE Emblem -->
+  <g transform="translate(76, 20) scale(0.24)">
+    <path d="M42 56 L62 136 L78 136 L66 82 L84 136 L100 136 L82 56 Z" fill="#ffffff"/>
+    <path d="M158 56 L138 136 L122 136 L134 82 L116 136 L100 136 L118 56 Z" fill="#ffffff"/>
+    <path d="M36 128 L164 128 L152 144 L48 144 Z" fill="#ef4444"/>
+  </g>
+  <!-- Dynamic SmackDown Modern Italic Typography -->
+  <g transform="translate(12, 66)">
+    <!-- Slanted Block Background -->
+    <path d="M10 32 L166 12 L160 52 L4 72 Z" fill="#0284c7" opacity="0.25"/>
+    <text x="88" y="44" fill="#ffffff" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-style="italic" font-size="21" letter-spacing="1" text-anchor="middle">SMACKDOWN</text>
+  </g>
+  <!-- Subtitle Tag -->
+  <rect x="22" y="148" width="156" height="28" rx="6" fill="url(#sdBlue)"/>
+  <text x="100" y="166" fill="#ffffff" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="11" letter-spacing="2" text-anchor="middle">FRIDAY NIGHT LIVE</text>
+</svg>

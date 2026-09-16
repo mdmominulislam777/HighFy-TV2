@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <circle cx="100" cy="100" r="94" fill="#09090b" stroke="#dc2626" stroke-width="2.5"/>
+  <g transform="translate(60, 36)">
+    <!-- Dragon Crest -->
+    <path d="M40 10 C60 10 75 25 70 45 C65 65 40 75 40 75 C40 75 15 65 10 45 C5 25 20 10 40 10 Z" fill="#b91c1c"/>
+    <text x="40" y="52" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="20" text-anchor="middle">YES</text>
+  </g>
+  <rect x="12" y="152" width="176" height="26" rx="6" fill="#18181b" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="100" y="169" fill="#ffffff" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="10.5" letter-spacing="1.5" text-anchor="middle">BRYAN DANIELSON</text>
+</svg>

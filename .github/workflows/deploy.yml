@@ -1,0 +1,74 @@
+name: Deploy HighFy TV to GitHub Pages
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Inject Secure GitHub Secrets into config.js
+        run: |
+          # If GitHub Secrets are set in Repository Settings -> Secrets and variables -> Actions,
+          # this automatically injects them into config.js during deployment without committing them to git.
+          node -e '
+            const fs = require("fs");
+            let cfg = fs.readFileSync("config.js", "utf8");
+            
+            const smToken = process.env.SPORTMONKS_API_TOKEN || "";
+            const fbKey = process.env.FOOTBALL_API_KEY || "";
+            const crKey = process.env.CRICKET_API_KEY || "";
+            const wweUrl = process.env.WWE_API_URL || "";
+
+            if (smToken) {
+              cfg = cfg.replace(/SPORTMONKS_API_TOKEN:\s*["'\''].*?["'\'']/g, `SPORTMONKS_API_TOKEN: "${smToken}"`);
+            }
+            if (fbKey) {
+              cfg = cfg.replace(/FOOTBALL_API_KEY:\s*["'\''].*?["'\'']/g, `FOOTBALL_API_KEY: "${fbKey}"`);
+            }
+            if (crKey) {
+              cfg = cfg.replace(/CRICKET_API_KEY:\s*["'\''].*?["'\'']/g, `CRICKET_API_KEY: "${crKey}"`);
+            }
+            if (wweUrl) {
+              cfg = cfg.replace(/WWE_API_URL:\s*["'\''].*?["'\'']/g, `WWE_API_URL: "${wweUrl}"`);
+            }
+            
+            fs.writeFileSync("config.js", cfg);
+            console.log("Successfully injected GitHub Secrets into config.js for deployment.");
+          '
+        env:
+          SPORTMONKS_API_TOKEN: ${{ secrets.SPORTMONKS_API_TOKEN }}
+          FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
+          CRICKET_API_KEY: ${{ secrets.CRICKET_API_KEY }}
+          WWE_API_URL: ${{ secrets.WWE_API_URL }}
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

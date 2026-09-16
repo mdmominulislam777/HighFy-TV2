@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="otcRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="50%" stop-color="#b91c1c"/>
+      <stop offset="100%" stop-color="#7f1d1d"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="94" fill="#050505" stroke="#ef4444" stroke-width="2.5"/>
+  <!-- Tribal Bloodline '1' Finger & OTC Emblem -->
+  <g transform="translate(65, 30)">
+    <!-- Palm & Upraised Index Finger -->
+    <path d="M30 10 L44 10 L44 50 L56 52 L56 75 L18 75 L18 45 L30 45 Z" fill="#ffffff"/>
+    <!-- Ula Fala Red Polynesian Lei Beads Garland -->
+    <circle cx="15" cy="55" r="7" fill="url(#otcRed)"/>
+    <circle cx="28" cy="72" r="7" fill="url(#otcRed)"/>
+    <circle cx="46" cy="72" r="7" fill="url(#otcRed)"/>
+    <circle cx="58" cy="55" r="7" fill="url(#otcRed)"/>
+    <!-- '1' Text inside palm -->
+    <text x="36" y="40" fill="#050505" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="24" text-anchor="middle">☝️</text>
+  </g>
+  <!-- Tribal Chief Text -->
+  <rect x="15" y="148" width="170" height="28" rx="6" fill="#18181b" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="100" y="167" fill="#ffffff" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="11.5" letter-spacing="1.5" text-anchor="middle">ROMAN REIGNS</text>
+</svg>

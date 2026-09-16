@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="48" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <path d="M22 65 C28 35 72 35 78 65 Z" fill="#0284c7" opacity="0.3"/>
+  <path d="M20 65 L80 65 M26 65 L40 42 L50 65 L60 42 L74 65" stroke="#0284c7" stroke-width="3" fill="none"/>
+  <rect x="15" y="44" width="70" height="24" rx="5" fill="#4f46e5" opacity="0.9"/>
+  <text x="50" y="61" font-family="'Brush Script MT', 'Dancing Script', cursive, Arial, sans-serif" font-size="16" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">Kolkata</text>
+</svg>

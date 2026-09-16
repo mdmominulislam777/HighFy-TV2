@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="nightmareGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#eab308"/>
+      <stop offset="100%" stop-color="#a16207"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="94" fill="#09090b" stroke="#dc2626" stroke-width="2.5"/>
+  <!-- Crown & Skull Wings (American Nightmare Emblem) -->
+  <g transform="translate(40, 36)">
+    <!-- Wings -->
+    <path d="M60 40 C30 10 0 30 10 65 C30 55 50 60 60 75 C70 60 90 55 110 65 C120 30 90 10 60 40 Z" fill="#b91c1c" stroke="#eab308" stroke-width="2"/>
+    <!-- Center Skull Silhouette -->
+    <circle cx="60" cy="55" r="18" fill="#ffffff"/>
+    <rect x="52" y="65" width="16" height="12" rx="2" fill="#ffffff"/>
+    <!-- Skull eyes -->
+    <circle cx="54" cy="54" r="4" fill="#09090b"/>
+    <circle cx="66" cy="54" r="4" fill="#09090b"/>
+    <!-- Top Crown -->
+    <path d="M48 34 L52 42 L60 30 L68 42 L72 34 L72 44 L48 44 Z" fill="url(#nightmareGold)"/>
+  </g>
+  <!-- Name Banner -->
+  <rect x="20" y="152" width="160" height="26" rx="6" fill="#18181b" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="100" y="169" fill="#ffffff" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="11.5" letter-spacing="1.5" text-anchor="middle">CODY RHODES</text>
+</svg>

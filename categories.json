@@ -1,0 +1,218 @@
+[
+  {
+    "id": "sports",
+    "name": "Sports",
+    "icon": "fa-trophy",
+    "logo": "./assets/category-logos/sports-channels.svg",
+    "ringColor": "#10b981",
+    "glowColor": "rgba(16, 185, 129, 0.4)",
+    "description": "T Sports HD, PTV Sports, Willow HD, TSN, beIN, Sony LIV, Star Sports, Football, Cricket & more"
+  },
+  {
+    "id": "bangla",
+    "name": "Bangla",
+    "icon": "fa-tv",
+    "logo": "./assets/category-logos/bangla.svg",
+    "ringColor": "#059669",
+    "glowColor": "rgba(5, 150, 105, 0.4)",
+    "description": "BTV, NTV, Channel i, Maasranga, Deepto, RTV, BanglaVision, ATN Bangla"
+  },
+  {
+    "id": "akash-go",
+    "name": "Akash Go",
+    "icon": "fa-satellite-dish",
+    "logo": "./assets/category-logos/akash-go.svg",
+    "ringColor": "#0284c7",
+    "glowColor": "rgba(2, 132, 199, 0.4)",
+    "description": "Akash Go Live TV Channels (Somoy, Jamuna, Independent, DBC, Maasranga, Sports & more)"
+  },
+  {
+    "id": "india",
+    "name": "India",
+    "icon": "fa-tv",
+    "logo": "./assets/category-logos/india.svg",
+    "ringColor": "#f97316",
+    "glowColor": "rgba(249, 115, 22, 0.4)",
+    "description": "Sony SAB, Zee TV, Star Plus, Colors, Sony Entertainment, &TV"
+  },
+  {
+    "id": "kolkata",
+    "name": "Kolkata",
+    "icon": "fa-landmark",
+    "logo": "./assets/category-logos/kolkata.svg",
+    "ringColor": "#0284c7",
+    "glowColor": "rgba(2, 132, 199, 0.4)",
+    "description": "Zee Bangla, Sony Aath, Aakash Aath, Colors Bangla, Star Jalsha"
+  },
+  {
+    "id": "pakistan",
+    "name": "Pakistan",
+    "icon": "fa-flag",
+    "logo": "./assets/category-logos/pakistan.svg",
+    "ringColor": "#16a34a",
+    "glowColor": "rgba(22, 163, 74, 0.4)",
+    "description": "HUM TV, ARY Digital, Geo News, PTV Sports, Ten Sports PK"
+  },
+  {
+    "id": "news",
+    "name": "News",
+    "icon": "fa-newspaper",
+    "logo": "./assets/category-logos/news.svg",
+    "ringColor": "#10b981",
+    "glowColor": "rgba(16, 185, 129, 0.4)",
+    "description": "24/7 Breaking News - Somoy, Jamuna, BBC, CNN, NDTV, DBC"
+  },
+  {
+    "id": "movie",
+    "name": "Movie",
+    "icon": "fa-clapperboard",
+    "logo": "./assets/category-logos/movie.svg",
+    "ringColor": "#ef4444",
+    "glowColor": "rgba(239, 68, 68, 0.4)",
+    "description": "Sony MAX, Zee Cinema, Star Gold, Sony PIX, Goldmines, B4U Movies"
+  },
+  {
+    "id": "entertainment",
+    "name": "Entertainment",
+    "icon": "fa-film",
+    "logo": "./assets/category-logos/entertainment.svg",
+    "ringColor": "#ea580c",
+    "glowColor": "rgba(234, 88, 12, 0.4)",
+    "description": "General TV shows, dramas, variety, comedy and reality shows"
+  },
+  {
+    "id": "kids",
+    "name": "Kids",
+    "icon": "fa-shapes",
+    "logo": "./assets/category-logos/kids.svg",
+    "ringColor": "#ec4899",
+    "glowColor": "rgba(236, 72, 153, 0.4)",
+    "description": "Cartoon Network, Pogo, Sony YAY, Nickelodeon, Gopal Bhar, Sonic"
+  },
+  {
+    "id": "islamic",
+    "name": "Islamic",
+    "icon": "fa-mosque",
+    "logo": "./assets/category-logos/islamic.svg",
+    "ringColor": "#059669",
+    "glowColor": "rgba(5, 150, 105, 0.4)",
+    "description": "Live Quran TV, Sunnah TV, Peace TV, Madani TV, Makkah Live"
+  },
+  {
+    "id": "music",
+    "name": "Music",
+    "icon": "fa-music",
+    "logo": "./assets/category-logos/music.svg",
+    "ringColor": "#db2777",
+    "glowColor": "rgba(219, 39, 119, 0.4)",
+    "description": "Music Bangla, 9XM, B4U Music, Zing, MTV Beats, YRF Hits"
+  },
+  {
+    "id": "infotainment",
+    "name": "Infotainment",
+    "icon": "fa-earth-americas",
+    "logo": "./assets/category-logos/infotainment.svg",
+    "ringColor": "#3b82f6",
+    "glowColor": "rgba(59, 130, 246, 0.4)",
+    "description": "Discovery, Animal Planet, BBC Earth, Nat Geo, History TV18"
+  },
+  {
+    "id": "world-country",
+    "name": "World Country",
+    "icon": "fa-globe",
+    "logo": "./assets/category-logos/world.svg",
+    "ringColor": "#06b6d4",
+    "glowColor": "rgba(6, 182, 212, 0.4)",
+    "description": "USA, UK, Canada, Australia, Middle East, Europe & Worldwide"
+  },
+  {
+    "id": "toffee",
+    "name": "Toffee",
+    "icon": "fa-play",
+    "logo": "./assets/category-logos/toffee.svg",
+    "ringColor": "#ec4899",
+    "glowColor": "rgba(236, 72, 153, 0.4)",
+    "description": "Toffee Live Sports, Football, Cricket, Bangla TV, Movies & Dramas"
+  },
+  {
+    "id": "jagobd",
+    "name": "JagoBD",
+    "icon": "fa-tv",
+    "logo": "./assets/category-logos/jagobd.svg",
+    "ringColor": "#10b981",
+    "glowColor": "rgba(16, 185, 129, 0.4)",
+    "description": "JagoBD Live Bangladeshi Channels, BTV, Somoy, Channel 24, GTV"
+  },
+  {
+    "id": "ayna",
+    "name": "Ayana",
+    "icon": "fa-film",
+    "logo": "./assets/category-logos/ayna.svg",
+    "ringColor": "#6366f1",
+    "glowColor": "rgba(99, 102, 241, 0.4)",
+    "description": "Ayana OTT Live TV Channels, Bengali Cinema, Natok & Entertainment"
+  },
+  {
+    "id": "chorki",
+    "name": "Chorki",
+    "icon": "fa-circle-play",
+    "logo": "./assets/category-logos/chorki.svg",
+    "ringColor": "#ea580c",
+    "glowColor": "rgba(234, 88, 12, 0.4)",
+    "description": "Chorki Originals, Bengali Movies, Web Series, Dramas & Exclusive Content"
+  },
+  {
+    "id": "hoichoi",
+    "name": "Hoichoi",
+    "icon": "fa-video",
+    "logo": "./assets/category-logos/hoichoi.svg",
+    "ringColor": "#dc2626",
+    "glowColor": "rgba(220, 38, 38, 0.4)",
+    "description": "Hoichoi Bengali Blockbusters, Web Series, Kolkata Cinema & Thrillers"
+  },
+  {
+    "id": "jio-tv",
+    "name": "Jio TV",
+    "icon": "fa-mobile-screen-button",
+    "logo": "./assets/category-logos/jio-tv.svg",
+    "ringColor": "#0284c7",
+    "glowColor": "rgba(2, 132, 199, 0.4)",
+    "description": "Jio TV Live Indian Entertainment, Sony, Star, Colors, News & Sports"
+  },
+  {
+    "id": "tata-play",
+    "name": "Tata Play",
+    "icon": "fa-satellite",
+    "logo": "./assets/category-logos/tata-play.svg",
+    "ringColor": "#9333ea",
+    "glowColor": "rgba(147, 51, 234, 0.4)",
+    "description": "Tata Play Premium HD Channels, Cinema, Sports, News & Infotainment"
+  },
+  {
+    "id": "yupp-tv",
+    "name": "Yupp TV",
+    "icon": "fa-tv",
+    "logo": "./assets/category-logos/yupp-tv.svg",
+    "ringColor": "#f97316",
+    "glowColor": "rgba(249, 115, 22, 0.4)",
+    "description": "Yupp TV Worldwide South Asian Channels, Hindi, Telugu, Tamil, Bengali & Malayalam"
+  },
+  {
+    "id": "discovery",
+    "name": "Discovery",
+    "icon": "fa-compass",
+    "logo": "./assets/category-logos/discovery.svg",
+    "ringColor": "#0284c7",
+    "glowColor": "rgba(2, 132, 199, 0.4)",
+    "description": "Discovery HD, Animal Planet, Discovery Science, Turbo, Nat Geo, History TV18"
+  },
+  {
+    "id": "travel",
+    "name": "Travel",
+    "icon": "fa-plane-departure",
+    "logo": "./assets/category-logos/travel.svg",
+    "ringColor": "#0d9488",
+    "glowColor": "rgba(13, 148, 136, 0.4)",
+    "description": "Travel XP HD, TLC, Fox Life, Travel & Living, Tourism, Food & Culture"
+  }
+]

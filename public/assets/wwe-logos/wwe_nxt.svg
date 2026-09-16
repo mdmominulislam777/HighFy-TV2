@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="nxtGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Disc -->
+  <rect x="8" y="8" width="184" height="184" rx="28" fill="#0c0a09" stroke="#f59e0b" stroke-width="3"/>
+  <!-- Top Mini WWE Emblem -->
+  <g transform="translate(76, 20) scale(0.24)">
+    <path d="M42 56 L62 136 L78 136 L66 82 L84 136 L100 136 L82 56 Z" fill="#ffffff"/>
+    <path d="M158 56 L138 136 L122 136 L134 82 L116 136 L100 136 L118 56 Z" fill="#ffffff"/>
+    <path d="M36 128 L164 128 L152 144 L48 144 Z" fill="#ef4444"/>
+  </g>
+  <!-- NXT Bold Geometric Typography -->
+  <g transform="translate(24, 62)">
+    <!-- N -->
+    <path d="M10 10 H26 L48 54 V10 H62 V74 H46 L24 30 V74 H10 Z" fill="url(#nxtGold)"/>
+    <!-- X -->
+    <path d="M68 10 H84 L96 34 L108 10 H124 L106 42 L124 74 H108 L96 50 L84 74 H68 L86 42 Z" fill="#ffffff"/>
+    <!-- T -->
+    <path d="M128 10 H170 V24 H156 V74 H142 V24 H128 Z" fill="url(#nxtGold)"/>
+  </g>
+  <!-- Subtitle -->
+  <rect x="30" y="150" width="140" height="26" rx="6" fill="url(#nxtGold)"/>
+  <text x="100" y="167" fill="#000000" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="11" letter-spacing="2" text-anchor="middle">SUPER TUESDAY</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <circle cx="100" cy="100" r="94" fill="#09090b" stroke="#ef4444" stroke-width="2.5"/>
+  <!-- Imperium Eagle Crest -->
+  <g transform="translate(50, 36)">
+    <path d="M50 15 L20 40 L35 55 L50 45 L65 55 L80 40 Z" fill="#dc2626"/>
+    <path d="M40 55 L50 85 L60 55 Z" fill="#ffffff"/>
+  </g>
+  <rect x="25" y="152" width="150" height="26" rx="6" fill="#18181b" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="100" y="169" fill="#ffffff" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="12" letter-spacing="2" text-anchor="middle">GUNTHER</text>
+</svg>

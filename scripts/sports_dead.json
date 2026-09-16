@@ -1,0 +1,39 @@
+[
+  {
+    "channel": {
+      "id": "ch-dazn-fast-hd",
+      "name": "DAZN FAST HD",
+      "category": "Sports",
+      "categories": [
+        "LiveTV",
+        "Sports"
+      ],
+      "sports": [
+        "Football",
+        "Boxing",
+        "MMA"
+      ],
+      "priority": 3,
+      "active": true,
+      "provider": "Standard",
+      "isAkashGo": false,
+      "logo": "./assets/channel-logos/ch-daznfasthd.svg",
+      "url": "https://ac-003.live.p7s1video.net/63f8995e/t_003/dazn-fast-hd/cenc-default.mpd",
+      "streamUrl": "https://ac-003.live.p7s1video.net/63f8995e/t_003/dazn-fast-hd/cenc-default.mpd",
+      "stream_url": "https://ac-003.live.p7s1video.net/63f8995e/t_003/dazn-fast-hd/cenc-default.mpd",
+      "streams": [
+        {
+          "name": "DAZN FAST HD (Server 1 HD)",
+          "serverLabel": "Server 1 HD",
+          "channelName": "DAZN FAST HD",
+          "url": "https://ac-003.live.p7s1video.net/63f8995e/t_003/dazn-fast-hd/cenc-default.mpd",
+          "quality": "1080p FHD"
+        }
+      ],
+      "backupUrls": [],
+      "isLive": true,
+      "isHD": true
+    },
+    "reason": "Not an HLS playlist"
+  }
+]
