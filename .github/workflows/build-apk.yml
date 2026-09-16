@@ -1,0 +1,254 @@
+name: Build Android APK & Release
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      create_release:
+        description: 'Publish to GitHub Releases? (true/false)'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build & Sign APK (Mobile & TV)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Java JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Read App Version
+        run: |
+          VERSION_NAME=$(node -e "try { console.log(require('./version.json').versionName || '1.0.1'); } catch(e) { console.log('1.0.1'); }")
+          VERSION_CODE=$(node -e "try { console.log(require('./version.json').versionCode || '101'); } catch(e) { console.log('101'); }")
+          echo "VERSION_NAME=$VERSION_NAME" >> $GITHUB_ENV
+          echo "VERSION_CODE=$VERSION_CODE" >> $GITHUB_ENV
+          echo "Target Version: $VERSION_NAME ($VERSION_CODE)"
+
+      - name: Build Web Application Assets
+        run: |
+          npm ci || npm install
+          npm run build
+          ls -lh dist/
+
+      - name: Scaffold Standalone Android App (Offline & Online Bundled)
+        run: |
+          rm -rf android-project
+          mkdir -p android-project/app/src/main/java/com/highfy/tv
+          mkdir -p android-project/app/src/main/res/values
+          mkdir -p android-project/app/src/main/assets
+          mkdir -p android-project/keystore
+          mkdir -p android-project/gradle/wrapper
+
+          # Copy built web app into assets
+          cp -r dist/* android-project/app/src/main/assets/
+
+          # 1. settings.gradle
+          cat << 'EOF' > android-project/settings.gradle
+          pluginManagement {
+              repositories {
+                  google()
+                  mavenCentral()
+                  gradlePluginPortal()
+              }
+          }
+          dependencyResolutionManagement {
+              repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+              repositories {
+                  google()
+                  mavenCentral()
+              }
+          }
+          rootProject.name = "HighFyTV"
+          include ':app'
+          EOF
+
+          # 2. Root build.gradle
+          cat << 'EOF' > android-project/build.gradle
+          plugins {
+              id 'com.android.application' version '8.2.2' apply false
+          }
+          EOF
+
+          # 3. Release Keystore
+          keytool -genkey -v -keystore android-project/keystore/release.jks \
+            -alias highfy -keyalg RSA -keysize 2048 -validity 10000 \
+            -storepass highfy_tv_secret -keypass highfy_tv_secret \
+            -dname "CN=HighFyTV, O=HighFy, C=BD"
+
+          # 4. App Module build.gradle
+          cat << EOF > android-project/app/build.gradle
+          plugins {
+              id 'com.android.application'
+          }
+
+          android {
+              namespace "com.highfy.tv"
+              compileSdk 34
+
+              defaultConfig {
+                  applicationId "com.highfy.tv"
+                  minSdk 21
+                  targetSdk 34
+                  versionCode ${{ env.VERSION_CODE }}
+                  versionName "${{ env.VERSION_NAME }}"
+              }
+
+              signingConfigs {
+                  release {
+                      storeFile file("../keystore/release.jks")
+                      storePassword "highfy_tv_secret"
+                      keyAlias "highfy"
+                      keyPassword "highfy_tv_secret"
+                  }
+              }
+
+              buildTypes {
+                  release {
+                      minifyEnabled false
+                      shrinkResources false
+                      signingConfig signingConfigs.release
+                  }
+              }
+
+              compileOptions {
+                  sourceCompatibility JavaVersion.VERSION_17
+                  targetCompatibility JavaVersion.VERSION_17
+              }
+          }
+          EOF
+
+          # 5. AndroidManifest.xml
+          cat << 'EOF' > android-project/app/src/main/AndroidManifest.xml
+          <?xml version="1.0" encoding="utf-8"?>
+          <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+              <uses-permission android:name="android.permission.INTERNET" />
+              <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+              <uses-permission android:name="android.permission.WAKE_LOCK" />
+              <uses-feature android:name="android.software.leanback" android:required="false" />
+              <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+
+              <application
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:hardwareAccelerated="true"
+                  android:usesCleartextTraffic="true">
+                  <activity
+                      android:name=".MainActivity"
+                      android:exported="true"
+                      android:configChanges="orientation|screenSize|screenLayout|keyboard|navigation">
+                      <intent-filter>
+                          <action android:name="android.intent.action.MAIN" />
+                          <category android:name="android.intent.category.LAUNCHER" />
+                          <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+                      </intent-filter>
+                  </activity>
+              </application>
+          </manifest>
+          EOF
+
+          # 6. Strings XML
+          cat << 'EOF' > android-project/app/src/main/res/values/strings.xml
+          <resources>
+              <string name="app_name">HighFy TV</string>
+          </resources>
+          EOF
+
+          # 7. MainActivity.java
+          cat << EOF > android-project/app/src/main/java/com/highfy/tv/MainActivity.java
+          package com.highfy.tv;
+          import android.app.Activity;
+          import android.os.Bundle;
+          import android.view.KeyEvent;
+          import android.view.WindowManager;
+          import android.webkit.WebSettings;
+          import android.webkit.WebView;
+          import android.webkit.WebViewClient;
+          import android.webkit.WebChromeClient;
+          import android.webkit.PermissionRequest;
+
+          public class MainActivity extends Activity {
+              private WebView webView;
+              @Override
+              protected void onCreate(Bundle savedInstanceState) {
+                  super.onCreate(savedInstanceState);
+                  getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+                  webView = new WebView(this);
+                  setContentView(webView);
+                  WebSettings s = webView.getSettings();
+                  s.setJavaScriptEnabled(true);
+                  s.setDomStorageEnabled(true);
+                  s.setDatabaseEnabled(true);
+                  s.setAllowFileAccess(true);
+                  s.setAllowContentAccess(true);
+                  s.setAllowFileAccessFromFileURLs(true);
+                  s.setAllowUniversalAccessFromFileURLs(true);
+                  s.setMediaPlaybackRequiresUserGesture(false);
+                  s.setUserAgentString("HighFyTV-App/${{ env.VERSION_NAME }} (AndroidTV & Mobile)");
+                  
+                  webView.setWebViewClient(new WebViewClient());
+                  webView.setWebChromeClient(new WebChromeClient() {
+                      @Override
+                      public void onPermissionRequest(final PermissionRequest request) {
+                          request.grant(request.getResources());
+                      }
+                  });
+
+                  webView.loadUrl("file:///android_asset/index.html");
+              }
+              @Override
+              public boolean onKeyDown(int keyCode, KeyEvent event) {
+                  if (keyCode == KeyEvent.KEYCODE_BACK && webView.canGoBack()) {
+                      webView.goBack();
+                      return true;
+                  }
+                  return super.onKeyDown(keyCode, event);
+              }
+          }
+          EOF
+
+      - name: Build Android Release APK
+        run: |
+          cd android-project
+          gradle wrapper --gradle-version 8.2
+          chmod +x gradlew
+          ./gradlew :app:assembleRelease --no-daemon --stacktrace
+
+      - name: Package Release APK
+        run: |
+          mkdir -p output_apk
+          find android-project/app/build/outputs/apk -name "*.apk" -exec cp {} output_apk/highfy-tv-v${{ env.VERSION_NAME }}.apk \;
+          
+          if [ ! -f "output_apk/highfy-tv-v${{ env.VERSION_NAME }}.apk" ]; then
+            echo "Error: Release APK not generated!"
+            exit 1
+          fi
+          
+          ls -lh output_apk/highfy-tv-v${{ env.VERSION_NAME }}.apk
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: highfy-tv-v${{ env.VERSION_NAME }}-apk
+          path: output_apk/highfy-tv-v${{ env.VERSION_NAME }}.apk
+          retention-days: 30
